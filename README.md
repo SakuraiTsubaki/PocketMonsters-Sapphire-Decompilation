@@ -1,6 +1,6 @@
 # Pocket Monsters Sapphire — Decompilation
 
-![Status](https://img.shields.io/badge/status-initial_setup-lightgrey)
+![Status](https://img.shields.io/badge/status-phase_0_target_definition-yellow)
 ![Project](https://img.shields.io/badge/project-decompilation-blue)
 ![ROMs](https://img.shields.io/badge/ROM_binaries-not_included-success)
 
@@ -15,7 +15,9 @@ Decompilation and source-reconstruction project for **Pokémon Sapphire**.
 
 ## 🚧 Status
 
-This repository is in its **initial setup** stage. Source reconstruction and documentation will be added progressively.
+This repository is in **Phase 0 — target definition**. The Japanese release is the historical baseline, and the first-pass regional/language/revision inventory is now recorded in `docs/VERSIONS.md` with provenance in `docs/versions/JAPANESE_BASELINE.md`.
+
+The project currently assumes no locally owned retail ROM image; research and reconstruction therefore proceed from public documentation, reverse-engineering sources, hashes, hardware evidence, and reproducible derived work.
 
 ## 🗂️ Planned scope
 
