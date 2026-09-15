@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "phase": "phase_1_binary_mapping",
+  "scope": "same-game-code small revision deltas observed in supplied targets",
+  "records": [
+    {
+      "game_code": "AXPI",
+      "from_revision": 0,
+      "to_revision": 1,
+      "from_source": "Pokemon - Versione Zaffiro (Italy).gba",
+      "to_source": "Pokemon - Versione Zaffiro (Italy) (Rev 1).gba",
+      "changed_byte_count": 4,
+      "changed_64k_blocks": [0],
+      "changes": [
+        {"offset": 188, "before": 0, "after": 1},
+        {"offset": 189, "before": 81, "after": 80},
+        {"offset": 37735, "before": 221, "after": 219, "thumb_halfword_offset": 37734, "thumb_before": {"halfword": "0xDD11", "mnemonic": "BLE", "condition": "LE", "target_offset": 37772}, "thumb_after": {"halfword": "0xDB11", "mnemonic": "BLT", "condition": "LT", "target_offset": 37772}},
+        {"offset": 37771, "before": 220, "after": 218, "thumb_halfword_offset": 37770, "thumb_before": {"halfword": "0xDCED", "mnemonic": "BGT", "condition": "GT", "target_offset": 37736}, "thumb_after": {"halfword": "0xDAED", "mnemonic": "BGE", "condition": "GE", "target_offset": 37736}}
+      ]
+    },
+    {
+      "game_code": "AXPF",
+      "from_revision": 0,
+      "to_revision": 1,
+      "from_source": "Pokemon - Version Saphir (France).gba",
+      "to_source": "Pokemon - Version Saphir (France) (Rev 1).gba",
+      "changed_byte_count": 4,
+      "changed_64k_blocks": [0],
+      "changes": [
+        {"offset": 188, "before": 0, "after": 1},
+        {"offset": 189, "before": 84, "after": 83},
+        {"offset": 37735, "before": 221, "after": 219, "thumb_halfword_offset": 37734, "thumb_before": {"halfword": "0xDD11", "mnemonic": "BLE", "condition": "LE", "target_offset": 37772}, "thumb_after": {"halfword": "0xDB11", "mnemonic": "BLT", "condition": "LT", "target_offset": 37772}},
+        {"offset": 37771, "before": 220, "after": 218, "thumb_halfword_offset": 37770, "thumb_before": {"halfword": "0xDCED", "mnemonic": "BGT", "condition": "GT", "target_offset": 37736}, "thumb_after": {"halfword": "0xDAED", "mnemonic": "BGE", "condition": "GE", "target_offset": 37736}}
+      ]
+    },
+    {
+      "game_code": "AXPE",
+      "from_revision": 1,
+      "to_revision": 2,
+      "from_source": "Pokemon - Sapphire Version (Europe) (Rev 1).gba",
+      "to_source": "Pokemon - Sapphire Version (USA, Europe) (Rev 2).gba",
+      "changed_byte_count": 4,
+      "changed_64k_blocks": [0],
+      "changes": [
+        {"offset": 188, "before": 1, "after": 2},
+        {"offset": 189, "before": 84, "after": 83},
+        {"offset": 37275, "before": 221, "after": 219, "thumb_halfword_offset": 37274, "thumb_before": {"halfword": "0xDD11", "mnemonic": "BLE", "condition": "LE", "target_offset": 37312}, "thumb_after": {"halfword": "0xDB11", "mnemonic": "BLT", "condition": "LT", "target_offset": 37312}},
+        {"offset": 37311, "before": 220, "after": 218, "thumb_halfword_offset": 37310, "thumb_before": {"halfword": "0xDCED", "mnemonic": "BGT", "condition": "GT", "target_offset": 37276}, "thumb_after": {"halfword": "0xDAED", "mnemonic": "BGE", "condition": "GE", "target_offset": 37276}}
+      ]
+    }
+  ],
+  "observations": [
+    "AXPI rev0->rev1 and AXPF rev0->rev1 each differ by exactly four bytes at the same offsets: revision/checksum plus two Thumb conditional-branch condition bytes.",
+    "AXPE rev1->rev2 also differs by exactly four bytes with the same branch-condition transformation at nearby, version-specific code offsets.",
+    "The two code changes preserve branch targets while changing BLE to BLT and BGT to BGE, respectively.",
+    "No gameplay meaning is assigned yet; surrounding function reconstruction is the next decompilation step."
+  ],
+  "same_game_code_block_comparisons": [
+    {"game_code": "AXPI", "from_revision": 0, "to_revision": 1, "from_source": "Pokemon - Versione Zaffiro (Italy).gba", "to_source": "Pokemon - Versione Zaffiro (Italy) (Rev 1).gba", "changed_byte_count": 4, "changed_64k_block_count": 1, "changed_64k_blocks": [0]},
+    {"game_code": "AXPE", "from_revision": 0, "to_revision": 1, "from_source": "Pokemon - Sapphire Version (USA).gba", "to_source": "Pokemon - Sapphire Version (Europe) (Rev 1).gba", "changed_byte_count": 5638997, "changed_64k_block_count": 109, "changed_64k_blocks": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,234]},
+    {"game_code": "AXPE", "from_revision": 0, "to_revision": 2, "from_source": "Pokemon - Sapphire Version (USA).gba", "to_source": "Pokemon - Sapphire Version (USA, Europe) (Rev 2).gba", "changed_byte_count": 5638999, "changed_64k_block_count": 109, "changed_64k_blocks": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,234]},
+    {"game_code": "AXPE", "from_revision": 1, "to_revision": 2, "from_source": "Pokemon - Sapphire Version (Europe) (Rev 1).gba", "to_source": "Pokemon - Sapphire Version (USA, Europe) (Rev 2).gba", "changed_byte_count": 4, "changed_64k_block_count": 1, "changed_64k_blocks": [0]},
+    {"game_code": "AXPF", "from_revision": 0, "to_revision": 1, "from_source": "Pokemon - Version Saphir (France).gba", "to_source": "Pokemon - Version Saphir (France) (Rev 1).gba", "changed_byte_count": 4, "changed_64k_block_count": 1, "changed_64k_blocks": [0]}
+  ]
+}
