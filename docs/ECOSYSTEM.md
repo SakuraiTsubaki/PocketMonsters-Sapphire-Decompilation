@@ -1,3 +1,0 @@
-# Repository Ecosystem
-
-This repository is canonical for its own project scope. **Sakurai** is the research-control subset across the complete repository ecosystem. **Tsubaki** is the complete non-ROM superset across that ecosystem. The aggregation model covers Disassembly, Decompilation, and other project repositories without creating competing canonical ownership. Complete ROM images are excluded.
