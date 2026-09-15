@@ -25,6 +25,22 @@ static const uint32_t sDaysInMonth[12] = {
     31, 31, 30, 31, 30, 31,
 };
 
+uint8_t BcdToBinary(uint8_t value)
+{
+    uint8_t low;
+    uint8_t high;
+
+    if (value > 0x9F)
+        return 0xFF;
+
+    low = value & 0x0F;
+    if (low > 9)
+        return 0xFF;
+
+    high = (value >> 4) & 0x0F;
+    return (uint8_t)(high * 10 + low);
+}
+
 bool IsLeapYear(uint8_t year)
 {
     if ((year & 3) != 0)
@@ -68,4 +84,13 @@ uint16_t CalcDateOrdinal(uint8_t year, uint8_t month, uint8_t day)
 
     total = (uint16_t)(total + day);
     return total;
+}
+
+uint16_t BcdDateToOrdinal(const uint8_t date[3])
+{
+    uint8_t year = BcdToBinary(date[0]);
+    uint8_t month = BcdToBinary(date[1]);
+    uint8_t day = BcdToBinary(date[2]);
+
+    return CalcDateOrdinal(year, month, day);
 }
