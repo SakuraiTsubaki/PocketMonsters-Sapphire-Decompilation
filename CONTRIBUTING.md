@@ -1,19 +1,35 @@
 # Contributing
 
-Thank you for contributing to this decompilation and source-reconstruction project.
+Thank you for helping with this decompilation and source-reconstruction project.
 
-## Contributions
+## What belongs here
 
-Useful contributions include source reconstruction, symbol naming, data-format research, tooling, asset documentation, version-difference analysis, verification, and reproducibility work.
+Contributions may include:
 
-## Rules
+- source reconstruction and symbol naming
+- executable and data-format documentation
+- scripts and extraction/repacking tools
+- text, graphics, audio, map, and script research
+- version and regional difference documentation
+- reproducibility and verification tooling
 
-- Do not commit retail ROM images, decrypted game images, keys, or redistributable game binaries.
+## Repository rules
+
+- Do **not** commit retail ROM images, decrypted game images, keys, or other redistributable game binaries.
 - Prefer small, reviewable commits with a clear purpose.
-- Record versions, offsets, hashes, assumptions, and verification methods when relevant.
-- Clearly distinguish confirmed findings from hypotheses.
-- Keep generated output reproducible from documented source data and tooling whenever practical.
+- Document assumptions, offsets, formats, hashes, and source/version information whenever relevant.
+- Keep generated files reproducible from documented source data and tooling where possible.
+- Preserve uncertain findings as clearly marked research notes rather than presenting guesses as confirmed facts.
+
+## Commit style
+
+Use short, descriptive commit messages, for example:
+
+- `Document battle data structure`
+- `Add script opcode notes`
+- `Reconstruct item table parser`
+- `Add version-difference manifest`
 
 ## Pull requests
 
-Explain what was reconstructed or documented, how it was verified, and any known limitations or unresolved questions.
+A pull request should explain what was reconstructed or documented, how it was verified, and any known limitations or unresolved questions.
