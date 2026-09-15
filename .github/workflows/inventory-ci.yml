@@ -1,0 +1,39 @@
+name: Inventory CI
+
+on:
+  push:
+    paths:
+      - "tools/inventory_target.py"
+      - "manifests/version-inventory.json"
+      - ".github/workflows/inventory-ci.yml"
+  pull_request:
+    paths:
+      - "tools/inventory_target.py"
+      - "manifests/version-inventory.json"
+      - ".github/workflows/inventory-ci.yml"
+
+jobs:
+  test-inventory:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Compile inventory tool
+        run: python -m compileall -q tools/inventory_target.py
+      - name: Exercise metadata-only inventory
+        run: |
+          mkdir -p .ci/sample
+          printf 'fixture\n' > .ci/sample/a.bin
+          printf 'sensitive\n' > .ci/sample/title.keys
+          python tools/inventory_target.py .ci/sample --target-id synthetic --product synthetic --output .ci/inventory.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          data = json.loads(Path('.ci/inventory.json').read_text())
+          assert data['file_count'] == 1
+          assert data['omitted_sensitive_files'] == 1
+          assert data['files'][0]['path'] == 'a.bin'
+          print('inventory tooling checks passed')
+          PY
