@@ -17,8 +17,11 @@
       "thumb_entry_pointer": "0x08000381",
       "thumb_entry_offset": "0x00000380",
       "irq_table_address": "0x03001BC0",
+      "bcd_to_binary_offset": "0x000092EC",
       "is_leap_year_offset": "0x00009314",
       "date_ordinal_offset": "0x0000934C",
+      "bcd_date_to_ordinal_offset": "0x000093D8",
+      "date_ordinal_callsite_offset": "0x00009404",
       "days_in_month_address": "0x081F452C",
       "date_year_loop": "fixed_i_greater_equal_zero"
     },
@@ -29,8 +32,11 @@
       "thumb_entry_pointer": "0x08000381",
       "thumb_entry_offset": "0x00000380",
       "irq_table_address": "0x03001BC0",
+      "bcd_to_binary_offset": "0x000092EC",
       "is_leap_year_offset": "0x00009314",
       "date_ordinal_offset": "0x0000934C",
+      "bcd_date_to_ordinal_offset": "0x000093D8",
+      "date_ordinal_callsite_offset": "0x00009404",
       "days_in_month_address": "0x081E9248",
       "date_year_loop": "fixed_i_greater_equal_zero"
     },
@@ -41,8 +47,11 @@
       "thumb_entry_pointer": "0x0800024D",
       "thumb_entry_offset": "0x0000024C",
       "irq_table_address": "0x03001B30",
+      "bcd_to_binary_offset": "0x0000672C",
       "is_leap_year_offset": "0x00006754",
       "date_ordinal_offset": "0x0000678C",
+      "bcd_date_to_ordinal_offset": "0x00006818",
+      "date_ordinal_callsite_offset": "0x00006844",
       "days_in_month_address": "0x081BBDB4",
       "date_year_loop": "legacy_i_greater_zero"
     },
@@ -53,8 +62,11 @@
       "thumb_entry_pointer": "0x0800024D",
       "thumb_entry_offset": "0x0000024C",
       "irq_table_address": "0x03001BC0",
+      "bcd_to_binary_offset": "0x00009120",
       "is_leap_year_offset": "0x00009148",
       "date_ordinal_offset": "0x00009180",
+      "bcd_date_to_ordinal_offset": "0x0000920C",
+      "date_ordinal_callsite_offset": "0x00009238",
       "days_in_month_address": "0x081E75C4",
       "date_year_loop": "legacy_i_greater_zero"
     },
@@ -65,8 +77,11 @@
       "thumb_entry_pointer": "0x08000381",
       "thumb_entry_offset": "0x00000380",
       "irq_table_address": "0x03001BC0",
+      "bcd_to_binary_offset": "0x000092EC",
       "is_leap_year_offset": "0x00009314",
       "date_ordinal_offset": "0x0000934C",
+      "bcd_date_to_ordinal_offset": "0x000093D8",
+      "date_ordinal_callsite_offset": "0x00009404",
       "days_in_month_address": "0x081EF9B4",
       "date_year_loop": "legacy_i_greater_zero"
     },
@@ -77,8 +92,11 @@
       "thumb_entry_pointer": "0x08000381",
       "thumb_entry_offset": "0x00000380",
       "irq_table_address": "0x03001BC0",
+      "bcd_to_binary_offset": "0x000092EC",
       "is_leap_year_offset": "0x00009314",
       "date_ordinal_offset": "0x0000934C",
+      "bcd_date_to_ordinal_offset": "0x000093D8",
+      "date_ordinal_callsite_offset": "0x00009404",
       "days_in_month_address": "0x081E9248",
       "date_year_loop": "legacy_i_greater_zero"
     },
@@ -89,8 +107,11 @@
       "thumb_entry_pointer": "0x0800024D",
       "thumb_entry_offset": "0x0000024C",
       "irq_table_address": "0x03001BC0",
+      "bcd_to_binary_offset": "0x00009120",
       "is_leap_year_offset": "0x00009148",
       "date_ordinal_offset": "0x00009180",
+      "bcd_date_to_ordinal_offset": "0x0000920C",
+      "date_ordinal_callsite_offset": "0x00009238",
       "days_in_month_address": "0x081E75C4",
       "date_year_loop": "fixed_i_greater_equal_zero"
     },
@@ -101,8 +122,11 @@
       "thumb_entry_pointer": "0x0800024D",
       "thumb_entry_offset": "0x0000024C",
       "irq_table_address": "0x03001BC0",
+      "bcd_to_binary_offset": "0x00009120",
       "is_leap_year_offset": "0x00009148",
       "date_ordinal_offset": "0x00009180",
+      "bcd_date_to_ordinal_offset": "0x0000920C",
+      "date_ordinal_callsite_offset": "0x00009238",
       "days_in_month_address": "0x081E75AC",
       "date_year_loop": "legacy_i_greater_zero"
     },
@@ -113,15 +137,20 @@
       "thumb_entry_pointer": "0x08000381",
       "thumb_entry_offset": "0x00000380",
       "irq_table_address": "0x03001BC0",
+      "bcd_to_binary_offset": "0x000092EC",
       "is_leap_year_offset": "0x00009314",
       "date_ordinal_offset": "0x0000934C",
+      "bcd_date_to_ordinal_offset": "0x000093D8",
+      "date_ordinal_callsite_offset": "0x00009404",
       "days_in_month_address": "0x081EF9B4",
       "date_year_loop": "fixed_i_greater_equal_zero"
     }
   ],
   "observed_semantics": {
+    "bcd_to_binary": "Validates a packed BCD byte and converts it to binary; invalid input returns 0xFF.",
     "is_leap_year": "Tests divisibility by 4, 100, and 400 and returns a byte boolean.",
     "date_ordinal": "Accumulates 365-day years, leap-day adjustments, a 12-entry month-day table, and the day argument into a 16-bit total.",
+    "bcd_date_to_ordinal": "Reads three consecutive BCD bytes, converts them individually, and calls the date-ordinal routine with the resulting year/month/day values.",
     "revision_fix": "The small Rev0/Rev1 and Rev1/Rev2 deltas change the prior-year loop boundary from i > 0 to i >= 0 while preserving branch targets."
   }
 }
