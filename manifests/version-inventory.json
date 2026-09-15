@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "project": "PocketMonsters-Sapphire-Decompilation",
+  "targets": [],
+  "status": "no_verified_target_build_inventoried",
+  "notes": [
+    "Populate this file only from directly observed, legally obtained target builds.",
+    "Do not commit retail game images, console keys, or absolute local paths.",
+    "Keep regions, languages, revisions, and updates as separate target records."
+  ]
+}
