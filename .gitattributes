@@ -1,0 +1,12 @@
+* text=auto eol=lf
+*.png binary
+*.gif binary
+*.jpg binary
+*.jpeg binary
+*.bin binary
+*.lz binary
+*.4bpp binary
+*.pal binary
+*.ips binary
+*.bps binary
+*.ups binary
