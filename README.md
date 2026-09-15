@@ -1,7 +1,8 @@
 # Pocket Monsters Sapphire — Decompilation
 
-![Status](https://img.shields.io/badge/status-initial_setup-lightgrey)
+![Status](https://img.shields.io/badge/status-Phase_1_active-blue)
 ![Project](https://img.shields.io/badge/project-decompilation-blue)
+![Verified targets](https://img.shields.io/badge/verified_targets-9-success)
 ![ROMs](https://img.shields.io/badge/ROM_binaries-not_included-success)
 
 Decompilation and source-reconstruction project for **Pokémon Sapphire**.
@@ -11,33 +12,41 @@ Decompilation and source-reconstruction project for **Pokémon Sapphire**.
 - Reconstruct game code and data into readable, editable source form.
 - Document executable structures, data formats, scripts, assets, and version differences.
 - Keep analysis, tooling, metadata, and documentation reproducible.
-- Build a clean foundation for long-term reverse-engineering work.
+- Progress from observed ROM structure to target-aware source builds and eventual binary matching.
 
 ## 🚧 Status
 
-This repository is in its **initial setup** stage. Source reconstruction and documentation will be added progressively.
+The project is in **Phase 1: verified binary mapping and source reconstruction**. Nine directly supplied Sapphire targets are inventoried by game code, revision, size, and cryptographic hashes. The common ARM reset/IRQ path and a revision-sensitive date/day-ordinal routine now have first source reconstructions.
 
-## 🗂️ Planned scope
+Current reconstructed source:
 
-- Code and executable analysis
-- Game data structures
-- Scripts and event data
-- Graphics and asset metadata
-- Audio and resource formats
-- Maps and world data
-- Tools, notes, manifests, and verification data
+- `src/boot/boot_arm.S` — common ARM reset and IRQ-dispatch path.
+- `src/reconstructed/date.c` — leap-year helper and date/day-ordinal calculation, including the observed revision-dependent loop fix.
+
+Current machine-readable analysis:
+
+- `manifests/version-inventory.json` — exact identity of the nine observed targets.
+- `analysis/phase-1/baseline-summary.json` — first-pass executable/pointer/block baseline.
+- `analysis/phase-1/revision-deltas.json` — same-game-code revision differences.
+- `analysis/phase-1/executable-map.json` — target-specific offsets and first semantic mappings.
+
+## 🔎 First verified revision finding
+
+AXPI rev0→rev1, AXPF rev0→rev1, and AXPE rev1→rev2 each contain a four-byte minor-revision delta: two header bytes plus two Thumb conditional-branch condition bytes. The code change preserves branch targets while changing `BLE`→`BLT` and `BGT`→`BGE` in the same date/day-ordinal routine, correcting its prior-year loop boundary from `i > 0` to `i >= 0`.
 
 ## 📌 Repository policy
 
-ROM images and redistributed ROM binaries are **not included**. The repository is intended for reconstructed source, extracted/recreated project data, tooling, analysis, and documentation.
+ROM images and redistributed ROM binaries are **not included**. The repository stores reconstructed source, derived metadata, analysis, tooling, tests, documentation, and other reproducible project material. Original supplied ROMs remain local and read-only.
 
 ## 🧭 Roadmap
 
-- [ ] Establish baseline version/revision inventory
-- [ ] Map executable and data structures
-- [ ] Begin source reconstruction
-- [ ] Document assets, scripts, and formats
-- [ ] Add verification and reproducibility workflow
+- [x] Establish baseline version/revision inventory
+- [x] Map initial executable and revision-delta structures
+- [x] Begin ARM/Thumb-to-source reconstruction
+- [ ] Recover the early Thumb runtime call graph and classify executable/data ranges
+- [ ] Reconstruct game data, scripts/events, maps, text, graphics, audio, save/link systems, and unused/debug material
+- [ ] Add target-aware build/link configuration
+- [ ] Add region-level and ultimately whole-target binary matching verification
 
 ## 📚 Documentation
 
@@ -53,13 +62,13 @@ ROM images and redistributed ROM binaries are **not included**. The repository i
 
 ## 🧱 Repository structure
 
-As real project material is reconstructed, the repository may grow into areas such as `src/`, `include/`, `data/`, `assets/`, `tools/`, `tests/`, and `manifests/`. Empty directory trees are not created only for appearance, and platform-specific structure should follow verified target architecture rather than another generation's layout.
+Active areas include `src/`, `analysis/`, `tools/`, `manifests/`, and `docs/`. As formats are verified, the project will expand into `include/`, `data/`, `assets/`, and `tests/` without creating empty directory trees merely for appearance.
 
-See [Repository Structure](docs/REPOSITORY_STRUCTURE.md) for the full organization policy.
+See [Repository Structure](docs/REPOSITORY_STRUCTURE.md) for the organization policy.
 
 ## 🔬 Research and verification
 
-Research findings should identify the relevant target version or revision and clearly separate hypotheses from observed, reproduced, or matched results. Use the repository's Research and Verification issue templates when tracking substantial findings.
+Findings identify the relevant target version or revision and separate hypotheses from observed, reproduced, or matched results. Current source reconstructions are not yet claimed as byte-for-byte matched builds; semantic names remain provisional where caller/context recovery is incomplete.
 
 ## 🤝 Contributing
 
