@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "project": "PocketMonsters-Sapphire-Decompilation",
+  "phase": "phase_1_binary_mapping",
+  "status": "started",
+  "current_gate": "verified_local_rom_required",
+  "rom_binary_policy": "never_commit",
+  "workstreams": {
+    "target_identity": {"status": "started", "next": "record header, revision, size, SHA-1, SHA-256"},
+    "binary_layout": {"status": "started", "next": "generate block hashes and address-space map"},
+    "executable_code": {"status": "started", "next": "map ARM/Thumb entry paths and function candidates"},
+    "pointers_and_tables": {"status": "started", "next": "map ROM pointers, pointer tables, and cross-references"},
+    "game_data": {"status": "started", "next": "identify structured tables and constants"},
+    "scripts_and_events": {"status": "started", "next": "identify script engines, opcode tables, and event data"},
+    "maps": {"status": "started", "next": "identify map headers, layouts, warps, events, encounters, weather, music"},
+    "graphics": {"status": "started", "next": "identify compressed graphics, palettes, sprites, tiles, UI"},
+    "audio": {"status": "started", "next": "identify song tables, samples, sequences, cries, and SFX"},
+    "text": {"status": "started", "next": "identify text encoding, string tables, control codes, and fonts"},
+    "save_data": {"status": "started", "next": "identify save sections, checksums, encryption, and persistent structures"},
+    "link_and_peripherals": {"status": "started", "next": "identify link, wireless, e-Reader, and GameCube interface code"},
+    "version_differences": {"status": "started", "next": "compare only after two directly verified targets exist"},
+    "unused_and_debug": {"status": "started", "next": "retain unreachable, dummy, debug, and unused material as evidence"},
+    "rebuild_and_match": {"status": "started", "next": "introduce source/build matching after verified binary mapping"}
+  }
+}
