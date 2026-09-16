@@ -26,12 +26,27 @@ Current machine-readable project records:
 - `manifests/binary-baseline.json` — first-pass entry-point, pointer, block, and executable-signature baseline.
 - `manifests/revision-differences.json` — same-game-code revision byte differences and decoded branch-condition changes.
 - `manifests/executable-map.json` — observed target-specific runtime offsets and provisional semantic mappings.
+- `manifests/toolchain.json` — GBA toolchain, matching compiler, emulator, and optional static-analysis versions.
 
 Current Phase 1 tooling:
 
 - `tools/inventory_target.py` — metadata-only target inventory.
 - `tools/gba_baseline.py` — reproducible first-pass GBA binary map.
 - `tools/compare_revisions.py` — same-size revision comparison and Thumb conditional-branch difference reporting.
+
+## 🛠️ Toolchain and emulator
+
+This is a **Game Boy Advance / ARM7TDMI** project. The local environment uses devkitARM/`gba-dev`, the pinned `pret/agbcc` matching compiler, normal host build tools, and **mGBA** for runtime verification.
+
+Bootstrap a checkout with:
+
+```bash
+tools/setup_gba_environment.sh install
+source .local/env.sh
+python3 tools/check_gba_environment.py
+```
+
+Third-party binaries and source checkouts are installed under ignored `.local/`; they are not committed to Git. Launch a local ROM with `tools/run_mgba.sh path/to/local-sapphire.gba`. See [Toolchain](docs/TOOLCHAIN.md) for the complete policy and versions.
 
 ## 🔎 Current verified findings
 
@@ -50,6 +65,7 @@ ROM images and redistributed ROM binaries are **not included**. The repository i
 - [x] Establish and populate the supplied-target version/revision inventory
 - [x] Begin Phase 1 binary mapping with repeatable tooling
 - [x] Record initial executable offsets and revision-difference evidence
+- [x] Add reproducible GBA toolchain and mGBA bootstrap/check tooling
 - [ ] Complete executable/data/resource/unused range classification
 - [ ] Document containers, compression, packing, serialization, and major tables
 - [ ] Phase 2: map symbols, functions, tables, subsystems, and dependencies
@@ -64,6 +80,7 @@ ROM images and redistributed ROM binaries are **not included**. The repository i
 | [Project status](docs/PROJECT_STATUS.md) | Current stage, coverage, validation level, and next milestones |
 | [Roadmap](docs/ROADMAP.md) | Recommended decompilation phases and long-term progression |
 | [Version coverage](docs/VERSIONS.md) | Regions, languages, revisions, updates, builds, and hashes |
+| [Toolchain](docs/TOOLCHAIN.md) | devkitARM, agbcc, mGBA, host dependencies, and optional Ghidra setup |
 | [Research guide](docs/RESEARCH_GUIDE.md) | Evidence, confidence, and research-recording workflow |
 | [Verification guide](docs/VERIFICATION.md) | Standards for Observed, Reproduced, and Matched results |
 | [Repository structure](docs/REPOSITORY_STRUCTURE.md) | Intended long-term source, data, asset, tooling, and manifest layout |
