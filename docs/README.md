@@ -1,6 +1,6 @@
 # Documentation Hub
 
-This directory is the central documentation portal for the decompilation project. Use it to move from target identification and research through reconstruction, asset handling, manifests, and verification without losing version context or evidence.
+This directory is the central documentation portal for the decompilation project. Use it to move from target identification and research through reconstruction, asset handling, manifests, tooling, and verification without losing version context or evidence.
 
 ## Quick links
 
@@ -9,6 +9,7 @@ This directory is the central documentation portal for the decompilation project
 | [Project Status](PROJECT_STATUS.md) | Current stage, target coverage, validation level, and next milestones |
 | [Roadmap](ROADMAP.md) | Recommended project phases from target definition through reproducible reconstruction |
 | [Version Coverage](VERSIONS.md) | Regions, languages, revisions, updates, builds, hashes, and support status |
+| [Toolchain](TOOLCHAIN.md) | GBA/ARM7TDMI toolchain, agbcc matching compiler, mGBA emulator, and local setup workflow |
 | [Research Guide](RESEARCH_GUIDE.md) | Evidence, confidence, offsets, naming, and research-recording practices |
 | [Verification Guide](VERIFICATION.md) | Standards for Unverified, Observed, Reproduced, and Matched results |
 | [Repository Structure](REPOSITORY_STRUCTURE.md) | Intended long-term layout for source, data, assets, tools, tests, and manifests |
@@ -24,11 +25,12 @@ As verified work becomes concrete, documentation may grow into areas such as `ar
 ## Recommended documentation flow
 
 1. Identify the target in `VERSIONS.md`.
-2. Record investigation methods and evidence according to `RESEARCH_GUIDE.md`.
-3. Reconstruct source, data, or assets following `PROJECT_STANDARDS.md` and `REPOSITORY_STRUCTURE.md`.
-4. For asset work, follow `ASSET_WORKFLOW.md` and register material in `../manifests/`.
-5. Apply the validation levels defined in `VERIFICATION.md`.
-6. Update `PROJECT_STATUS.md` and `ROADMAP.md` when meaningful milestones are reached.
+2. Set up and verify the local GBA environment using `TOOLCHAIN.md`.
+3. Record investigation methods and evidence according to `RESEARCH_GUIDE.md`.
+4. Reconstruct source, data, or assets following `PROJECT_STANDARDS.md` and `REPOSITORY_STRUCTURE.md`.
+5. For asset work, follow `ASSET_WORKFLOW.md` and register material in `../manifests/`.
+6. Apply the validation levels defined in `VERIFICATION.md`.
+7. Update `PROJECT_STATUS.md` and `ROADMAP.md` when meaningful milestones are reached.
 
 ## Documentation rules
 
