@@ -13,6 +13,13 @@ Decompilation and source-reconstruction project for **Pokémon Sapphire**.
 - Keep analysis, tooling, metadata, and documentation reproducible.
 - Build a clean foundation for long-term reverse-engineering work.
 
+## 🧬 Repository characteristics
+
+- Generation III **Game Boy Advance** title targeting the ARM7TDMI architecture.
+- High-level decompilation/source reconstruction rather than instruction-by-instruction disassembly.
+- Focused on Pokémon Sapphire and its language/revision-specific code, data, scripts, and resources.
+- Hoenn-era engine behavior is reconstructed independently while preserving meaningful build differences.
+
 ## 🚧 Status
 
 This repository is in its **initial setup** stage. Source reconstruction and documentation will be added progressively.
