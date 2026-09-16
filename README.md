@@ -1,6 +1,6 @@
 # Pocket Monsters Sapphire — Decompilation
 
-![Status](https://img.shields.io/badge/status-Phase_1_active-blue)
+![Status](https://img.shields.io/badge/status-Phase_1_binary_mapping-blue)
 ![Project](https://img.shields.io/badge/project-decompilation-blue)
 ![Verified targets](https://img.shields.io/badge/verified_targets-9-success)
 ![ROMs](https://img.shields.io/badge/ROM_binaries-not_included-success)
@@ -12,41 +12,50 @@ Decompilation and source-reconstruction project for **Pokémon Sapphire**.
 - Reconstruct game code and data into readable, editable source form.
 - Document executable structures, data formats, scripts, assets, and version differences.
 - Keep analysis, tooling, metadata, and documentation reproducible.
-- Progress from observed ROM structure to target-aware source builds and eventual binary matching.
+- Build a clean foundation for long-term reverse-engineering work.
 
 ## 🚧 Status
 
-The project is in **Phase 1: verified binary mapping and source reconstruction**. Nine directly supplied Sapphire targets are inventoried by game code, revision, size, and cryptographic hashes. The common ARM reset/IRQ path and a revision-sensitive date/day-ordinal routine now have first source reconstructions.
+The project is in **Phase 1 — binary and container mapping**. Nine directly supplied Sapphire targets have been inventoried by game code, revision, size, and cryptographic hashes. Initial GBA entry-point, ROM-pointer, block, executable-offset, and same-game-code revision-difference mapping is recorded as machine-readable manifests.
 
-Current reconstructed source:
+No Phase 3 source-reconstruction layout is being established yet. Source directories will be introduced only when the Phase 1/2 mapping is sufficiently verified to justify the target-specific structure.
 
-- `src/boot/boot_arm.S` — common ARM reset and IRQ-dispatch path.
-- `src/reconstructed/date.c` — leap-year helper and date/day-ordinal calculation, including the observed revision-dependent loop fix.
-
-Current machine-readable analysis:
+Current machine-readable project records:
 
 - `manifests/version-inventory.json` — exact identity of the nine observed targets.
-- `analysis/phase-1/baseline-summary.json` — first-pass executable/pointer/block baseline.
-- `analysis/phase-1/revision-deltas.json` — same-game-code revision differences.
-- `analysis/phase-1/executable-map.json` — target-specific offsets and first semantic mappings.
+- `manifests/binary-baseline.json` — first-pass entry-point, pointer, block, and executable-signature baseline.
+- `manifests/revision-differences.json` — same-game-code revision byte differences and decoded branch-condition changes.
+- `manifests/executable-map.json` — observed target-specific runtime offsets and provisional semantic mappings.
 
-## 🔎 First verified revision finding
+Current Phase 1 tooling:
 
-AXPI rev0→rev1, AXPF rev0→rev1, and AXPE rev1→rev2 each contain a four-byte minor-revision delta: two header bytes plus two Thumb conditional-branch condition bytes. The code change preserves branch targets while changing `BLE`→`BLT` and `BGT`→`BGE` in the same date/day-ordinal routine, correcting its prior-year loop boundary from `i > 0` to `i >= 0`.
+- `tools/inventory_target.py` — metadata-only target inventory.
+- `tools/gba_baseline.py` — reproducible first-pass GBA binary map.
+- `tools/compare_revisions.py` — same-size revision comparison and Thumb conditional-branch difference reporting.
+
+## 🔎 Current verified findings
+
+- All nine observed targets have valid GBA header complement checks.
+- AXPJ revision 0 is 8 MiB; the other eight observed targets are 16 MiB.
+- The reset-vector mapping separates AXPJ/AXPE from AXPD/AXPF/AXPI layouts.
+- AXPI rev0→rev1, AXPF rev0→rev1, and AXPE rev1→rev2 each contain a four-byte minor-revision delta: two header bytes plus two Thumb conditional-branch condition-byte changes.
+- The affected branch destinations are unchanged. The surrounding observed code is recorded in `manifests/executable-map.json`; semantic names remain provisional pending Phase 2 symbol/subsystem mapping.
 
 ## 📌 Repository policy
 
-ROM images and redistributed ROM binaries are **not included**. The repository stores reconstructed source, derived metadata, analysis, tooling, tests, documentation, and other reproducible project material. Original supplied ROMs remain local and read-only.
+ROM images and redistributed ROM binaries are **not included**. The repository is intended for reconstructed source, extracted/recreated project data, tooling, analysis, documentation, manifests, and verification material. Original supplied ROMs remain local and read-only.
 
 ## 🧭 Roadmap
 
-- [x] Establish baseline version/revision inventory
-- [x] Map initial executable and revision-delta structures
-- [x] Begin ARM/Thumb-to-source reconstruction
-- [ ] Recover the early Thumb runtime call graph and classify executable/data ranges
-- [ ] Reconstruct game data, scripts/events, maps, text, graphics, audio, save/link systems, and unused/debug material
-- [ ] Add target-aware build/link configuration
-- [ ] Add region-level and ultimately whole-target binary matching verification
+- [x] Establish and populate the supplied-target version/revision inventory
+- [x] Begin Phase 1 binary mapping with repeatable tooling
+- [x] Record initial executable offsets and revision-difference evidence
+- [ ] Complete executable/data/resource/unused range classification
+- [ ] Document containers, compression, packing, serialization, and major tables
+- [ ] Phase 2: map symbols, functions, tables, subsystems, and dependencies
+- [ ] Phase 3: begin target-aware source reconstruction
+- [ ] Phase 4: add repeatable reconstruction verification
+- [ ] Phase 5: provide reproducible build/repack workflow and CI where appropriate
 
 ## 📚 Documentation
 
@@ -62,13 +71,13 @@ ROM images and redistributed ROM binaries are **not included**. The repository s
 
 ## 🧱 Repository structure
 
-Active areas include `src/`, `analysis/`, `tools/`, `manifests/`, and `docs/`. As formats are verified, the project will expand into `include/`, `data/`, `assets/`, and `tests/` without creating empty directory trees merely for appearance.
+The active Phase 1 areas are `tools/`, `manifests/`, and `docs/`. Future `src/`, `include/`, `data/`, `assets/`, and `tests/` directories are added only when they contain real verified project material and when their organization follows the mapped GBA target architecture.
 
 See [Repository Structure](docs/REPOSITORY_STRUCTURE.md) for the organization policy.
 
 ## 🔬 Research and verification
 
-Findings identify the relevant target version or revision and separate hypotheses from observed, reproduced, or matched results. Current source reconstructions are not yet claimed as byte-for-byte matched builds; semantic names remain provisional where caller/context recovery is incomplete.
+Findings identify the relevant target version or revision and separate hypotheses from Observed, Reproduced, or Matched results. Offsets and semantic names that have not yet completed Phase 2 context recovery remain explicitly provisional.
 
 ## 🤝 Contributing
 
