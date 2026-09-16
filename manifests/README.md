@@ -8,6 +8,7 @@ This directory stores machine-readable and reviewable inventories for reconstruc
 - `binary-baseline.json` — first-pass GBA entry-point, block, ROM-pointer, and executable-signature measurements.
 - `revision-differences.json` — byte/block comparisons between observed same-game-code revisions, including recognized Thumb conditional-branch changes.
 - `executable-map.json` — target-specific reset/IRQ/Thumb-entry and selected runtime offsets. Semantic names are provisional until later symbol/subsystem mapping confirms them.
+- `toolchain.json` — required GBA toolchain, pinned agbcc revision, primary emulator, host dependencies, and optional static-analysis tooling.
 - `workstreams.json` — current project phase, gates, workstream status, and active artifacts.
 - `example.asset-manifest.json` — reusable template for future reconstructed/extracted asset records.
 
@@ -49,4 +50,4 @@ Use JSON, YAML, CSV, or Markdown tables when appropriate. Prefer formats that ar
 5. Keep version-specific offsets and differences explicit when releases do not share one layout.
 6. Do not place retail ROM images, console keys, or redistributable game binaries in this directory.
 
-See `example.asset-manifest.json` for a reusable asset starting point and `../docs/PROJECT_STANDARDS.md` for the broader repository rules.
+See `example.asset-manifest.json` for a reusable asset starting point, `toolchain.json` for the reproducible local tool set, and `../docs/PROJECT_STANDARDS.md` for the broader repository rules.
