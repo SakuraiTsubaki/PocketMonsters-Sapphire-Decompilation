@@ -1,0 +1,15 @@
+marker,path,upstream_commit
+BUGFIX,include/config.h,63a8cbf0016b351a4e68f7036fa0b77e23d2f2c1
+BUGFIX,src/rtc.c,63a8cbf0016b351a4e68f7036fa0b77e23d2f2c1
+BUGFIX,src/save_failed_screen.c,63a8cbf0016b351a4e68f7036fa0b77e23d2f2c1
+BUGFIX,src/text.c,63a8cbf0016b351a4e68f7036fa0b77e23d2f2c1
+BUGFIX,src/trainer_see.c,63a8cbf0016b351a4e68f7036fa0b77e23d2f2c1
+BUGFIX,src/pokemon_2.c,63a8cbf0016b351a4e68f7036fa0b77e23d2f2c1
+BUGFIX,src/pokemon_3.c,63a8cbf0016b351a4e68f7036fa0b77e23d2f2c1
+BUGFIX,src/pokemon_1.c,63a8cbf0016b351a4e68f7036fa0b77e23d2f2c1
+BUGFIX,src/battle_tower.c,63a8cbf0016b351a4e68f7036fa0b77e23d2f2c1
+UBFIX,include/config.h,63a8cbf0016b351a4e68f7036fa0b77e23d2f2c1
+UBFIX,src/fieldmap.c,63a8cbf0016b351a4e68f7036fa0b77e23d2f2c1
+UBFIX,src/libs/m4a.c,63a8cbf0016b351a4e68f7036fa0b77e23d2f2c1
+UBFIX,src/party_menu.c,63a8cbf0016b351a4e68f7036fa0b77e23d2f2c1
+UBFIX,src/berry_blender.c,63a8cbf0016b351a4e68f7036fa0b77e23d2f2c1
