@@ -1,11 +1,1 @@
-{
-  "repository": "SakuraiTsubaki/PocketMonsters-Sapphire-Decompilation",
-  "target": "Pocket Monsters Sapphire",
-  "platform_family": "Game Boy Advance",
-  "generation": "Generation III",
-  "identity_status": "unselected",
-  "release": null,
-  "region": null,
-  "revision": null,
-  "hashes": []
-}
+{"repository":"SakuraiTsubaki/PocketMonsters-Sapphire-Decompilation","target":"Pocket Monsters Sapphire","platform_family":"Game Boy Advance","generation":"Generation III","identity_status":"identified","release":"Pocket Monsters Sapphire","region":"Japan","revision":"0","language":"ja","distribution":"Game Boy Advance retail cartridge","product_code":"AXPJ","size":8388608,"header":{"title":"POKEMON SAPP","game_code":"AXPJ","maker_code":"01","software_version":0,"header_checksum":80},"language_priority":["ja","ko","en","other"],"language_fallback_policy":{"primary":"ja","secondary":"ko","when_korean_unavailable":"en","remaining":"other_official_languages"},"hashes":[{"algorithm":"sha1","value":"3233342c2f3087e6ffe6c1791cd5867db07df842"},{"algorithm":"sha256","value":"6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"}]}
