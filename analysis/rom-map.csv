@@ -1,0 +1,3 @@
+file_start,file_end,size,classification,status,confidence,evidence
+0x000000,0x0000bf,192,gba-header,identified,high,"GBA cartridge header; AXPJ rev0"
+0x0000c0,0x7fffff,8388416,unclassified,pending,low,"Target size boundary from selected local identity"
