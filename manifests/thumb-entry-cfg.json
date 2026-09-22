@@ -1,0 +1,2 @@
+{"schema_version":1,"id":"sapphire-jp-thumb-entry-cfg","generator":{"repository":"SakuraiTsubaki/Decompilation","tool":"tools/thumb_cfg.py","version":"1.0.0"},"inputs":[{"size":8388608,"sha256":"6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"}],"outputs":[{"path":"analysis/sapphire-jp-thumb-entry-cfg.json","sha256":"8282cf8ee7b7cd5c59629c6d63d38e87676f8cff07e4738b4a3a251432ba25b1"}]}
+
