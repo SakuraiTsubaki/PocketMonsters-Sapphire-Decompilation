@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "source_cfg_sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9",
+  "entry_address": 134218316,
+  "call_sites": 21,
+  "unique_targets": 19,
+  "repeated_targets": 1,
+  "targets": [
+    {
+      "target_address": 134218568,
+      "target_offset": 840,
+      "in_rom": true,
+      "call_count": 3,
+      "source_addresses": [
+        134218460,
+        134218510,
+        134218542
+      ]
+    },
+    {
+      "target_address": 134218640,
+      "target_offset": 912,
+      "in_rom": true,
+      "call_count": 1,
+      "source_addresses": [
+        134218358
+      ]
+    },
+    {
+      "target_address": 134218708,
+      "target_offset": 980,
+      "in_rom": true,
+      "call_count": 1,
+      "source_addresses": [
+        134218386
+      ]
+    },
+    {
+      "target_address": 134218728,
+      "target_offset": 1000,
+      "in_rom": true,
+      "call_count": 1,
+      "source_addresses": [
+        134218366
+      ]
+    },
+    {
+      "target_address": 134218756,
+      "target_offset": 1028,
+      "in_rom": true,
+      "call_count": 1,
+      "source_addresses": [
+        134218338
+      ]
+    },
+    {
+      "target_address": 134218796,
+      "target_offset": 1068,
+      "in_rom": true,
+      "call_count": 1,
+      "source_addresses": [
+        134218408
+      ]
+    },
+    {
+      "target_address": 134218952,
+      "target_offset": 1224,
+      "in_rom": true,
+      "call_count": 1,
+      "source_addresses": [
+        134218342
+      ]
+    },
+    {
+      "target_address": 134219416,
+      "target_offset": 1688,
+      "in_rom": true,
+      "call_count": 1,
+      "source_addresses": [
+        134218558
+      ]
+    },
+    {
+      "target_address": 134219448,
+      "target_offset": 1720,
+      "in_rom": true,
+      "call_count": 1,
+      "source_addresses": [
+        134218438
+      ]
+    },
+    {
+      "target_address": 134221712,
+      "target_offset": 3984,
+      "in_rom": true,
+      "call_count": 1,
+      "source_addresses": [
+        134218536
+      ]
+    },
+    {
+      "target_address": 134244436,
+      "target_offset": 26708,
+      "in_rom": true,
+      "call_count": 1,
+      "source_addresses": [
+        134218350
+      ]
+    },
+    {
+      "target_address": 134499484,
+      "target_offset": 281756,
+      "in_rom": true,
+      "call_count": 1,
+      "source_addresses": [
+        134218354
+      ]
+    },
+    {
+      "target_address": 134545136,
+      "target_offset": 327408,
+      "in_rom": true,
+      "call_count": 1,
+      "source_addresses": [
+        134218550
+      ]
+    },
+    {
+      "target_address": 134556416,
+      "target_offset": 338688,
+      "in_rom": true,
+      "call_count": 1,
+      "source_addresses": [
+        134218522
+      ]
+    },
+    {
+      "target_address": 134556516,
+      "target_offset": 338788,
+      "in_rom": true,
+      "call_count": 1,
+      "source_addresses": [
+        134218448
+      ]
+    },
+    {
+      "target_address": 134683624,
+      "target_offset": 465896,
+      "in_rom": true,
+      "call_count": 1,
+      "source_addresses": [
+        134218362
+      ]
+    },
+    {
+      "target_address": 134683644,
+      "target_offset": 465916,
+      "in_rom": true,
+      "call_count": 1,
+      "source_addresses": [
+        134218554
+      ]
+    },
+    {
+      "target_address": 135981152,
+      "target_offset": 1763424,
+      "in_rom": true,
+      "call_count": 1,
+      "source_addresses": [
+        134218346
+      ]
+    },
+    {
+      "target_address": 135991868,
+      "target_offset": 1774140,
+      "in_rom": true,
+      "call_count": 1,
+      "source_addresses": [
+        134218326
+      ]
+    }
+  ],
+  "input_cfg_sha256": "8282cf8ee7b7cd5c59629c6d63d38e87676f8cff07e4738b4a3a251432ba25b1"
+}

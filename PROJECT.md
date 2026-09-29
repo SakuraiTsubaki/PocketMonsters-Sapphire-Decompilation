@@ -6,9 +6,9 @@
 - Working target name: Pocket Monsters Sapphire
 - Platform family: Game Boy Advance
 - Series generation: Generation III
-- Exact release, region, revision, and build: **not yet selected**
+- Exact release, region, revision, and build: **Japanese retail cartridge, `AXPJ`, revision 0, identified**
 
-The repository name is a working label, not proof of a particular binary. No address, symbol, format, or behavior should be treated as target fact until the exact build is identified.
+The selected reconstruction target is the locally observed Japanese retail cartridge (`AXPJ`, revision 0). Its hashes and header identity are recorded in `config/target.json`; the status remains `identified`, not independently `verified`.
 
 ## Identity checklist
 

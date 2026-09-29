@@ -7,7 +7,7 @@ A complete, target-specific workspace for reproducible research, analysis, tooli
 | Working target | Pocket Monsters Sapphire |
 | Platform family | Game Boy Advance |
 | Series generation | Generation III |
-| Exact build identity | Not selected; complete `PROJECT.md` and `config/target.json` before target claims |
+| Exact build identity | Japanese retail `AXPJ` revision 0; identified, verification pending |
 | Foundation status | Ready for evidence-backed work |
 
 ## Repository areas
@@ -31,7 +31,7 @@ Target-independent work belongs in [`SakuraiTsubaki/Decompilation`](https://gith
 
 ## Start here
 
-1. Complete [`PROJECT.md`](PROJECT.md) and [`config/target.json`](config/target.json).
+1. Verify a legal local input with `python tools/verify_target.py path/to/input`.
 2. Begin a focused record from [`research/template.md`](research/template.md).
 3. Promote reproducible conclusions through [`analysis/template.md`](analysis/template.md).
 4. Commit every storable non-ROM result produced or collected during the work.
