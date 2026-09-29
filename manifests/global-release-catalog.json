@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/import_release_catalog.py"
+  },
+  "inputs": [
+    {
+      "repository": "SakuraiTsubaki/PocketMonsters-Sapphire-Disassembly",
+      "path": "analysis/sapphire-global-release-catalog.json",
+      "sha256": "147447b6d6cf6094edb9b94d7ca8e9ba8c874f1db7fbea43897684ce712ec67a"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "756bce70a62f6fc7c42934bf2163fd94d1fec4c648f0e3024ddef622ea101571"
+    }
+  ]
+}
