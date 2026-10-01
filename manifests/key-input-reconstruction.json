@@ -1,0 +1,8 @@
+{
+  "schema_version":1,"target":{"release":"AXPJ-rev0","sha256":"6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"},"functions":["InitKeys","ReadKeys"],
+  "outputs":[
+    {"path":"src/key_input.c","sha256":"380cc6d7c9035ac156e72fb139a9d11bb7273b307a9d16e13b5a31db742aaf36"},
+    {"path":"analysis/sapphire-jp-key-input-map.json","sha256":"2deebbd48fe82fbb1783e3953d371e499cc57c382e6288e3edcf75c40312ef4c"},
+    {"path":"research/key-input-reconstruction.md","sha256":"0f425ec8a68a954ecc0e52733431776d09e37d9c723d9b58f969671a8bf851cf"}
+  ],"raw_rom_bytes_included":false
+}
