@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "AXPJ-rev0",
+    "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"
+  },
+  "function": {
+    "name": "AgbMain",
+    "address": 134218316,
+    "range_end_exclusive": 134218564,
+    "nonreturning": true,
+    "loop_back_edge": {
+      "source": 134218562,
+      "target": 134218408
+    }
+  },
+  "source": "src/main_loop.c",
+  "direct_calls": [
+    {
+      "address": 134218326,
+      "target": 135991868,
+      "name": "RegisterRamReset"
+    },
+    {
+      "address": 134218338,
+      "target": 134218756,
+      "name": "InitKeys"
+    },
+    {
+      "address": 134218342,
+      "target": 134218952,
+      "name": "InitIntrHandlers"
+    },
+    {
+      "address": 134218346,
+      "target": 135981152,
+      "name": "m4aSoundInit"
+    },
+    {
+      "address": 134218350,
+      "target": 134244436,
+      "name": "RtcInit"
+    },
+    {
+      "address": 134218354,
+      "target": 134499484,
+      "name": "CheckForFlashMemory"
+    },
+    {
+      "address": 134218358,
+      "target": 134218640,
+      "name": "InitMainCallbacks"
+    },
+    {
+      "address": 134218362,
+      "target": 134683624,
+      "name": "InitMapMusic"
+    },
+    {
+      "address": 134218366,
+      "target": 134218728,
+      "name": "SeedRngWithRtc"
+    },
+    {
+      "address": 134218386,
+      "target": 134218708,
+      "name": "SetMainCallback2"
+    },
+    {
+      "address": 134218408,
+      "target": 134218796,
+      "name": "ReadKeys"
+    },
+    {
+      "address": 134218438,
+      "target": 134219448,
+      "name": "DoSoftReset"
+    },
+    {
+      "address": 134218448,
+      "target": 134556516,
+      "name": "LinkSendQueueReady"
+    },
+    {
+      "address": 134218460,
+      "target": 134218568,
+      "name": "UpdateLinkAndCallCallbacks"
+    },
+    {
+      "address": 134218550,
+      "target": 134545136,
+      "name": "PlayTimeCounter_Update"
+    },
+    {
+      "address": 134218554,
+      "target": 134683644,
+      "name": "MapMusicMain"
+    },
+    {
+      "address": 134218558,
+      "target": 134219416,
+      "name": "WaitForVBlank"
+    },
+    {
+      "address": 134218510,
+      "target": 134218568,
+      "name": "UpdateLinkAndCallCallbacks"
+    },
+    {
+      "address": 134218522,
+      "target": 134556416,
+      "name": "LinkRecvQueueReady"
+    },
+    {
+      "address": 134218536,
+      "target": 134221712,
+      "name": "LinkRecvPostprocess"
+    },
+    {
+      "address": 134218542,
+      "target": 134218568,
+      "name": "UpdateLinkAndCallCallbacks"
+    }
+  ],
+  "proven_offsets": {
+    "gMain.heldKeysRaw": 40,
+    "gMain.newKeys": 46
+  },
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "path": "src/main.c",
+    "match_kind": "call order, branches, literals and state accesses",
+    "raw_rom_bytes_published": false
+  }
+}
+

@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "id": "sapphire-jp-agb-main-reconstruction",
+  "input": {"release":"AXPJ-rev0","size":8388608,"sha256":"6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9","cfg":"analysis/sapphire-jp-thumb-entry-cfg.json"},
+  "outputs": [
+    {"path":"analysis/sapphire-jp-agb-main-map.json","sha256":"9f3df135c29371711f35dbe6a15b8c5f18701a40d8aaaf656b2093be0b1e666e"},
+    {"path":"src/main_loop.c","sha256":"c2b436f3dbb07dd51ce7b7e764c29cd4cb28886535c7521e4bf95d5a06c959d3"},
+    {"path":"research/agb-main-reconstruction.md","sha256":"d9dc98b89c8e2e4a8b13b9f2de8a5f5eef7a78baac3e9cbbf1f413f3a829b364"}
+  ],
+  "verification": {"test":"tests/test_agb_main_reconstruction.py","raw_rom_bytes_published":false}
+}
