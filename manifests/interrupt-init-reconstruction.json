@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "AXPJ-rev0",
+    "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"
+  },
+  "functions": [
+    "InitIntrHandlers",
+    "SetVBlankCallback",
+    "SetHBlankCallback",
+    "SetVCountCallback",
+    "SetSerialCallback"
+  ],
+  "outputs": [
+    {
+      "path": "src/interrupt_init.c",
+      "sha256": "0161b35c96a7bfba3c8b0395606666e115117d435e202cf5d76f8165b9039b7f"
+    },
+    {
+      "path": "analysis/sapphire-jp-interrupt-init-map.json",
+      "sha256": "a1e4e6918c81d6d78fe010d62f84da1302757d1c23402ec5047147589cf6f8db"
+    },
+    {
+      "path": "research/interrupt-init-reconstruction.md",
+      "sha256": "f0adabe23327b618459cf064d662bf8940102e7c4ccafe561d373f925aba5ea8"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
