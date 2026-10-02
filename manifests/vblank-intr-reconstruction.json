@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "AXPJ-rev0",
+    "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"
+  },
+  "function": "VBlankIntr",
+  "outputs": [
+    {
+      "path": "src/vblank_intr.c",
+      "sha256": "3cf3c21855e658f35fb9fa41d3e4776e3fedddbbefbf2b769b098fe7c7208941"
+    },
+    {
+      "path": "analysis/sapphire-jp-vblank-intr-map.json",
+      "sha256": "1098ef0f76ba89d2f55437f73efc754a22728fa4c3a4b190435f72f452df937d"
+    },
+    {
+      "path": "research/vblank-intr-reconstruction.md",
+      "sha256": "80a38571b7f66daedf1c481bc3ff303e2ad626aff9473424af947f666a301a8f"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
