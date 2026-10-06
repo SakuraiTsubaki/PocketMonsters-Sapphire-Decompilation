@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "AXPJ-rev0",
+    "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"
+  },
+  "function": "SeedRngWithRtc",
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/thumb_cfg.py",
+    "minimum_commit": "0bf18299d057f76b801016390b3a57892c8a50df"
+  },
+  "outputs": [
+    {
+      "path": "src/seed_rng_with_rtc.c",
+      "sha256": "2cc25e30e7fa6bc3880f08a76958d9ddda0f65010fa733fe1075afb487a4d64e"
+    },
+    {
+      "path": "analysis/sapphire-jp-seed-rng-with-rtc-cfg.json",
+      "sha256": "2271f0ff875ec998dc6439e890bcf0351bc3557a5a6fbfacb995043c063c09a8"
+    },
+    {
+      "path": "analysis/sapphire-jp-seed-rng-with-rtc-map.json",
+      "sha256": "28649ceab5dd260bc0ae2252b7c1d62b16253ce530e134ec01b4555b52061e09"
+    },
+    {
+      "path": "research/seed-rng-with-rtc-reconstruction.md",
+      "sha256": "e6d6bc8004796f80f04482df119553cb4f6c45cb2f1839babffb50abf77c54d2"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
+

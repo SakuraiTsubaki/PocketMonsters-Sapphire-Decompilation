@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "AXPJ-rev0",
+    "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"
+  },
+  "source": "src/seed_rng_with_rtc.c",
+  "function": {
+    "name": "SeedRngWithRtc",
+    "address": "0x080003E8",
+    "range_end_exclusive": "0x08000400",
+    "returns": true
+  },
+  "rom_code_range": {
+    "start_offset": 1000,
+    "end_offset_exclusive": 1024,
+    "sha256": "414b9289eaa06ccc648464e5cc564789a10d2a0e538acdcb822d55f487431cd7",
+    "raw_bytes_published": false
+  },
+  "calls": [
+    {
+      "address": "0x080003EA",
+      "target": "0x08006C98",
+      "name": "RtcGetMinuteCount"
+    },
+    {
+      "address": "0x080003F8",
+      "target": "0x0803E150",
+      "name": "SeedRng"
+    }
+  ],
+  "behavior": {
+    "minute_count_fold": "upper16 XOR lower16",
+    "seed_width_bits": 16
+  },
+  "cfg": "analysis/sapphire-jp-seed-rng-with-rtc-cfg.json",
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "path": "src/main.c",
+    "match_kind": "call order, constants and data flow",
+    "raw_rom_bytes_published": false
+  }
+}
+
