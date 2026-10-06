@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "id": "sapphire-jp-main-callbacks-reconstruction",
+  "target": {
+    "release": "AXPJ-rev0",
+    "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"
+  },
+  "outputs": [
+    {
+      "path": "src/main_callbacks.c",
+      "sha256": "9d783052a0efb72cef16446aebdfef0de9011781be8cf27dd54b674edad552a2"
+    },
+    {
+      "path": "analysis/main-callbacks-map.json",
+      "sha256": "105305f1d7b218df355627e4389f677ab1dc49901b6e4f20a4461dc3f6c3e142"
+    },
+    {
+      "path": "research/main-callbacks-reconstruction.md",
+      "sha256": "5acd6c791011293169b26a84a3a34d6f7a185b6fd104c46a9d8c997b3dfd2c04"
+    }
+  ],
+  "verification": {
+    "test": "tests/test_main_callbacks_reconstruction.py",
+    "function_range_hashes": "analysis/main-callbacks-map.json",
+    "raw_rom_bytes_published": false
+  }
+}
