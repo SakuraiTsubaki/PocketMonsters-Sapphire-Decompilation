@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "AXPJ-rev0",
+    "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"
+  },
+  "function": "DoSoftReset",
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/thumb_cfg.py",
+    "minimum_commit": "0bf18299d057f76b801016390b3a57892c8a50df"
+  },
+  "outputs": [
+    {
+      "path": "src/do_soft_reset.c",
+      "sha256": "0310509c5e655981a6f5dc73361a1c21a15368701f92ebf2429051a25e1ff2d0"
+    },
+    {
+      "path": "analysis/sapphire-jp-do-soft-reset-cfg.json",
+      "sha256": "e4244da9b47a81ce95e73d95c8ca8a1d7dc64a97234599ac8b4faf83b43244af"
+    },
+    {
+      "path": "analysis/sapphire-jp-do-soft-reset-map.json",
+      "sha256": "3308d4744b0822e0535172487f0ea0e4acc5e0551702f8044704d9b1c661cbf5"
+    },
+    {
+      "path": "research/do-soft-reset-reconstruction.md",
+      "sha256": "e2fc278a70f302f4744c8c7e23b6931681f167293ff625107aed9e2b19b7b28d"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
+
