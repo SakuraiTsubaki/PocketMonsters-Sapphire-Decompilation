@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "AXPJ-rev0",
+    "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"
+  },
+  "function": "WaitForVBlank",
+  "outputs": [
+    {
+      "path": "src/wait_for_vblank.c",
+      "sha256": "1cc85e56156f3ca94491c60de604f0296d9d636ab9ced7cd19eea723e93f9799"
+    },
+    {
+      "path": "analysis/sapphire-jp-wait-for-vblank-cfg.json",
+      "sha256": "86bf822accb522bf9cad0bc5e7019c482ce87e8e2784d0c13f7fb20862efa4a3"
+    },
+    {
+      "path": "analysis/sapphire-jp-wait-for-vblank-map.json",
+      "sha256": "446db7cdceadc643e4e51a4cadff94bcc1f0a2677cc078f5474bf7da0ecda661"
+    },
+    {
+      "path": "research/wait-for-vblank-reconstruction.md",
+      "sha256": "cf1ce28c6677f224a634dfe83010a7146634ec033d57869528ccf379f5d86391"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
+

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "target": {"release": "AXPJ-rev0", "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"},
+  "source": "src/wait_for_vblank.c",
+  "function": {"name": "WaitForVBlank", "address": "0x08000698", "range_end_exclusive": "0x080006AE", "returns": true},
+  "rom_code_range": {"start_offset": 1688, "end_offset_exclusive": 1710, "sha256": "076c65a08d6e9fa750583ef083463513054660ce8142cb32c461e4009aa6d1f9", "raw_bytes_published": false},
+  "calls": [
+    {"address": "0x080006A6", "target": "0x081B125C", "name": "VBlankIntrWait"}
+  ],
+  "literal_addresses": {"gMain": "0x030016E0", "clear_mask": "0x080006B4"},
+  "proven_offsets": {"intrCheck": 28},
+  "behavior": {"clears_vblank_flag_before_wait": true, "wait_mode": "VBlankIntrWait call"},
+  "cfg": "analysis/sapphire-jp-wait-for-vblank-cfg.json",
+  "naming_basis": {"repository": "pret/pokeruby", "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f", "path": "src/main.c", "match_kind": "control flow, call target, literals and state access", "raw_rom_bytes_published": false}
+}
+
