@@ -1,0 +1,251 @@
+{
+  "schema_version": 1,
+  "rom_base": 134217728,
+  "start_offset": 327408,
+  "start_address": 134545136,
+  "scan_limit_address": 134545648,
+  "instruction_halfwords": 42,
+  "range_start": 134545136,
+  "range_end": 134545220,
+  "return_observed": true,
+  "instructions": [
+    {
+      "address": 134545136,
+      "kind": "other"
+    },
+    {
+      "address": 134545138,
+      "kind": "other"
+    },
+    {
+      "address": 134545140,
+      "kind": "other"
+    },
+    {
+      "address": 134545142,
+      "kind": "other"
+    },
+    {
+      "address": 134545144,
+      "kind": "conditional-branch",
+      "target": 134545216
+    },
+    {
+      "address": 134545146,
+      "kind": "other"
+    },
+    {
+      "address": 134545148,
+      "kind": "other"
+    },
+    {
+      "address": 134545150,
+      "kind": "other"
+    },
+    {
+      "address": 134545152,
+      "kind": "other"
+    },
+    {
+      "address": 134545154,
+      "kind": "other"
+    },
+    {
+      "address": 134545156,
+      "kind": "other"
+    },
+    {
+      "address": 134545158,
+      "kind": "other"
+    },
+    {
+      "address": 134545160,
+      "kind": "other"
+    },
+    {
+      "address": 134545162,
+      "kind": "conditional-branch",
+      "target": 134545216
+    },
+    {
+      "address": 134545164,
+      "kind": "other"
+    },
+    {
+      "address": 134545166,
+      "kind": "other"
+    },
+    {
+      "address": 134545168,
+      "kind": "other"
+    },
+    {
+      "address": 134545170,
+      "kind": "other"
+    },
+    {
+      "address": 134545172,
+      "kind": "other"
+    },
+    {
+      "address": 134545174,
+      "kind": "other"
+    },
+    {
+      "address": 134545176,
+      "kind": "other"
+    },
+    {
+      "address": 134545178,
+      "kind": "conditional-branch",
+      "target": 134545216
+    },
+    {
+      "address": 134545180,
+      "kind": "other"
+    },
+    {
+      "address": 134545182,
+      "kind": "other"
+    },
+    {
+      "address": 134545184,
+      "kind": "other"
+    },
+    {
+      "address": 134545186,
+      "kind": "other"
+    },
+    {
+      "address": 134545188,
+      "kind": "other"
+    },
+    {
+      "address": 134545190,
+      "kind": "other"
+    },
+    {
+      "address": 134545192,
+      "kind": "other"
+    },
+    {
+      "address": 134545194,
+      "kind": "conditional-branch",
+      "target": 134545216
+    },
+    {
+      "address": 134545196,
+      "kind": "other"
+    },
+    {
+      "address": 134545198,
+      "kind": "other"
+    },
+    {
+      "address": 134545200,
+      "kind": "other"
+    },
+    {
+      "address": 134545202,
+      "kind": "other"
+    },
+    {
+      "address": 134545204,
+      "kind": "other"
+    },
+    {
+      "address": 134545206,
+      "kind": "other"
+    },
+    {
+      "address": 134545208,
+      "kind": "other"
+    },
+    {
+      "address": 134545210,
+      "kind": "conditional-branch",
+      "target": 134545216
+    },
+    {
+      "address": 134545212,
+      "kind": "call",
+      "target": 134545232
+    },
+    {
+      "address": 134545214,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134545216,
+      "kind": "return-pop"
+    },
+    {
+      "address": 134545218,
+      "kind": "return-branch"
+    }
+  ],
+  "edges": [
+    {
+      "source": 134545144,
+      "target": 134545216,
+      "kind": "conditional-taken"
+    },
+    {
+      "source": 134545144,
+      "target": 134545146,
+      "kind": "conditional-fallthrough"
+    },
+    {
+      "source": 134545162,
+      "target": 134545216,
+      "kind": "conditional-taken"
+    },
+    {
+      "source": 134545162,
+      "target": 134545164,
+      "kind": "conditional-fallthrough"
+    },
+    {
+      "source": 134545178,
+      "target": 134545216,
+      "kind": "conditional-taken"
+    },
+    {
+      "source": 134545178,
+      "target": 134545180,
+      "kind": "conditional-fallthrough"
+    },
+    {
+      "source": 134545194,
+      "target": 134545216,
+      "kind": "conditional-taken"
+    },
+    {
+      "source": 134545194,
+      "target": 134545196,
+      "kind": "conditional-fallthrough"
+    },
+    {
+      "source": 134545210,
+      "target": 134545216,
+      "kind": "conditional-taken"
+    },
+    {
+      "source": 134545210,
+      "target": 134545212,
+      "kind": "conditional-fallthrough"
+    }
+  ],
+  "calls": [
+    {
+      "source": 134545212,
+      "target": 134545232
+    }
+  ],
+  "returns": [
+    134545218
+  ],
+  "source_size": 8388608,
+  "source_sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9",
+  "raw_halfwords_omitted": true
+}

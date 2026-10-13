@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "AXPJ-rev0",
+    "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"
+  },
+  "function": "PlayTimeCounter_Update",
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/thumb_cfg.py",
+    "minimum_commit": "4f687a912ecc40823a17a67fa885768cdca12e98"
+  },
+  "outputs": [
+    {
+      "path": "src/play_time_counter.c",
+      "sha256": "3fd4d703aa753778be3e2c28ba9d0338bbe01cbb6434721a29962c76e67d7048"
+    },
+    {
+      "path": "analysis/sapphire-jp-play-time-counter-update-cfg.json",
+      "sha256": "ff59cd90880058a712c65217cc66222116328c98e344b2f14fe2abc422289e0e"
+    },
+    {
+      "path": "analysis/sapphire-jp-play-time-counter-update-map.json",
+      "sha256": "bc35868740ae38f4fe45376c29c0db23492bd3d2ccf953548f20a9308d3cda8a"
+    },
+    {
+      "path": "research/play-time-counter-update-reconstruction.md",
+      "sha256": "60f0f3d72803bdac06784d540f709aaf5c534099e867c3f2d49214cf3c043cf0"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
+

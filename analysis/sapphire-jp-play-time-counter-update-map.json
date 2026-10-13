@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "AXPJ-rev0",
+    "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"
+  },
+  "source": "src/play_time_counter.c",
+  "source_sha256": "3fd4d703aa753778be3e2c28ba9d0338bbe01cbb6434721a29962c76e67d7048",
+  "function": {
+    "name": "PlayTimeCounter_Update",
+    "address": "0x0804FEF0",
+    "range_end_exclusive": "0x0804FF44",
+    "returns": true
+  },
+  "rom_code_range": {
+    "start_offset": 327408,
+    "end_offset_exclusive": 327492,
+    "length": 84,
+    "sha256": "d2123c06ebdd4894ff626eb8002e6f0fcd8dfd1412d4460ea920acdc7e5ca4cf",
+    "raw_bytes_published": false
+  },
+  "save_storage": "direct-gSaveBlock2",
+  "save_field_offsets": {
+    "playTimeHours": 14,
+    "playTimeMinutes": 16,
+    "playTimeSeconds": 17,
+    "playTimeVBlanks": 18
+  },
+  "calls": [
+    {
+      "address": "0x0804FF3C",
+      "target": "0x0804FF50",
+      "name": "PlayTimeCounter_SetToMax"
+    }
+  ],
+  "behavior": {
+    "required_state": 1,
+    "vblanks_per_second": 60,
+    "seconds_per_minute": 60,
+    "minutes_per_hour": 60,
+    "maximum_hours": 999
+  },
+  "cfg": "analysis/sapphire-jp-play-time-counter-update-cfg.json",
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "path": "src/play_time.c",
+    "match_kind": "nested counter thresholds, state gate, save offsets and direct call target",
+    "raw_rom_bytes_published": false
+  }
+}
+
