@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "AXPJ-rev0",
+    "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"
+  },
+  "function": "MapMusicMain",
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/thumb_cfg.py",
+    "minimum_commit": "4f687a912ecc40823a17a67fa885768cdca12e98"
+  },
+  "outputs": [
+    {
+      "path": "src/map_music_main.c",
+      "sha256": "e98a408ff7496f5419298bfc27ef9988e74c125d247267b48cd84b90f0b963f6"
+    },
+    {
+      "path": "analysis/sapphire-jp-map-music-main-cfg.json",
+      "sha256": "09b2e5c530b8d1c9f38fff8465f4afe1686944a51a5175304947bdfdb8960481"
+    },
+    {
+      "path": "analysis/sapphire-jp-map-music-main-map.json",
+      "sha256": "9391c654917218d1e18a27fa51c82a41c10c2e9e9d24fc5034fb9780d9b0edc9"
+    },
+    {
+      "path": "research/map-music-main-reconstruction.md",
+      "sha256": "6c5dd935bb314e84dd34a9eabf969ee4e9ad373c575f59ce513985473a6a5b14"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
+
