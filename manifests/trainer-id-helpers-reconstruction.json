@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "AXPJ-rev0",
+    "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"
+  },
+  "functions": [
+    "write_word_to_mem",
+    "copy_word_to_mem"
+  ],
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/trainer_id_evidence.py",
+    "tool_sha256": "0bf739244be88d5fd9b18ca8412a7bfacbdcaeeaff9f5db7612522b22324a9ad"
+  },
+  "outputs": [
+    {
+      "path": "src/trainer_id.c",
+      "sha256": "2370ec775e2129a8c5b48a74427e1e3727bb6a88860af6db5fbfc65d4baef097"
+    },
+    {
+      "path": "analysis/sapphire-jp-write-word-cfg.json",
+      "sha256": "886d9cef8a78da0988301103d526db98ab1d616ceef9798c489403608697defb"
+    },
+    {
+      "path": "analysis/sapphire-jp-copy-word-cfg.json",
+      "sha256": "0ca2fed707f5b65877d9fb241e4db8fe798e8c2896f12606db65e278d5fa0062"
+    },
+    {
+      "path": "analysis/sapphire-jp-trainer-id-helpers-map.json",
+      "sha256": "e653013040fee8acf02f6e0b1246b0381eb0916e6da95b5bbe2f4f05169d454e"
+    },
+    {
+      "path": "research/trainer-id-helpers-reconstruction.md",
+      "sha256": "ac213febfd1519aebe57b092312b033e060e8ec772a265f80d8c526f3b7567dc"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
