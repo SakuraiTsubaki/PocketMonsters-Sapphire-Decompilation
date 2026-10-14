@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "AXPJ-rev0",
+    "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"
+  },
+  "functions": [
+    "PlayTimeCounter_Reset",
+    "PlayTimeCounter_Start",
+    "PlayTimeCounter_Stop",
+    "PlayTimeCounter_SetToMax"
+  ],
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/play_time_controls.py",
+    "tool_sha256": "5227a1f41c4d086c105df68cc4256e327c984fc0bad4ace3f31e53e178f49913"
+  },
+  "outputs": [
+    {
+      "path": "src/play_time_counter.c",
+      "sha256": "2cfff7e16ebb07c522655d03bcee238c782952512677eab212fb0f6d8b223ef8"
+    },
+    {
+      "path": "analysis/sapphire-jp-play-time-counter-reset-cfg.json",
+      "sha256": "15ed498f66ba6a0a0ad80cc8d56b82d8ef2c9f2942be4cc9b3d66b615e0e50c3"
+    },
+    {
+      "path": "analysis/sapphire-jp-play-time-counter-start-cfg.json",
+      "sha256": "f1d08b9f63ef7e77a01d66f4d547e6d8ce68903641da2455738fcb0731789ff6"
+    },
+    {
+      "path": "analysis/sapphire-jp-play-time-counter-stop-cfg.json",
+      "sha256": "5d7ae68533973e2eb00feb24dd1f8500a8e91c51afd88b0a2d9bf8716c7840fa"
+    },
+    {
+      "path": "analysis/sapphire-jp-play-time-counter-set-to-max-cfg.json",
+      "sha256": "c2d69f486cf05645659b373764384151fb6db61c83fb8381cb8fb1bfc819aa70"
+    },
+    {
+      "path": "analysis/sapphire-jp-play-time-counter-controls-map.json",
+      "sha256": "e76735029ce98f2a36af3f9423f11ad34bf23c5b5f9c73b8d7263b586fff6bf1"
+    },
+    {
+      "path": "research/play-time-counter-controls-reconstruction.md",
+      "sha256": "00c642e330280e61f982079d396201523c8a617aadafe5ede82ab5d2af914c7f"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
