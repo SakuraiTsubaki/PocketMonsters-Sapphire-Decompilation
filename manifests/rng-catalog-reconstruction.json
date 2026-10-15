@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon Sapphire",
+  "release_count": 12,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/build_rng_catalog_evidence.py",
+    "tool_sha256": "72af44ce3a8ee14fc14808966b9e9059bd0b7dbc7db93fe58761265a9b0b8c46"
+  },
+  "outputs": [
+    {
+      "path": "src/random.c",
+      "sha256": "ff32746a1403605314d59ef105024de6ff2c3df224b977ca2db52470020af84b"
+    },
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "756bce70a62f6fc7c42934bf2163fd94d1fec4c648f0e3024ddef622ea101571"
+    },
+    {
+      "path": "analysis/sapphire-jp-rng-map.json",
+      "sha256": "582c411007c05149650197d8e7483c96240a26b4b8624664c424f621e53b1e2c"
+    },
+    {
+      "path": "analysis/sapphire-jp-random-cfg.json",
+      "sha256": "783aed18da6c5e1b09abb6f46460453577556fe7faf3b3b5e2bc15cfb9bbf43d"
+    },
+    {
+      "path": "analysis/sapphire-jp-seed-rng-cfg.json",
+      "sha256": "5271fbf51950912b93955829d1a812973b6d85b9ec933514147190f2a1811bd7"
+    },
+    {
+      "path": "analysis/axp-e-rev0-retail-rng-map.json",
+      "sha256": "f07e23d3233fa1ce812d4da41984457dad16fcc461d59a4fbcbe4919206dd935"
+    },
+    {
+      "path": "analysis/axp-e-rev0-retail-random-cfg.json",
+      "sha256": "20c7975f0966881cc61c51a2f4f6d97ac41f6b09e4857cc8af2327666584e589"
+    },
+    {
+      "path": "analysis/axp-e-rev0-retail-seed-rng-cfg.json",
+      "sha256": "377e2d7bfe0a8d621964641402d4d0bd252005d17d43ff358168a0a953db0f04"
+    },
+    {
+      "path": "analysis/axp-e-rev1-retail-rng-map.json",
+      "sha256": "3c3b8d9826162cadf04f70c887ad3f5ba3df18208e8ed7d0aa86ff807b682882"
+    },
+    {
+      "path": "analysis/axp-e-rev1-retail-random-cfg.json",
+      "sha256": "73c34e3034287d3241e29bcd3f412e35577195784210fb2e9a450954a99f38bb"
+    },
+    {
+      "path": "analysis/axp-e-rev1-retail-seed-rng-cfg.json",
+      "sha256": "85629d724e101ae8feb5977828e42ae0334ebd794c74d03d0810015516abd233"
+    },
+    {
+      "path": "analysis/axp-e-rev2-retail-rng-map.json",
+      "sha256": "89e054cb612902af68364b62bac6b0267f8ee056a4e40c3ae48bb6f65e2fadf8"
+    },
+    {
+      "path": "analysis/axp-e-rev2-retail-random-cfg.json",
+      "sha256": "04ac38f30e6037daf58e5a05c77d43eafd3d33e9d79aeb5867fd786a011ee683"
+    },
+    {
+      "path": "analysis/axp-e-rev2-retail-seed-rng-cfg.json",
+      "sha256": "aaa882ac554aeecd7a68483e180136a99c4239dde98d46b84627e5c9820bd75e"
+    },
+    {
+      "path": "analysis/axp-d-rev0-retail-rng-map.json",
+      "sha256": "637153fa34e9d8e9fe5457a3e98560bd6be6848535423374f34daaf8d8706109"
+    },
+    {
+      "path": "analysis/axp-d-rev0-retail-random-cfg.json",
+      "sha256": "fd5eff2755d66c5c427522088a6b2e41ae1c0c9dba28ffc880699e369275e4aa"
+    },
+    {
+      "path": "analysis/axp-d-rev0-retail-seed-rng-cfg.json",
+      "sha256": "0d6c4d97dcb8d16b4c11dd0bb9edbe47bc2c35c328932134e1435f17b79d7cd7"
+    },
+    {
+      "path": "analysis/axp-d-rev1-retail-rng-map.json",
+      "sha256": "5659f709a35c5d6d696a5411ad23315c3e3837d4ae322af51f072b63c9437ebd"
+    },
+    {
+      "path": "analysis/axp-d-rev1-retail-random-cfg.json",
+      "sha256": "c26f22b768ec83969496a426e2a412a47bf1d665bd913c12f85b1a8da788c49c"
+    },
+    {
+      "path": "analysis/axp-d-rev1-retail-seed-rng-cfg.json",
+      "sha256": "80ced5362a560aaff96a75e0c006ae505d94959b950e149d9ab03d1a275ee1ce"
+    },
+    {
+      "path": "analysis/axp-f-rev0-retail-rng-map.json",
+      "sha256": "ed5ab5027ce4e88cb507fbab1caa7b92f2c5752e25b08fa7cd71826fcd894ec1"
+    },
+    {
+      "path": "analysis/axp-f-rev0-retail-random-cfg.json",
+      "sha256": "021da669cbf3f6c0ec9245543a74cc3d9953abd577aab655a34ece5a2328b67c"
+    },
+    {
+      "path": "analysis/axp-f-rev0-retail-seed-rng-cfg.json",
+      "sha256": "4a87c2838d1d34840fe5c5b3330ef6cdb844bb926b463671121aa42014ab5208"
+    },
+    {
+      "path": "analysis/axp-f-rev1-retail-rng-map.json",
+      "sha256": "91ab7787014b10148a9ee0cd8f4ca57ab4ef6258f964180217fa94f93d815330"
+    },
+    {
+      "path": "analysis/axp-f-rev1-retail-random-cfg.json",
+      "sha256": "b367f3bf47d99f5cf608f8086a9985dc4e707ebf4c4f6809cc4738254652e541"
+    },
+    {
+      "path": "analysis/axp-f-rev1-retail-seed-rng-cfg.json",
+      "sha256": "5cc3932582795c33d8c8ede53d97b2e248576ada95c41dca60d3eebad8a2ea8d"
+    },
+    {
+      "path": "analysis/axp-i-rev0-retail-rng-map.json",
+      "sha256": "b1260096f2f95a1f1f2f1777e90dc5493485638a4f45f35868a53806585a7c53"
+    },
+    {
+      "path": "analysis/axp-i-rev0-retail-random-cfg.json",
+      "sha256": "a8fb94b1c5a35448944ed5f98404e7a0b8ecb6dd03c26d21e5121405d4132be9"
+    },
+    {
+      "path": "analysis/axp-i-rev0-retail-seed-rng-cfg.json",
+      "sha256": "56a19629d05149bc606b6c8d5cef01599f22f9484af996af8e5b8e316cf5e93c"
+    },
+    {
+      "path": "analysis/axp-i-rev1-retail-rng-map.json",
+      "sha256": "1a1e0cf57289d159110b7fe89548b737642cc8fdf0df7d0518ede294567f6dab"
+    },
+    {
+      "path": "analysis/axp-i-rev1-retail-random-cfg.json",
+      "sha256": "428b105461e3cc619660dab60c0b1d32acf62ca8149eaae976f9feb70f887a7f"
+    },
+    {
+      "path": "analysis/axp-i-rev1-retail-seed-rng-cfg.json",
+      "sha256": "fc8bea426122731cb0ccf2a180f202ee30f61f09f9ac04cf93e83a37c74458f0"
+    },
+    {
+      "path": "analysis/axp-s-rev0-retail-rng-map.json",
+      "sha256": "d3db8510d6e842d2875e8bfeddc5788eb188971bf91168c8f97fdfc0f5097da0"
+    },
+    {
+      "path": "analysis/axp-s-rev0-retail-random-cfg.json",
+      "sha256": "808b3952f4203f33ef0d639dd1a33088d6139a1e2e56cb9d337fdedc0ee17a1c"
+    },
+    {
+      "path": "analysis/axp-s-rev0-retail-seed-rng-cfg.json",
+      "sha256": "7a4bb7fb9d61f2fc849fe88511ae5000d0d915ecf74cd0ba75240296476ecfe2"
+    },
+    {
+      "path": "analysis/axp-s-rev1-retail-rng-map.json",
+      "sha256": "b5ff6aa2ff0b021931d61dc4a26e347b59651e2c67f8e2ff6a8bdc7771dc8006"
+    },
+    {
+      "path": "analysis/axp-s-rev1-retail-random-cfg.json",
+      "sha256": "48a5a254dd162d7f7eecb2d18eb9b5783e7f4b691db71040a03cf15617898628"
+    },
+    {
+      "path": "analysis/axp-s-rev1-retail-seed-rng-cfg.json",
+      "sha256": "b0fdc56bb3136cca54306d521d048f984470c288ab1cfb2ebded03e25e6dcce6"
+    },
+    {
+      "path": "analysis/rng-catalog-summary.json",
+      "sha256": "5edb4d9f7eb9aa0c82cd879d2d584d5d85904a5d54a0420201d2fc2750463047"
+    },
+    {
+      "path": "research/rng-catalog-reconstruction.md",
+      "sha256": "87d3afd72b1e67a3b226721dc4d5b868019700b5c773b5fddc15569094b1a943"
+    },
+    {
+      "path": "tests/test_rng_catalog_reconstruction.py",
+      "sha256": "ad6f4404753f8c10c098ba5a4af74ca81136bfda935f0bb46bb411e0c23c8598"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

@@ -1,0 +1,495 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon Sapphire",
+  "origin_reference": "Japanese",
+  "release_count": 12,
+  "releases": [
+    {
+      "id": "axp-j-rev0-retail",
+      "language": "Japanese",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9",
+      "origin_reference": true,
+      "evidence": {
+        "map": "analysis/sapphire-jp-rng-map.json",
+        "random_cfg": "analysis/sapphire-jp-random-cfg.json",
+        "seed_cfg": "analysis/sapphire-jp-seed-rng-cfg.json"
+      },
+      "functions": {
+        "Random": {
+          "address": "0x0803E130",
+          "range_end_exclusive": "0x0803E142",
+          "rom_code_range": {
+            "start_offset": 254256,
+            "end_offset_exclusive": 254274,
+            "length": 18,
+            "sha256": "72526af8af03e60317e6ac115ece4a9415af188772c5432ec1c145e0acaf09fb",
+            "raw_bytes_published": false
+          }
+        },
+        "SeedRng": {
+          "address": "0x0803E150",
+          "range_end_exclusive": "0x0803E15A",
+          "rom_code_range": {
+            "start_offset": 254288,
+            "end_offset_exclusive": 254298,
+            "length": 10,
+            "sha256": "77dddf4b6256d28fe54fe4fa7c41a15d549d1d3e086013e03c7919823fda7edb",
+            "raw_bytes_published": false
+          }
+        }
+      },
+      "globals": {
+        "gRngValue": "0x03004748"
+      }
+    },
+    {
+      "id": "axp-e-rev0-retail",
+      "language": "English",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "c36c1b899503e8823ee7eb607eea583adcef7ea92ff804838b193c227f2c6657",
+      "origin_reference": false,
+      "evidence": {
+        "map": "analysis/axp-e-rev0-retail-rng-map.json",
+        "random_cfg": "analysis/axp-e-rev0-retail-random-cfg.json",
+        "seed_cfg": "analysis/axp-e-rev0-retail-seed-rng-cfg.json"
+      },
+      "functions": {
+        "Random": {
+          "address": "0x08040E84",
+          "range_end_exclusive": "0x08040E96",
+          "rom_code_range": {
+            "start_offset": 265860,
+            "end_offset_exclusive": 265878,
+            "length": 18,
+            "sha256": "72526af8af03e60317e6ac115ece4a9415af188772c5432ec1c145e0acaf09fb",
+            "raw_bytes_published": false
+          }
+        },
+        "SeedRng": {
+          "address": "0x08040EA4",
+          "range_end_exclusive": "0x08040EAE",
+          "rom_code_range": {
+            "start_offset": 265892,
+            "end_offset_exclusive": 265902,
+            "length": 10,
+            "sha256": "77dddf4b6256d28fe54fe4fa7c41a15d549d1d3e086013e03c7919823fda7edb",
+            "raw_bytes_published": false
+          }
+        }
+      },
+      "globals": {
+        "gRngValue": "0x03004818"
+      }
+    },
+    {
+      "id": "axp-e-rev1-retail",
+      "language": "English",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "2f680a43e5c57aede4cb3b2cb04f7e15079efc122c88edaacfd6026db6e920ac",
+      "origin_reference": false,
+      "evidence": {
+        "map": "analysis/axp-e-rev1-retail-rng-map.json",
+        "random_cfg": "analysis/axp-e-rev1-retail-random-cfg.json",
+        "seed_cfg": "analysis/axp-e-rev1-retail-seed-rng-cfg.json"
+      },
+      "functions": {
+        "Random": {
+          "address": "0x08040EA4",
+          "range_end_exclusive": "0x08040EB6",
+          "rom_code_range": {
+            "start_offset": 265892,
+            "end_offset_exclusive": 265910,
+            "length": 18,
+            "sha256": "72526af8af03e60317e6ac115ece4a9415af188772c5432ec1c145e0acaf09fb",
+            "raw_bytes_published": false
+          }
+        },
+        "SeedRng": {
+          "address": "0x08040EC4",
+          "range_end_exclusive": "0x08040ECE",
+          "rom_code_range": {
+            "start_offset": 265924,
+            "end_offset_exclusive": 265934,
+            "length": 10,
+            "sha256": "77dddf4b6256d28fe54fe4fa7c41a15d549d1d3e086013e03c7919823fda7edb",
+            "raw_bytes_published": false
+          }
+        }
+      },
+      "globals": {
+        "gRngValue": "0x03004818"
+      }
+    },
+    {
+      "id": "axp-e-rev2-retail",
+      "language": "English",
+      "revision": 2,
+      "build_kind": "retail",
+      "sha256": "02ca41513580a8b780989dee428df747b52a0b1a55bec617886b4059eb1152fb",
+      "origin_reference": false,
+      "evidence": {
+        "map": "analysis/axp-e-rev2-retail-rng-map.json",
+        "random_cfg": "analysis/axp-e-rev2-retail-random-cfg.json",
+        "seed_cfg": "analysis/axp-e-rev2-retail-seed-rng-cfg.json"
+      },
+      "functions": {
+        "Random": {
+          "address": "0x08040EA4",
+          "range_end_exclusive": "0x08040EB6",
+          "rom_code_range": {
+            "start_offset": 265892,
+            "end_offset_exclusive": 265910,
+            "length": 18,
+            "sha256": "72526af8af03e60317e6ac115ece4a9415af188772c5432ec1c145e0acaf09fb",
+            "raw_bytes_published": false
+          }
+        },
+        "SeedRng": {
+          "address": "0x08040EC4",
+          "range_end_exclusive": "0x08040ECE",
+          "rom_code_range": {
+            "start_offset": 265924,
+            "end_offset_exclusive": 265934,
+            "length": 10,
+            "sha256": "77dddf4b6256d28fe54fe4fa7c41a15d549d1d3e086013e03c7919823fda7edb",
+            "raw_bytes_published": false
+          }
+        }
+      },
+      "globals": {
+        "gRngValue": "0x03004818"
+      }
+    },
+    {
+      "id": "axp-d-rev0-retail",
+      "language": "German",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "93273046f4a89990bfb162ce1c3661982e3d9e6b8e677b6b31c44353207ea13d",
+      "origin_reference": false,
+      "evidence": {
+        "map": "analysis/axp-d-rev0-retail-rng-map.json",
+        "random_cfg": "analysis/axp-d-rev0-retail-random-cfg.json",
+        "seed_cfg": "analysis/axp-d-rev0-retail-seed-rng-cfg.json"
+      },
+      "functions": {
+        "Random": {
+          "address": "0x080411A8",
+          "range_end_exclusive": "0x080411BA",
+          "rom_code_range": {
+            "start_offset": 266664,
+            "end_offset_exclusive": 266682,
+            "length": 18,
+            "sha256": "72526af8af03e60317e6ac115ece4a9415af188772c5432ec1c145e0acaf09fb",
+            "raw_bytes_published": false
+          }
+        },
+        "SeedRng": {
+          "address": "0x080411C8",
+          "range_end_exclusive": "0x080411D2",
+          "rom_code_range": {
+            "start_offset": 266696,
+            "end_offset_exclusive": 266706,
+            "length": 10,
+            "sha256": "77dddf4b6256d28fe54fe4fa7c41a15d549d1d3e086013e03c7919823fda7edb",
+            "raw_bytes_published": false
+          }
+        }
+      },
+      "globals": {
+        "gRngValue": "0x03004828"
+      }
+    },
+    {
+      "id": "axp-d-rev1-retail",
+      "language": "German",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "c27271a60fdeadc6eed957e0392e7d878998ae1765487bf7567fa9331e432ead",
+      "origin_reference": false,
+      "evidence": {
+        "map": "analysis/axp-d-rev1-retail-rng-map.json",
+        "random_cfg": "analysis/axp-d-rev1-retail-random-cfg.json",
+        "seed_cfg": "analysis/axp-d-rev1-retail-seed-rng-cfg.json"
+      },
+      "functions": {
+        "Random": {
+          "address": "0x080411A8",
+          "range_end_exclusive": "0x080411BA",
+          "rom_code_range": {
+            "start_offset": 266664,
+            "end_offset_exclusive": 266682,
+            "length": 18,
+            "sha256": "72526af8af03e60317e6ac115ece4a9415af188772c5432ec1c145e0acaf09fb",
+            "raw_bytes_published": false
+          }
+        },
+        "SeedRng": {
+          "address": "0x080411C8",
+          "range_end_exclusive": "0x080411D2",
+          "rom_code_range": {
+            "start_offset": 266696,
+            "end_offset_exclusive": 266706,
+            "length": 10,
+            "sha256": "77dddf4b6256d28fe54fe4fa7c41a15d549d1d3e086013e03c7919823fda7edb",
+            "raw_bytes_published": false
+          }
+        }
+      },
+      "globals": {
+        "gRngValue": "0x03004828"
+      }
+    },
+    {
+      "id": "axp-f-rev0-retail",
+      "language": "French",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "687dcb560ad4ecec719c9ee94b5a58bde3185d5afbceaf8560b6b907a493f92e",
+      "origin_reference": false,
+      "evidence": {
+        "map": "analysis/axp-f-rev0-retail-rng-map.json",
+        "random_cfg": "analysis/axp-f-rev0-retail-random-cfg.json",
+        "seed_cfg": "analysis/axp-f-rev0-retail-seed-rng-cfg.json"
+      },
+      "functions": {
+        "Random": {
+          "address": "0x08041294",
+          "range_end_exclusive": "0x080412A6",
+          "rom_code_range": {
+            "start_offset": 266900,
+            "end_offset_exclusive": 266918,
+            "length": 18,
+            "sha256": "72526af8af03e60317e6ac115ece4a9415af188772c5432ec1c145e0acaf09fb",
+            "raw_bytes_published": false
+          }
+        },
+        "SeedRng": {
+          "address": "0x080412B4",
+          "range_end_exclusive": "0x080412BE",
+          "rom_code_range": {
+            "start_offset": 266932,
+            "end_offset_exclusive": 266942,
+            "length": 10,
+            "sha256": "77dddf4b6256d28fe54fe4fa7c41a15d549d1d3e086013e03c7919823fda7edb",
+            "raw_bytes_published": false
+          }
+        }
+      },
+      "globals": {
+        "gRngValue": "0x03004828"
+      }
+    },
+    {
+      "id": "axp-f-rev1-retail",
+      "language": "French",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "476ef6e6534894d0646265a4db77fff84b10f04fde81f0730dd07b28f086fb04",
+      "origin_reference": false,
+      "evidence": {
+        "map": "analysis/axp-f-rev1-retail-rng-map.json",
+        "random_cfg": "analysis/axp-f-rev1-retail-random-cfg.json",
+        "seed_cfg": "analysis/axp-f-rev1-retail-seed-rng-cfg.json"
+      },
+      "functions": {
+        "Random": {
+          "address": "0x08041294",
+          "range_end_exclusive": "0x080412A6",
+          "rom_code_range": {
+            "start_offset": 266900,
+            "end_offset_exclusive": 266918,
+            "length": 18,
+            "sha256": "72526af8af03e60317e6ac115ece4a9415af188772c5432ec1c145e0acaf09fb",
+            "raw_bytes_published": false
+          }
+        },
+        "SeedRng": {
+          "address": "0x080412B4",
+          "range_end_exclusive": "0x080412BE",
+          "rom_code_range": {
+            "start_offset": 266932,
+            "end_offset_exclusive": 266942,
+            "length": 10,
+            "sha256": "77dddf4b6256d28fe54fe4fa7c41a15d549d1d3e086013e03c7919823fda7edb",
+            "raw_bytes_published": false
+          }
+        }
+      },
+      "globals": {
+        "gRngValue": "0x03004828"
+      }
+    },
+    {
+      "id": "axp-i-rev0-retail",
+      "language": "Italian",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "74795c4301e02121d2687e0d1b89335534dae1a18af72e022725589f28c97fe0",
+      "origin_reference": false,
+      "evidence": {
+        "map": "analysis/axp-i-rev0-retail-rng-map.json",
+        "random_cfg": "analysis/axp-i-rev0-retail-random-cfg.json",
+        "seed_cfg": "analysis/axp-i-rev0-retail-seed-rng-cfg.json"
+      },
+      "functions": {
+        "Random": {
+          "address": "0x080411BC",
+          "range_end_exclusive": "0x080411CE",
+          "rom_code_range": {
+            "start_offset": 266684,
+            "end_offset_exclusive": 266702,
+            "length": 18,
+            "sha256": "72526af8af03e60317e6ac115ece4a9415af188772c5432ec1c145e0acaf09fb",
+            "raw_bytes_published": false
+          }
+        },
+        "SeedRng": {
+          "address": "0x080411DC",
+          "range_end_exclusive": "0x080411E6",
+          "rom_code_range": {
+            "start_offset": 266716,
+            "end_offset_exclusive": 266726,
+            "length": 10,
+            "sha256": "77dddf4b6256d28fe54fe4fa7c41a15d549d1d3e086013e03c7919823fda7edb",
+            "raw_bytes_published": false
+          }
+        }
+      },
+      "globals": {
+        "gRngValue": "0x03004828"
+      }
+    },
+    {
+      "id": "axp-i-rev1-retail",
+      "language": "Italian",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "e2f75b0ce7c55d5cbe6ec23eee5f2806101a02a00a13b3c4fdfe7f7d3e8b6898",
+      "origin_reference": false,
+      "evidence": {
+        "map": "analysis/axp-i-rev1-retail-rng-map.json",
+        "random_cfg": "analysis/axp-i-rev1-retail-random-cfg.json",
+        "seed_cfg": "analysis/axp-i-rev1-retail-seed-rng-cfg.json"
+      },
+      "functions": {
+        "Random": {
+          "address": "0x080411BC",
+          "range_end_exclusive": "0x080411CE",
+          "rom_code_range": {
+            "start_offset": 266684,
+            "end_offset_exclusive": 266702,
+            "length": 18,
+            "sha256": "72526af8af03e60317e6ac115ece4a9415af188772c5432ec1c145e0acaf09fb",
+            "raw_bytes_published": false
+          }
+        },
+        "SeedRng": {
+          "address": "0x080411DC",
+          "range_end_exclusive": "0x080411E6",
+          "rom_code_range": {
+            "start_offset": 266716,
+            "end_offset_exclusive": 266726,
+            "length": 10,
+            "sha256": "77dddf4b6256d28fe54fe4fa7c41a15d549d1d3e086013e03c7919823fda7edb",
+            "raw_bytes_published": false
+          }
+        }
+      },
+      "globals": {
+        "gRngValue": "0x03004828"
+      }
+    },
+    {
+      "id": "axp-s-rev0-retail",
+      "language": "Spanish",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "23f26d9858944b86bab00019f3aee3b50ba8c5d100dba650177025078208aea9",
+      "origin_reference": false,
+      "evidence": {
+        "map": "analysis/axp-s-rev0-retail-rng-map.json",
+        "random_cfg": "analysis/axp-s-rev0-retail-random-cfg.json",
+        "seed_cfg": "analysis/axp-s-rev0-retail-seed-rng-cfg.json"
+      },
+      "functions": {
+        "Random": {
+          "address": "0x080412A4",
+          "range_end_exclusive": "0x080412B6",
+          "rom_code_range": {
+            "start_offset": 266916,
+            "end_offset_exclusive": 266934,
+            "length": 18,
+            "sha256": "72526af8af03e60317e6ac115ece4a9415af188772c5432ec1c145e0acaf09fb",
+            "raw_bytes_published": false
+          }
+        },
+        "SeedRng": {
+          "address": "0x080412C4",
+          "range_end_exclusive": "0x080412CE",
+          "rom_code_range": {
+            "start_offset": 266948,
+            "end_offset_exclusive": 266958,
+            "length": 10,
+            "sha256": "77dddf4b6256d28fe54fe4fa7c41a15d549d1d3e086013e03c7919823fda7edb",
+            "raw_bytes_published": false
+          }
+        }
+      },
+      "globals": {
+        "gRngValue": "0x03004828"
+      }
+    },
+    {
+      "id": "axp-s-rev1-retail",
+      "language": "Spanish",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "6b91637f07b902cfe7401eeb237ea44e13354ab5f5b487c9cf24ce3708385f6a",
+      "origin_reference": false,
+      "evidence": {
+        "map": "analysis/axp-s-rev1-retail-rng-map.json",
+        "random_cfg": "analysis/axp-s-rev1-retail-random-cfg.json",
+        "seed_cfg": "analysis/axp-s-rev1-retail-seed-rng-cfg.json"
+      },
+      "functions": {
+        "Random": {
+          "address": "0x080412A4",
+          "range_end_exclusive": "0x080412B6",
+          "rom_code_range": {
+            "start_offset": 266916,
+            "end_offset_exclusive": 266934,
+            "length": 18,
+            "sha256": "72526af8af03e60317e6ac115ece4a9415af188772c5432ec1c145e0acaf09fb",
+            "raw_bytes_published": false
+          }
+        },
+        "SeedRng": {
+          "address": "0x080412C4",
+          "range_end_exclusive": "0x080412CE",
+          "rom_code_range": {
+            "start_offset": 266948,
+            "end_offset_exclusive": 266958,
+            "length": 10,
+            "sha256": "77dddf4b6256d28fe54fe4fa7c41a15d549d1d3e086013e03c7919823fda7edb",
+            "raw_bytes_published": false
+          }
+        }
+      },
+      "globals": {
+        "gRngValue": "0x03004828"
+      }
+    }
+  ],
+  "algorithm": {
+    "state_bits": 32,
+    "multiplier": 1103515245,
+    "increment": 24691,
+    "return_bits": "state[31:16]"
+  },
+  "raw_rom_bytes_included": false
+}

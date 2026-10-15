@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "variant": "standard",
+  "algorithm": {
+    "state_bits": 32,
+    "multiplier": 1103515245,
+    "increment": 24691,
+    "return_bits": "state[31:16]"
+  },
+  "globals": {
+    "gRngValue": "0x03004828"
+  },
+  "functions": {
+    "Random": {
+      "address": "0x080412A4",
+      "range_end_exclusive": "0x080412B6",
+      "rom_code_range": {
+        "start_offset": 266916,
+        "end_offset_exclusive": 266934,
+        "length": 18,
+        "sha256": "72526af8af03e60317e6ac115ece4a9415af188772c5432ec1c145e0acaf09fb",
+        "raw_bytes_published": false
+      }
+    },
+    "SeedRng": {
+      "address": "0x080412C4",
+      "range_end_exclusive": "0x080412CE",
+      "rom_code_range": {
+        "start_offset": 266948,
+        "end_offset_exclusive": 266958,
+        "length": 10,
+        "sha256": "77dddf4b6256d28fe54fe4fa7c41a15d549d1d3e086013e03c7919823fda7edb",
+        "raw_bytes_published": false
+      }
+    }
+  },
+  "raw_rom_bytes_included": false,
+  "located_offsets": {
+    "Random": 266916,
+    "SeedRng": 266948
+  },
+  "target": {
+    "release": "axp-s-rev1-retail",
+    "sha256": "6b91637f07b902cfe7401eeb237ea44e13354ab5f5b487c9cf24ce3708385f6a"
+  },
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "path": "src/random.c",
+    "raw_rom_bytes_published": false
+  }
+}
