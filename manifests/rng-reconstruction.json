@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "AXPJ-rev0",
+    "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"
+  },
+  "functions": [
+    "Random",
+    "SeedRng"
+  ],
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/rng_evidence.py",
+    "tool_sha256": "d9f9b2fcb21f66910714eaf4cbe1aa36f6714ab11dd9c833926fa392a6cf2254"
+  },
+  "outputs": [
+    {
+      "path": "src/random.c",
+      "sha256": "ff32746a1403605314d59ef105024de6ff2c3df224b977ca2db52470020af84b"
+    },
+    {
+      "path": "analysis/sapphire-jp-random-cfg.json",
+      "sha256": "783aed18da6c5e1b09abb6f46460453577556fe7faf3b3b5e2bc15cfb9bbf43d"
+    },
+    {
+      "path": "analysis/sapphire-jp-seed-rng-cfg.json",
+      "sha256": "5271fbf51950912b93955829d1a812973b6d85b9ec933514147190f2a1811bd7"
+    },
+    {
+      "path": "analysis/sapphire-jp-rng-map.json",
+      "sha256": "582c411007c05149650197d8e7483c96240a26b4b8624664c424f621e53b1e2c"
+    },
+    {
+      "path": "research/rng-reconstruction.md",
+      "sha256": "9d70ba4785f90ed369e506d9922837abf04f0d462ea333777dd7aef6dace7505"
+    },
+    {
+      "path": "tests/test_rng_reconstruction.py",
+      "sha256": "210af42df3f7b854c7086afd7c56b281d9c97c20ada6d4083f7a3b4832efbbd8"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
