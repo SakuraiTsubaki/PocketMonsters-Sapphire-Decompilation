@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon Sapphire",
+  "origin_reference": "Japanese",
+  "release_count": 12,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/trainer_id_matrix_evidence.py",
+    "tool_sha256": "299f4bbf557afb9ff052ce1792eec0da4495f1738c7f8188e45ec25f119d5d7f"
+  },
+  "outputs": [
+    {
+      "path": "src/trainer_id.c",
+      "sha256": "2370ec775e2129a8c5b48a74427e1e3727bb6a88860af6db5fbfc65d4baef097"
+    },
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "756bce70a62f6fc7c42934bf2163fd94d1fec4c648f0e3024ddef622ea101571"
+    },
+    {
+      "path": "analysis/sapphire-jp-trainer-id-helpers-map.json",
+      "sha256": "e653013040fee8acf02f6e0b1246b0381eb0916e6da95b5bbe2f4f05169d454e"
+    },
+    {
+      "path": "analysis/sapphire-jp-write-word-cfg.json",
+      "sha256": "886d9cef8a78da0988301103d526db98ab1d616ceef9798c489403608697defb"
+    },
+    {
+      "path": "analysis/sapphire-jp-copy-word-cfg.json",
+      "sha256": "0ca2fed707f5b65877d9fb241e4db8fe798e8c2896f12606db65e278d5fa0062"
+    },
+    {
+      "path": "analysis/axp-e-rev0-retail-trainer-id-map.json",
+      "sha256": "db10a24b2c476f613f38455df9aafe86ebd26f7550d2e08be845de40c2951b0c"
+    },
+    {
+      "path": "analysis/axp-e-rev0-retail-write-word-cfg.json",
+      "sha256": "1baf71db6aede08d72042bfa40552f6d48fa54179c68e48bc4c7943d51d46f84"
+    },
+    {
+      "path": "analysis/axp-e-rev0-retail-copy-word-cfg.json",
+      "sha256": "4b34ead4abbb43961d50678adf4b9ab2a9eecc3fd0425abb213708833612156e"
+    },
+    {
+      "path": "analysis/axp-e-rev1-retail-trainer-id-map.json",
+      "sha256": "90b2e5d6a128cdb9a7f58f6d7dadcb601a107a7184fabf7058b6a81d30cd10b3"
+    },
+    {
+      "path": "analysis/axp-e-rev1-retail-write-word-cfg.json",
+      "sha256": "1dd287a50895365a785779cb832b80c9751025fcf019a13c8ca5268fab8d0fec"
+    },
+    {
+      "path": "analysis/axp-e-rev1-retail-copy-word-cfg.json",
+      "sha256": "411b724396b770678bb7fd22951d1518a7ff0920a5ef71eab105be0ee87194db"
+    },
+    {
+      "path": "analysis/axp-e-rev2-retail-trainer-id-map.json",
+      "sha256": "d4fa21372e4b183dfa5ae3e31231631d3cf22752b3c0721b2ecf6890a7ea6830"
+    },
+    {
+      "path": "analysis/axp-e-rev2-retail-write-word-cfg.json",
+      "sha256": "5371b8bc5810a111a50849d57cbc296f82990847d14ef570059e9ea6be9d62ce"
+    },
+    {
+      "path": "analysis/axp-e-rev2-retail-copy-word-cfg.json",
+      "sha256": "697a3d39c1eba75bfd242276d510b1eadca0617b17a542ea70b6424a34992cf9"
+    },
+    {
+      "path": "analysis/axp-d-rev0-retail-trainer-id-map.json",
+      "sha256": "b982e9aa4fe3d8219b6f2156e2f48c72cae9483a19e9ee60f7b7951eb7f6192d"
+    },
+    {
+      "path": "analysis/axp-d-rev0-retail-write-word-cfg.json",
+      "sha256": "f38c97753d5477b234c0b5a1a73bd93dd8d0300a1494dfaf9a9071c93a594884"
+    },
+    {
+      "path": "analysis/axp-d-rev0-retail-copy-word-cfg.json",
+      "sha256": "02008199b45315dcf3c3c24211201c387cadf7e91d7cd6e9ac765680005dc677"
+    },
+    {
+      "path": "analysis/axp-d-rev1-retail-trainer-id-map.json",
+      "sha256": "23cc5ee871775c862eedaca3157a86ad9438d17d65e75e6e7633d6b00fca78cd"
+    },
+    {
+      "path": "analysis/axp-d-rev1-retail-write-word-cfg.json",
+      "sha256": "84ca254afa7426fcdfcaff43737b04205bd4e5be31c19bffb7fe66ee90ff8781"
+    },
+    {
+      "path": "analysis/axp-d-rev1-retail-copy-word-cfg.json",
+      "sha256": "82ebbf971b39f56fb556740d96e53341e9f66e1e1c4849021024d436c1128be0"
+    },
+    {
+      "path": "analysis/axp-f-rev0-retail-trainer-id-map.json",
+      "sha256": "8d351ba241aab7cf6c986b452e51c0e4ef11b7fdd3a292eacfc22054b6e95615"
+    },
+    {
+      "path": "analysis/axp-f-rev0-retail-write-word-cfg.json",
+      "sha256": "79dbee361ee2651a87914951b6438377871bfff18985718ed5c6bfedb0635792"
+    },
+    {
+      "path": "analysis/axp-f-rev0-retail-copy-word-cfg.json",
+      "sha256": "f04b77817a7a65995907942c4ee3bf6ce60be6d32cf6d099830e92ceeab633f1"
+    },
+    {
+      "path": "analysis/axp-f-rev1-retail-trainer-id-map.json",
+      "sha256": "250118c89e203e2acee2b9942aa0148b22b830e2fb977bc87cbeed8fc094f1e1"
+    },
+    {
+      "path": "analysis/axp-f-rev1-retail-write-word-cfg.json",
+      "sha256": "81ab6242234df8e624c1a7bd431e31929d9702aa024531ed777c1fe4239ab4fa"
+    },
+    {
+      "path": "analysis/axp-f-rev1-retail-copy-word-cfg.json",
+      "sha256": "fe75bcd969ac5f0415fbf09b523b8fde01828d20670f68e6e95049f07485e69e"
+    },
+    {
+      "path": "analysis/axp-i-rev0-retail-trainer-id-map.json",
+      "sha256": "d6fa0ad710063ed44d788e3600541db8ab0105fbc13eca6652f03c95a7aade3d"
+    },
+    {
+      "path": "analysis/axp-i-rev0-retail-write-word-cfg.json",
+      "sha256": "76f3d5e3f54763422fbe3bece91dc716b6469354f15ec848834fe9fda5c668fd"
+    },
+    {
+      "path": "analysis/axp-i-rev0-retail-copy-word-cfg.json",
+      "sha256": "fcc4b7e1bffd548a97586e80ca78de6a80ed75dc08bf6e61d7a2638642e8bd51"
+    },
+    {
+      "path": "analysis/axp-i-rev1-retail-trainer-id-map.json",
+      "sha256": "aaad215fc14d4e246b677302ef18b4d0c31529d90d4c43f2a0b356593077f8ec"
+    },
+    {
+      "path": "analysis/axp-i-rev1-retail-write-word-cfg.json",
+      "sha256": "8e2cb8350402810106238f062242d4e0e39fa79d99f66326f889075335c85e98"
+    },
+    {
+      "path": "analysis/axp-i-rev1-retail-copy-word-cfg.json",
+      "sha256": "4683b2d410d2ca0d038a21d316bc0ac95724e2d5a4f51f226be00e4db8c39860"
+    },
+    {
+      "path": "analysis/axp-s-rev0-retail-trainer-id-map.json",
+      "sha256": "790f1d3d3462822d2dff2bb96e7808d816a142b4976d3d1feffb5a276b923d0d"
+    },
+    {
+      "path": "analysis/axp-s-rev0-retail-write-word-cfg.json",
+      "sha256": "13725052474b3a6e7db1c03621d5008fd29c3a4966505baf6ab4831e4de4fdf6"
+    },
+    {
+      "path": "analysis/axp-s-rev0-retail-copy-word-cfg.json",
+      "sha256": "5d87a030788c36805e62cfbc397d529c8f7b9e210897d27962c745aeac0a8f3c"
+    },
+    {
+      "path": "analysis/axp-s-rev1-retail-trainer-id-map.json",
+      "sha256": "1c5116fbb74eafe83cde6ba07fd6a48a3fc88d285e08407a1ce4a65f8de478fe"
+    },
+    {
+      "path": "analysis/axp-s-rev1-retail-write-word-cfg.json",
+      "sha256": "588a2475d7435dd747375bea1cf6ea7f24e22e9e78a45659965e097ce83b270c"
+    },
+    {
+      "path": "analysis/axp-s-rev1-retail-copy-word-cfg.json",
+      "sha256": "328f0a3328e3923839cd9135dc8a382ed4366fc99ea856cb2e6c5fe569d56989"
+    },
+    {
+      "path": "analysis/trainer-id-catalog-summary.json",
+      "sha256": "48476bf615579b1a4f5416dd68ae1911ca21ff4e2db2c3344a37398f9c477945"
+    },
+    {
+      "path": "research/trainer-id-catalog-reconstruction.md",
+      "sha256": "adec7ce1fd272ce9240b71498c34dcf5235f22d5a431564aba825163c87d87e2"
+    },
+    {
+      "path": "tests/test_trainer_id_catalog_reconstruction.py",
+      "sha256": "65c7c43c62854c9a556504738991297c8b15c0611202ca8dce08e3dd6305a8bc"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
