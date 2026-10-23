@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "axp-j-rev0-retail",
+    "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"
+  },
+  "source": "src/main_callbacks.c",
+  "source_sha256": "9d783052a0efb72cef16446aebdfef0de9011781be8cf27dd54b674edad552a2",
+  "function": {
+    "name": "SetMainCallback2",
+    "address": "0x080003D4",
+    "range_end_exclusive": "0x080003E4",
+    "compiler_variant": "inline-state-offset",
+    "rom_code_range": {
+      "start_offset": 980,
+      "end_offset_exclusive": 996,
+      "length": 16,
+      "sha256": "ec1b3773f6d0521e06945a26db83b027eace56daaea78238830954d96f966c2e",
+      "raw_bytes_published": false
+    },
+    "cfg": "analysis/axp-j-rev0-retail-set-main-callback2-cfg.json"
+  },
+  "state": {
+    "gMain": "0x030016E0",
+    "callback2_offset": 4,
+    "state_offset": 1080,
+    "state_value": 0
+  },
+  "behavior": [
+    "store callback argument in gMain.callback2",
+    "clear gMain.state",
+    "return without calls"
+  ],
+  "origin_reference": true,
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "path": "src/main.c",
+    "match_kind": "Thumb data-access and leaf-control-flow equivalence",
+    "raw_rom_bytes_published": false
+  },
+  "raw_rom_bytes_included": false
+}
