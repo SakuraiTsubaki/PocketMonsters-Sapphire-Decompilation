@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "axp-j-rev0-retail",
+    "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"
+  },
+  "source": "src/wait_for_vblank.c",
+  "source_sha256": "1cc85e56156f3ca94491c60de604f0296d9d636ab9ced7cd19eea723e93f9799",
+  "function": {
+    "name": "WaitForVBlank",
+    "address": "0x08000698",
+    "range_end_exclusive": "0x080006AE",
+    "rom_code_range": {
+      "start_offset": 1688,
+      "end_offset_exclusive": 1710,
+      "length": 22,
+      "sha256": "076c65a08d6e9fa750583ef083463513054660ce8142cb32c461e4009aa6d1f9",
+      "raw_bytes_published": false
+    },
+    "cfg": "analysis/axp-j-rev0-retail-wait-for-vblank-cfg.json"
+  },
+  "literal_addresses": {
+    "gMain": "0x030016E0",
+    "gMain_pointer": "0x080006B0",
+    "clear_mask": "0x080006B4"
+  },
+  "state": {
+    "intrCheck_offset": 28,
+    "cleared_mask": 1
+  },
+  "wait": {
+    "mode": "bios-call",
+    "call": {
+      "name": "VBlankIntrWait",
+      "target": "0x081B125C"
+    }
+  },
+  "origin_reference": true,
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "path": "src/main.c",
+    "match_kind": "Thumb data access, control flow, literals, and wait behavior",
+    "raw_rom_bytes_published": false
+  },
+  "raw_rom_bytes_included": false
+}

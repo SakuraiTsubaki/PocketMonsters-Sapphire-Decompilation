@@ -16,7 +16,7 @@
     },
     {
       "path": "analysis/sapphire-jp-wait-for-vblank-map.json",
-      "sha256": "446db7cdceadc643e4e51a4cadff94bcc1f0a2677cc078f5474bf7da0ecda661"
+      "sha256": "9bd795f138b3b205287d99d20a3cb0c87817bcc9fb61471028175d603fe8f8a3"
     },
     {
       "path": "research/wait-for-vblank-reconstruction.md",
@@ -25,4 +25,3 @@
   ],
   "raw_rom_bytes_included": false
 }
-

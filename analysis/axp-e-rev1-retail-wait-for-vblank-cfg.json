@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "rom_base": 134217728,
+  "start_offset": 1684,
+  "start_address": 134219412,
+  "scan_limit_address": 134219434,
+  "instruction_halfwords": 11,
+  "range_start": 134219412,
+  "range_end": 134219434,
+  "return_observed": true,
+  "instructions": [
+    {
+      "address": 134219412,
+      "kind": "other"
+    },
+    {
+      "address": 134219414,
+      "kind": "other"
+    },
+    {
+      "address": 134219416,
+      "kind": "other"
+    },
+    {
+      "address": 134219418,
+      "kind": "other"
+    },
+    {
+      "address": 134219420,
+      "kind": "other"
+    },
+    {
+      "address": 134219422,
+      "kind": "other"
+    },
+    {
+      "address": 134219424,
+      "kind": "other"
+    },
+    {
+      "address": 134219426,
+      "kind": "call",
+      "target": 136185804
+    },
+    {
+      "address": 134219428,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134219430,
+      "kind": "return-pop"
+    },
+    {
+      "address": 134219432,
+      "kind": "return-branch"
+    }
+  ],
+  "edges": [],
+  "calls": [
+    {
+      "source": 134219426,
+      "target": 136185804
+    }
+  ],
+  "returns": [
+    134219432
+  ],
+  "raw_halfwords_omitted": true,
+  "source_size": 16777216,
+  "source_sha256": "2f680a43e5c57aede4cb3b2cb04f7e15079efc122c88edaacfd6026db6e920ac"
+}
