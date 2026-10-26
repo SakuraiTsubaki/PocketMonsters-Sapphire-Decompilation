@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "axp-i-rev0-retail",
+    "sha256": "74795c4301e02121d2687e0d1b89335534dae1a18af72e022725589f28c97fe0"
+  },
+  "profile": "direct",
+  "source": "src/play_time_counter.c",
+  "source_sha256": "2640ff16cb8a4abd46533bb5f208f445651c4deceb293ec6a80560027dfd7c29",
+  "save_storage": "direct-gSaveBlock2",
+  "literal_addresses": {
+    "sPlayTimeCounterState": "0x0300057C",
+    "gSaveBlock2": "0x02024EA4"
+  },
+  "save_field_offsets": {
+    "playTimeHours": 14,
+    "playTimeMinutes": 16,
+    "playTimeSeconds": 17,
+    "playTimeVBlanks": 18
+  },
+  "origin_reference": false,
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "path": "src/play_time.c",
+    "match_kind": "cluster layout, state writes, save offsets, thresholds, CFGs, and SetToMax call targets",
+    "raw_rom_bytes_published": false
+  },
+  "raw_rom_bytes_included": false,
+  "function": {
+    "name": "PlayTimeCounter_Update",
+    "address": "0x08052FD0",
+    "range_end_exclusive": "0x08053024",
+    "rom_code_range": {
+      "start_offset": 339920,
+      "end_offset_exclusive": 340004,
+      "length": 84,
+      "sha256": "d2123c06ebdd4894ff626eb8002e6f0fcd8dfd1412d4460ea920acdc7e5ca4cf",
+      "raw_bytes_published": false
+    },
+    "calls": [
+      {
+        "source": "0x0805301C",
+        "target": "0x08053030",
+        "name": "PlayTimeCounter_SetToMax"
+      }
+    ],
+    "control_flow": {
+      "instruction_halfwords": 42,
+      "edge_count": 10,
+      "return_count": 1,
+      "call_count": 1,
+      "raw_halfwords_omitted": true
+    }
+  },
+  "behavior": {
+    "required_state": 1,
+    "vblanks_per_second": 60,
+    "seconds_per_minute": 60,
+    "minutes_per_hour": 60,
+    "maximum_hours": 999
+  }
+}

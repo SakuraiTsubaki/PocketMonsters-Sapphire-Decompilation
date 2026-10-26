@@ -1,48 +1,88 @@
 {
   "schema_version": 1,
-  "target": {
-    "release": "AXPJ-rev0",
-    "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"
-  },
+  "game": "Sapphire",
+  "profile": "direct",
   "functions": [
     "PlayTimeCounter_Reset",
     "PlayTimeCounter_Start",
     "PlayTimeCounter_Stop",
     "PlayTimeCounter_SetToMax"
   ],
+  "origin_reference": "axp-j-rev0-retail",
+  "release_count": 12,
   "generator": {
     "repository": "SakuraiTsubaki/Decompilation",
     "tool": "tools/play_time_controls.py",
-    "tool_sha256": "5227a1f41c4d086c105df68cc4256e327c984fc0bad4ace3f31e53e178f49913"
+    "tool_sha256": "eeec1d00650aa767a88e199c47b3700d54d8aad67874b16ce9e32e9754d924dd"
   },
   "outputs": [
     {
       "path": "src/play_time_counter.c",
-      "sha256": "2cfff7e16ebb07c522655d03bcee238c782952512677eab212fb0f6d8b223ef8"
+      "sha256": "2640ff16cb8a4abd46533bb5f208f445651c4deceb293ec6a80560027dfd7c29"
     },
     {
-      "path": "analysis/sapphire-jp-play-time-counter-reset-cfg.json",
-      "sha256": "15ed498f66ba6a0a0ad80cc8d56b82d8ef2c9f2942be4cc9b3d66b615e0e50c3"
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "756bce70a62f6fc7c42934bf2163fd94d1fec4c648f0e3024ddef622ea101571"
     },
     {
-      "path": "analysis/sapphire-jp-play-time-counter-start-cfg.json",
-      "sha256": "f1d08b9f63ef7e77a01d66f4d547e6d8ce68903641da2455738fcb0731789ff6"
+      "path": "analysis/play-time-counter-summary.json",
+      "sha256": "e963704187c74c954c5f833a23b770a4f084457b9356af703cf5f3b4d8d7c50a"
     },
     {
-      "path": "analysis/sapphire-jp-play-time-counter-stop-cfg.json",
-      "sha256": "5d7ae68533973e2eb00feb24dd1f8500a8e91c51afd88b0a2d9bf8716c7840fa"
+      "path": "analysis/axp-j-rev0-retail-play-time-counter-controls-map.json",
+      "sha256": "cdd2dbdaef7c41576ccc34d004149c6036ba3b7194d404b3ab048e1658b2eb1b"
     },
     {
-      "path": "analysis/sapphire-jp-play-time-counter-set-to-max-cfg.json",
-      "sha256": "c2d69f486cf05645659b373764384151fb6db61c83fb8381cb8fb1bfc819aa70"
+      "path": "analysis/axp-e-rev0-retail-play-time-counter-controls-map.json",
+      "sha256": "e015536d49746c781dee830faf81f372b7ec7a13cdfc0bddda8d3bafc7158f45"
     },
     {
-      "path": "analysis/sapphire-jp-play-time-counter-controls-map.json",
-      "sha256": "e76735029ce98f2a36af3f9423f11ad34bf23c5b5f9c73b8d7263b586fff6bf1"
+      "path": "analysis/axp-e-rev1-retail-play-time-counter-controls-map.json",
+      "sha256": "b26434ee61eeef7a32f6a77ba2ae58b3f7879c463cd77dac2220c2eb5b5e3755"
+    },
+    {
+      "path": "analysis/axp-e-rev2-retail-play-time-counter-controls-map.json",
+      "sha256": "ca25286935b93c0ec30268ccce0e83a7759449ee3033f0d82ae283725ed46334"
+    },
+    {
+      "path": "analysis/axp-d-rev0-retail-play-time-counter-controls-map.json",
+      "sha256": "d0f98cde6074cd16d8c56904df6a578c368dd4b787a446a3d0b237c5b2873c73"
+    },
+    {
+      "path": "analysis/axp-d-rev1-retail-play-time-counter-controls-map.json",
+      "sha256": "4d49d472d18018904fa2aa34a7b00ed59d2dbaabf883340b214d7b03b597a6f6"
+    },
+    {
+      "path": "analysis/axp-f-rev0-retail-play-time-counter-controls-map.json",
+      "sha256": "1c4bc237d436feb83f8ddb48afd6a204fec9c0386b007d02d29376c46dd941ea"
+    },
+    {
+      "path": "analysis/axp-f-rev1-retail-play-time-counter-controls-map.json",
+      "sha256": "1e43dd866967b8c643633313f11e734290004c1bcd5ce27acc04ad57e4732d5f"
+    },
+    {
+      "path": "analysis/axp-i-rev0-retail-play-time-counter-controls-map.json",
+      "sha256": "cfe163e1e820d06529a07ce65b6cfb3afbca38321ac9954b6b3d5ee60cec3f18"
+    },
+    {
+      "path": "analysis/axp-i-rev1-retail-play-time-counter-controls-map.json",
+      "sha256": "1b39806afb7ab4a372323b2fd3c06dc2f82579861bbf26ed7158d33efd3c43e7"
+    },
+    {
+      "path": "analysis/axp-s-rev0-retail-play-time-counter-controls-map.json",
+      "sha256": "3731bc6dcaae153ee9f0f93fff3d7df1929b7ab6fbb3159baa1b883b6459ad4c"
+    },
+    {
+      "path": "analysis/axp-s-rev1-retail-play-time-counter-controls-map.json",
+      "sha256": "3a0909a7f0b2bcdd2efb9e5422f4877ac26cd2a0bbe94d710ac76cb618a1fff1"
     },
     {
       "path": "research/play-time-counter-controls-reconstruction.md",
-      "sha256": "00c642e330280e61f982079d396201523c8a617aadafe5ede82ab5d2af914c7f"
+      "sha256": "6f2ce8b915479f879b460131ce19d5b96e4e5c12f29da62f12f29737647b35bc"
+    },
+    {
+      "path": "tests/test_play_time_counter_controls_reconstruction.py",
+      "sha256": "bb2ffa3ae707c5350e78ddcb34697a5f387cee4013fb2c676e06017ce1d327f9"
     }
   ],
   "raw_rom_bytes_included": false

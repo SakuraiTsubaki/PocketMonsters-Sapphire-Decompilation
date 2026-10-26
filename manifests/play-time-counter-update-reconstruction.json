@@ -1,31 +1,83 @@
 {
   "schema_version": 1,
-  "target": {
-    "release": "AXPJ-rev0",
-    "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"
-  },
+  "game": "Sapphire",
+  "profile": "direct",
   "function": "PlayTimeCounter_Update",
+  "origin_reference": "axp-j-rev0-retail",
+  "release_count": 12,
   "generator": {
     "repository": "SakuraiTsubaki/Decompilation",
-    "tool": "tools/thumb_cfg.py",
-    "minimum_commit": "4f687a912ecc40823a17a67fa885768cdca12e98"
+    "tool": "tools/play_time_controls.py",
+    "tool_sha256": "eeec1d00650aa767a88e199c47b3700d54d8aad67874b16ce9e32e9754d924dd"
   },
   "outputs": [
     {
       "path": "src/play_time_counter.c",
-      "sha256": "2cfff7e16ebb07c522655d03bcee238c782952512677eab212fb0f6d8b223ef8"
+      "sha256": "2640ff16cb8a4abd46533bb5f208f445651c4deceb293ec6a80560027dfd7c29"
     },
     {
-      "path": "analysis/sapphire-jp-play-time-counter-update-cfg.json",
-      "sha256": "ff59cd90880058a712c65217cc66222116328c98e344b2f14fe2abc422289e0e"
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "756bce70a62f6fc7c42934bf2163fd94d1fec4c648f0e3024ddef622ea101571"
     },
     {
-      "path": "analysis/sapphire-jp-play-time-counter-update-map.json",
-      "sha256": "645679aeefc7c2b79ef55205f7f3b8304e06be368794b421b29244669d8712b8"
+      "path": "analysis/play-time-counter-summary.json",
+      "sha256": "e963704187c74c954c5f833a23b770a4f084457b9356af703cf5f3b4d8d7c50a"
+    },
+    {
+      "path": "analysis/axp-j-rev0-retail-play-time-counter-update-map.json",
+      "sha256": "dbc9765545384dbea2660f61345b75925d2ce1674e602380b9e25224ce9b87fa"
+    },
+    {
+      "path": "analysis/axp-e-rev0-retail-play-time-counter-update-map.json",
+      "sha256": "f63384d3e2ec282bc6de1f5802e7a6f587026a4163a8f114a35982744cafd09f"
+    },
+    {
+      "path": "analysis/axp-e-rev1-retail-play-time-counter-update-map.json",
+      "sha256": "9393bc2d7e735f3263c21cf986c57727eee9f1b3db91dfb6046c682bdd6a285a"
+    },
+    {
+      "path": "analysis/axp-e-rev2-retail-play-time-counter-update-map.json",
+      "sha256": "54fd9af4e1aa85ee57b1f00898ef5226f400e279d00bef6205e5cde1b6fd6835"
+    },
+    {
+      "path": "analysis/axp-d-rev0-retail-play-time-counter-update-map.json",
+      "sha256": "971bcc11e2dffaf17b15fb6dfcfb5edfc19c513137a9e6f19fcc6fd5e506d237"
+    },
+    {
+      "path": "analysis/axp-d-rev1-retail-play-time-counter-update-map.json",
+      "sha256": "3ae5c14a9c109a103997ec654c95042f7411fcad1e8a7f7ea4020adfc1bbe724"
+    },
+    {
+      "path": "analysis/axp-f-rev0-retail-play-time-counter-update-map.json",
+      "sha256": "b2eacf2d4791f8c9797800283b005fa9fa8f62b01528d6fd246487deb7e47c60"
+    },
+    {
+      "path": "analysis/axp-f-rev1-retail-play-time-counter-update-map.json",
+      "sha256": "ec95382506fca4749408defaa2a0006c89d62f3c54593ebd76348fb84b763490"
+    },
+    {
+      "path": "analysis/axp-i-rev0-retail-play-time-counter-update-map.json",
+      "sha256": "a4b67a69f5b042414a52a0e1e4794e45837cb79b3de39d78f3611fb382961be8"
+    },
+    {
+      "path": "analysis/axp-i-rev1-retail-play-time-counter-update-map.json",
+      "sha256": "0264c3a4519caebd5439e1a9dbea5baf696736b86a0783d320aab6c044c94167"
+    },
+    {
+      "path": "analysis/axp-s-rev0-retail-play-time-counter-update-map.json",
+      "sha256": "84b7b1f3f0e1f12afca1618b371facfeccf3c96faeb162a3e8492e3740f439e6"
+    },
+    {
+      "path": "analysis/axp-s-rev1-retail-play-time-counter-update-map.json",
+      "sha256": "8417e1914a221cf48af2340f8b8d68254af4060eab327403f62ef10bdc6dc52a"
     },
     {
       "path": "research/play-time-counter-update-reconstruction.md",
-      "sha256": "60f0f3d72803bdac06784d540f709aaf5c534099e867c3f2d49214cf3c043cf0"
+      "sha256": "20435c87b086692c4d9972cad6ac9c52d6f64589b3cc1b1c494940bb348546bd"
+    },
+    {
+      "path": "tests/test_play_time_counter_update_reconstruction.py",
+      "sha256": "1ec060c1867c283629919095058eba7afb13b606868ec57295424ca880124625"
     }
   ],
   "raw_rom_bytes_included": false

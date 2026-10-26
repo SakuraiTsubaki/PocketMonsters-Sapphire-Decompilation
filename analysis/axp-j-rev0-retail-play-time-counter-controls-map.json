@@ -1,18 +1,32 @@
 {
   "schema_version": 1,
   "target": {
-    "release": "AXPJ-rev0",
+    "release": "axp-j-rev0-retail",
     "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"
   },
+  "profile": "direct",
   "source": "src/play_time_counter.c",
-  "source_sha256": "2cfff7e16ebb07c522655d03bcee238c782952512677eab212fb0f6d8b223ef8",
+  "source_sha256": "2640ff16cb8a4abd46533bb5f208f445651c4deceb293ec6a80560027dfd7c29",
   "save_storage": "direct-gSaveBlock2",
+  "literal_addresses": {
+    "sPlayTimeCounterState": "0x030004E4",
+    "gSaveBlock2": "0x02024C04"
+  },
   "save_field_offsets": {
     "playTimeHours": 14,
     "playTimeMinutes": 16,
     "playTimeSeconds": 17,
     "playTimeVBlanks": 18
   },
+  "origin_reference": true,
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "path": "src/play_time.c",
+    "match_kind": "cluster layout, state writes, save offsets, thresholds, CFGs, and SetToMax call targets",
+    "raw_rom_bytes_published": false
+  },
+  "raw_rom_bytes_included": false,
   "functions": [
     {
       "name": "PlayTimeCounter_Reset",
@@ -25,10 +39,14 @@
         "sha256": "e44a0ece72a9a69ff423028e141af0efb7d82d53044888da1ac471b1b5c53781",
         "raw_bytes_published": false
       },
-      "cfg": "analysis/sapphire-jp-play-time-counter-reset-cfg.json",
-      "edge_count": 0,
-      "return_count": 1,
-      "calls": []
+      "calls": [],
+      "control_flow": {
+        "instruction_halfwords": 11,
+        "edge_count": 0,
+        "return_count": 1,
+        "call_count": 0,
+        "raw_halfwords_omitted": true
+      }
     },
     {
       "name": "PlayTimeCounter_Start",
@@ -41,15 +59,20 @@
         "sha256": "202148e4d04e48f8ed95bffbdb66f2e77211e26651ece55fd2ff39db9ecb2ffe",
         "raw_bytes_published": false
       },
-      "cfg": "analysis/sapphire-jp-play-time-counter-start-cfg.json",
-      "edge_count": 2,
-      "return_count": 1,
       "calls": [
         {
-          "address": "0x0804FECE",
-          "target": "0x0804FF50"
+          "source": "0x0804FECE",
+          "target": "0x0804FF50",
+          "name": "PlayTimeCounter_SetToMax"
         }
-      ]
+      ],
+      "control_flow": {
+        "instruction_halfwords": 13,
+        "edge_count": 2,
+        "return_count": 1,
+        "call_count": 1,
+        "raw_halfwords_omitted": true
+      }
     },
     {
       "name": "PlayTimeCounter_Stop",
@@ -62,10 +85,14 @@
         "sha256": "af63598031ab14af781d7cf7af24c648b7677228730b316da86ab311a3171699",
         "raw_bytes_published": false
       },
-      "cfg": "analysis/sapphire-jp-play-time-counter-stop-cfg.json",
-      "edge_count": 0,
-      "return_count": 1,
-      "calls": []
+      "calls": [],
+      "control_flow": {
+        "instruction_halfwords": 4,
+        "edge_count": 0,
+        "return_count": 1,
+        "call_count": 0,
+        "raw_halfwords_omitted": true
+      }
     },
     {
       "name": "PlayTimeCounter_SetToMax",
@@ -78,10 +105,14 @@
         "sha256": "1ba2a1d5e4ca75ca422147c1d135dabd416a4defe35836cade303dd2d4248a33",
         "raw_bytes_published": false
       },
-      "cfg": "analysis/sapphire-jp-play-time-counter-set-to-max-cfg.json",
-      "edge_count": 0,
-      "return_count": 1,
-      "calls": []
+      "calls": [],
+      "control_flow": {
+        "instruction_halfwords": 11,
+        "edge_count": 0,
+        "return_count": 1,
+        "call_count": 0,
+        "raw_halfwords_omitted": true
+      }
     }
   ],
   "behavior": {
@@ -106,12 +137,5 @@
       "seconds": 59,
       "vblanks": 59
     }
-  },
-  "naming_basis": {
-    "repository": "pret/pokeruby",
-    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
-    "path": "src/play_time.c",
-    "match_kind": "state writes, save-field offsets, clamp threshold and direct call target",
-    "raw_rom_bytes_published": false
   }
 }
