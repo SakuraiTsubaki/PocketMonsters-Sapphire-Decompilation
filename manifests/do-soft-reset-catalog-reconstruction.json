@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon Sapphire",
+  "function": "DoSoftReset",
+  "origin_reference": "axp-j-rev0-retail",
+  "release_count": 12,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/do_soft_reset_catalog.py",
+    "tool_sha256": "67c8b41cf9789a0e6f5664e86978bddb51af748e62baaba899edf0d1b1e353db"
+  },
+  "outputs": [
+    {
+      "path": "src/do_soft_reset.c",
+      "sha256": "0310509c5e655981a6f5dc73361a1c21a15368701f92ebf2429051a25e1ff2d0"
+    },
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "756bce70a62f6fc7c42934bf2163fd94d1fec4c648f0e3024ddef622ea101571"
+    },
+    {
+      "path": "analysis/axp-j-rev0-retail-do-soft-reset-cfg.json",
+      "sha256": "99ef3d187c0f7a972c69bdfb343e5a2c946234fd8b5477156847a0afb0853dc8"
+    },
+    {
+      "path": "analysis/axp-j-rev0-retail-do-soft-reset-map.json",
+      "sha256": "95558981893c220b60397948aa88f1dc414144cf5caa402985030f3dbdc68ca8"
+    },
+    {
+      "path": "analysis/axp-e-rev0-retail-do-soft-reset-cfg.json",
+      "sha256": "27d51a36a064afd0b26b27506974722c6366141f0e782be3d219b9d3f41e49e3"
+    },
+    {
+      "path": "analysis/axp-e-rev0-retail-do-soft-reset-map.json",
+      "sha256": "2dfae7202def917e9e98e21b5f159822053c42f60b94a2a4a7ab031b3d706917"
+    },
+    {
+      "path": "analysis/axp-e-rev1-retail-do-soft-reset-cfg.json",
+      "sha256": "4114a63d44c3db336eb0660a9d69f13b9485299186d166baac7348fc86207680"
+    },
+    {
+      "path": "analysis/axp-e-rev1-retail-do-soft-reset-map.json",
+      "sha256": "e0937e1019da7b61cb334706da62c53eb430ebc3b724b51972f1a5c93e3d2040"
+    },
+    {
+      "path": "analysis/axp-e-rev2-retail-do-soft-reset-cfg.json",
+      "sha256": "fa5ca3a5541fd3bc1bd31beb0aaa584d41f14dc735f33a788b4cfae10950895a"
+    },
+    {
+      "path": "analysis/axp-e-rev2-retail-do-soft-reset-map.json",
+      "sha256": "fa0863c9ce9e2ef5e223e7b06e8937f91689115eb4a4b7da8674866d1648d2b9"
+    },
+    {
+      "path": "analysis/axp-d-rev0-retail-do-soft-reset-cfg.json",
+      "sha256": "053f56fe516201a858da652c566c44864f992faaf17f8710ad0388b50120417e"
+    },
+    {
+      "path": "analysis/axp-d-rev0-retail-do-soft-reset-map.json",
+      "sha256": "38d93522728d09fb9a2b899c75214b62afb7581c80402245462e7a1daf478297"
+    },
+    {
+      "path": "analysis/axp-d-rev1-retail-do-soft-reset-cfg.json",
+      "sha256": "e3d283389ee9adbe6dd69ecaa1b0f560e2a86d05203f4ff5b747984c1db13372"
+    },
+    {
+      "path": "analysis/axp-d-rev1-retail-do-soft-reset-map.json",
+      "sha256": "e5dc9b15162f4bd79a5c4a5bba535f74f76a55a0836d0e2383794b384169575a"
+    },
+    {
+      "path": "analysis/axp-f-rev0-retail-do-soft-reset-cfg.json",
+      "sha256": "aa8c386e7d25ad3a2f786eb3471525ad5524f4f552cf090d6e4f87a92d52025c"
+    },
+    {
+      "path": "analysis/axp-f-rev0-retail-do-soft-reset-map.json",
+      "sha256": "bc6324540642cbcc19975ff269a384b5f6f255ea9542a3e2ac1a5e3192c2154a"
+    },
+    {
+      "path": "analysis/axp-f-rev1-retail-do-soft-reset-cfg.json",
+      "sha256": "81e57e36d0dcd7d6d96ab75ec7abd640bcaa30ac3bab537bd1050282dfffbbd9"
+    },
+    {
+      "path": "analysis/axp-f-rev1-retail-do-soft-reset-map.json",
+      "sha256": "aa9aa0251e29608275bbf8b8e086a2009ef7774eec8202af99c8e6de4c1457dc"
+    },
+    {
+      "path": "analysis/axp-i-rev0-retail-do-soft-reset-cfg.json",
+      "sha256": "5784961d19c70a500f4e9f7d38deb55d911d944974c785d0ea205e7727a058a1"
+    },
+    {
+      "path": "analysis/axp-i-rev0-retail-do-soft-reset-map.json",
+      "sha256": "07fea0f0c9cc3d59f79bcdad11b7359b7c63ecc7ed0a73a00642f62435a05ee1"
+    },
+    {
+      "path": "analysis/axp-i-rev1-retail-do-soft-reset-cfg.json",
+      "sha256": "60057e6327066b8add4e1b93cdf619aca6dcfa2734997f4a3282d90fc789928a"
+    },
+    {
+      "path": "analysis/axp-i-rev1-retail-do-soft-reset-map.json",
+      "sha256": "3cdadf26166626226026a91496df34800cd7e3a4570169875aa73fcf7b84ff7e"
+    },
+    {
+      "path": "analysis/axp-s-rev0-retail-do-soft-reset-cfg.json",
+      "sha256": "c259d36212c99fed8d80872a59b85b63589f52d022f3b8c750c960fd6e18af3b"
+    },
+    {
+      "path": "analysis/axp-s-rev0-retail-do-soft-reset-map.json",
+      "sha256": "43063f864fe4c1b2051a3e992ce03d580780c0a57b058a801b705bfdf4123c3e"
+    },
+    {
+      "path": "analysis/axp-s-rev1-retail-do-soft-reset-cfg.json",
+      "sha256": "62949bbe4b2e0266811cd97fed411ad729166bb8f05fbb8ce39beb2d9508340a"
+    },
+    {
+      "path": "analysis/axp-s-rev1-retail-do-soft-reset-map.json",
+      "sha256": "ee3a091eec6651f9fd3d10de0c8f2806efaf0cb4ffafefb95f4ec53596c563a5"
+    },
+    {
+      "path": "analysis/sapphire-jp-do-soft-reset-map.json",
+      "sha256": "5ad6265f2f1a9f0eda764650445b47d1adcdad4954a919650bd92ced5f2aa1db"
+    },
+    {
+      "path": "manifests/do-soft-reset-reconstruction.json",
+      "sha256": "2828ec2b9b331dc944466f7b99a3b10852a488e43a94f01d8f74fde79431cf90"
+    },
+    {
+      "path": "analysis/do-soft-reset-catalog-summary.json",
+      "sha256": "8962eccaf77307a87132c0d4e997a09fc3bacceb444baa07e39b909575040002"
+    },
+    {
+      "path": "research/do-soft-reset-global-reconstruction.md",
+      "sha256": "3235db9d766b246032b47a549e87a6f0766fc6b1c636d362b917274f5fa1aa34"
+    },
+    {
+      "path": "tests/test_do_soft_reset_catalog.py",
+      "sha256": "f5ce20311fe530667c87dd66f1ef73a24c5aaffd6dcd21fcfcbfec782993ed95"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

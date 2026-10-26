@@ -21,7 +21,7 @@
     },
     {
       "path": "analysis/sapphire-jp-do-soft-reset-map.json",
-      "sha256": "3308d4744b0822e0535172487f0ea0e4acc5e0551702f8044704d9b1c661cbf5"
+      "sha256": "5ad6265f2f1a9f0eda764650445b47d1adcdad4954a919650bd92ced5f2aa1db"
     },
     {
       "path": "research/do-soft-reset-reconstruction.md",
@@ -30,4 +30,3 @@
   ],
   "raw_rom_bytes_included": false
 }
-

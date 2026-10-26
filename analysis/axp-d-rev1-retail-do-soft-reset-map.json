@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "axp-d-rev1-retail",
+    "sha256": "c27271a60fdeadc6eed957e0392e7d878998ae1765487bf7567fa9331e432ead"
+  },
+  "source": "src/do_soft_reset.c",
+  "source_sha256": "0310509c5e655981a6f5dc73361a1c21a15368701f92ebf2429051a25e1ff2d0",
+  "function": {
+    "name": "DoSoftReset",
+    "address": "0x080007E8",
+    "range_end_exclusive": "0x08000844",
+    "variant": "rtc-full-reset",
+    "rom_code_range": {
+      "start_offset": 2024,
+      "end_offset_exclusive": 2116,
+      "length": 92,
+      "sha256": "28e481db6b5c9366465ffcb3ee4ca90f318b3537eaf021dabb931c71be816c1b",
+      "raw_bytes_published": false
+    },
+    "cfg": "analysis/axp-d-rev1-retail-do-soft-reset-cfg.json"
+  },
+  "calls": [
+    {
+      "name": "m4aSoundVSyncOff",
+      "source": "0x080007F0",
+      "target": "0x081EB42C"
+    },
+    {
+      "name": "ScanlineEffect_Stop",
+      "source": "0x080007F4",
+      "target": "0x080899CC"
+    },
+    {
+      "name": "SiiRtcProtect",
+      "source": "0x08000834",
+      "target": "0x081ECE30"
+    },
+    {
+      "name": "SoftReset",
+      "source": "0x0800083A",
+      "target": "0x081ED708"
+    }
+  ],
+  "hardware_writes": {
+    "REG_IME": "0x04000208",
+    "dma_control_high": [
+      "0x040000C6",
+      "0x040000D2",
+      "0x040000DE"
+    ]
+  },
+  "behavior": {
+    "interrupt_master_enable": 0,
+    "dma_channels_stopped": [
+      1,
+      2,
+      3
+    ],
+    "rtc_protected": true,
+    "soft_reset_mask": "0xFF"
+  },
+  "origin_reference": false,
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "path": "src/main.c",
+    "match_kind": "Thumb call order, hardware addresses, DMA masks, and reset constant",
+    "raw_rom_bytes_published": false
+  },
+  "raw_rom_bytes_included": false
+}
