@@ -1,8 +1,87 @@
 {
-  "schema_version":1,"target":{"release":"AXPJ-rev0","sha256":"6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"},"functions":["InitKeys","ReadKeys"],
-  "outputs":[
-    {"path":"src/key_input.c","sha256":"380cc6d7c9035ac156e72fb139a9d11bb7273b307a9d16e13b5a31db742aaf36"},
-    {"path":"analysis/sapphire-jp-key-input-map.json","sha256":"2deebbd48fe82fbb1783e3953d371e499cc57c382e6288e3edcf75c40312ef4c"},
-    {"path":"research/key-input-reconstruction.md","sha256":"0f425ec8a68a954ecc0e52733431776d09e37d9c723d9b58f969671a8bf851cf"}
-  ],"raw_rom_bytes_included":false
+  "schema_version": 1,
+  "game": "Sapphire",
+  "functions": [
+    "InitKeys",
+    "ReadKeys"
+  ],
+  "profile": "direct",
+  "origin_reference": "axp-j-rev0-retail",
+  "release_count": 12,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/key_input_catalog.py",
+    "tool_sha256": "e0db0f2f110864675f48debaaad10a4556f044e13605b081c1ce958f87bc44e5"
+  },
+  "outputs": [
+    {
+      "path": "src/key_input.c",
+      "sha256": "b894512a0778d83a6b6433aca7f68a754651732d912bba1624ffa8bd435cf153"
+    },
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "756bce70a62f6fc7c42934bf2163fd94d1fec4c648f0e3024ddef622ea101571"
+    },
+    {
+      "path": "analysis/axp-j-rev0-retail-key-input-map.json",
+      "sha256": "99fbfd8e374d5216faa6772913f0368f2851104c89be17f68b54d8e11970d397"
+    },
+    {
+      "path": "analysis/axp-e-rev0-retail-key-input-map.json",
+      "sha256": "4d535282779c8fa5e0389074f49ab7505a67abb2d62ea7ddc6b62aed7eaa787e"
+    },
+    {
+      "path": "analysis/axp-e-rev1-retail-key-input-map.json",
+      "sha256": "2c1c747c9d1d17b51d937ff12d38077589beb6ac34ddc36797e4612f9c60f753"
+    },
+    {
+      "path": "analysis/axp-e-rev2-retail-key-input-map.json",
+      "sha256": "6576cf83a72e4a3e45a195a66ecf9af0099a1fc14c5ce0f01b9b1b6ff2adf86a"
+    },
+    {
+      "path": "analysis/axp-d-rev0-retail-key-input-map.json",
+      "sha256": "41016ca98e573e12ba660a453822bb900a0c318cd4ee733bc4f02f84e16d242e"
+    },
+    {
+      "path": "analysis/axp-d-rev1-retail-key-input-map.json",
+      "sha256": "594283c9e4b796064cd1a1cc3f8e80b9071fedd65a061f74f6ddfe7af5cde603"
+    },
+    {
+      "path": "analysis/axp-f-rev0-retail-key-input-map.json",
+      "sha256": "f0b492740d3599a75a9b6c5b0463ab0f0baf72743146e38c100bd871dd8f50d6"
+    },
+    {
+      "path": "analysis/axp-f-rev1-retail-key-input-map.json",
+      "sha256": "daff00430b7a7004040cba37efd3c0094c05dc02303127ca517c04a52b376e3a"
+    },
+    {
+      "path": "analysis/axp-i-rev0-retail-key-input-map.json",
+      "sha256": "37dc5635b8833f5022d13d5c477cc61aa126a3a9a2ef405e25da4fdc2205550c"
+    },
+    {
+      "path": "analysis/axp-i-rev1-retail-key-input-map.json",
+      "sha256": "ce85f53df4e2b867fbf4722f7c85e55f0f0e3c1dea9180fd4b441b963c3219b3"
+    },
+    {
+      "path": "analysis/axp-s-rev0-retail-key-input-map.json",
+      "sha256": "39935c60acde06f7cbc2900db6dc861432974218f816084b5f6cdd81c7a02560"
+    },
+    {
+      "path": "analysis/axp-s-rev1-retail-key-input-map.json",
+      "sha256": "b0f06c3cdfe40cded2b02b6206d0e9a44909ae456404d430d4b0090aed784139"
+    },
+    {
+      "path": "analysis/key-input-summary.json",
+      "sha256": "44f78fae03f6fd10693ffc8e6629d07428cb9a911f2b6c48bd8f8f0a53d92310"
+    },
+    {
+      "path": "research/key-input-reconstruction.md",
+      "sha256": "707757e91fd2e035b626915ed3b532050fbe8877a97cb33a39d25d23f4e1cd73"
+    },
+    {
+      "path": "tests/test_key_input_reconstruction.py",
+      "sha256": "1a90fc9a209bbad400e44ea010410c7a82f2913e099a4bdf495522c031e85287"
+    }
+  ],
+  "raw_rom_bytes_included": false
 }

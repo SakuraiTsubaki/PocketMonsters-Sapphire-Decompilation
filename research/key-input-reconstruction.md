@@ -1,12 +1,5 @@
-# AXPJ revision 0 key-input reconstruction
+# Sapphire key input reconstruction
 
-The Japanese Sapphire `InitKeys` (`0x08000404`) and `ReadKeys`
-(`0x0800042C`) range has SHA-256
-`6f57c651796485bd14d6e53f08bed93660ec1b6496557070b7c643211a8ec0ba`.
-It is byte-identical to the independently selected Japanese Ruby range, but
-this project records the AXPJ ROM identity and evidence separately.
+The Japanese release `axp-j-rev0-retail` is the origin reference. All 12 cataloged releases (Japanese, English, German, French, Italian, Spanish) contain exactly one InitKeys and ReadKeys pair matching the `direct` profile. Options are read through a direct SaveBlock2 object.
 
-The functions implement key initialization, repeat timing, active-low keypad
-input, L-to-A option remapping, and the watched-key latch. Exact addresses,
-structure offsets, and literals are preserved in the map without publishing
-ROM instruction bytes.
+The pair establishes repeat delays 5 and 40, derives active-high keys from REG_KEYINPUT with mask 0x03FF, implements repeat behavior, applies L-equals-A mode, and records watched-key presses. Per-release maps retain ranges, hashes, validated literals and control-flow counts without ROM instruction bytes. Naming and behavior are corroborated by `pret/pokeruby` at `5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f`, `src/main.c`.
