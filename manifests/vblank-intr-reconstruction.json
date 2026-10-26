@@ -1,22 +1,83 @@
 {
   "schema_version": 1,
-  "target": {
-    "release": "AXPJ-rev0",
-    "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"
-  },
+  "game": "Sapphire",
   "function": "VBlankIntr",
+  "profile": "rs",
+  "origin_reference": "axp-j-rev0-retail",
+  "release_count": 12,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/vblank_intr_catalog.py",
+    "tool_sha256": "b432995737f5b4d44d4f2d57385166aed952411e2f1165aeb49f691ee5795b11"
+  },
   "outputs": [
     {
       "path": "src/vblank_intr.c",
-      "sha256": "3cf3c21855e658f35fb9fa41d3e4776e3fedddbbefbf2b769b098fe7c7208941"
+      "sha256": "141394c41c8bbd2e107ef6f47deac00ce4580c45a5ef787ef3f8d42b35ab5810"
     },
     {
-      "path": "analysis/sapphire-jp-vblank-intr-map.json",
-      "sha256": "1098ef0f76ba89d2f55437f73efc754a22728fa4c3a4b190435f72f452df937d"
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "756bce70a62f6fc7c42934bf2163fd94d1fec4c648f0e3024ddef622ea101571"
+    },
+    {
+      "path": "analysis/axp-j-rev0-retail-vblank-intr-map.json",
+      "sha256": "e793535518e824339c2ac1c5235434a32c1f1c050843b99cd81a1345e206c7c8"
+    },
+    {
+      "path": "analysis/axp-e-rev0-retail-vblank-intr-map.json",
+      "sha256": "da5da77bbf76e89e44dcf3f658da9b05a0c664e853b2dc679fbabe3d548f4158"
+    },
+    {
+      "path": "analysis/axp-e-rev1-retail-vblank-intr-map.json",
+      "sha256": "89f6616f36741644dff5f605ceaa9abff3ffa3d8cc2826f1cb8179afa909f2c8"
+    },
+    {
+      "path": "analysis/axp-e-rev2-retail-vblank-intr-map.json",
+      "sha256": "0e3307be17ad6433c6841889730c6590fa88566a2109b78b1287d0f8b35f5119"
+    },
+    {
+      "path": "analysis/axp-d-rev0-retail-vblank-intr-map.json",
+      "sha256": "9535a19510978dcafa24d6033043e7b508acdf51c875268957cbc18d80a8be73"
+    },
+    {
+      "path": "analysis/axp-d-rev1-retail-vblank-intr-map.json",
+      "sha256": "7e01d9d536813ed2d0659232215cf66edd0363e4afa61739d1864affb7a0ab43"
+    },
+    {
+      "path": "analysis/axp-f-rev0-retail-vblank-intr-map.json",
+      "sha256": "d32ab387825f5dd2828c135e794071a1c6019285bd8cc2f58a163cd4c6b53ad9"
+    },
+    {
+      "path": "analysis/axp-f-rev1-retail-vblank-intr-map.json",
+      "sha256": "9df1da92ec0e6a32d46e1c3bc5476a7c1db385765c1cdff79bfbedfbd33e6327"
+    },
+    {
+      "path": "analysis/axp-i-rev0-retail-vblank-intr-map.json",
+      "sha256": "8533059fbbb785f8809c47d0bddf326af47679424f2c9454a4d59dc1bed133e3"
+    },
+    {
+      "path": "analysis/axp-i-rev1-retail-vblank-intr-map.json",
+      "sha256": "59bfe846e3cc599fa71ffecbc34b9ca3fb7ffe245f18967685f7cc88192fb0e5"
+    },
+    {
+      "path": "analysis/axp-s-rev0-retail-vblank-intr-map.json",
+      "sha256": "67b72214e5b145705692b01b72ee7ccf56c6da088637dc516ded31b1d7c0202c"
+    },
+    {
+      "path": "analysis/axp-s-rev1-retail-vblank-intr-map.json",
+      "sha256": "a577acf2b43a5cf1e4ed5b6ee4ca291fa819f09e2da8c6e778419e047b3ebe91"
+    },
+    {
+      "path": "analysis/vblank-intr-summary.json",
+      "sha256": "afd4ab6bde695c2052eb280f7ff793986f5bccb87eef4441a32ef1b57ba33a0e"
     },
     {
       "path": "research/vblank-intr-reconstruction.md",
-      "sha256": "80a38571b7f66daedf1c481bc3ff303e2ad626aff9473424af947f666a301a8f"
+      "sha256": "669414e578e403a0535180ba237f96b415229d28df98adee83510b7f26e75573"
+    },
+    {
+      "path": "tests/test_vblank_intr_reconstruction.py",
+      "sha256": "3708adc61b6d63cf6f1a5bde94d6561733cb2f04b319867726ed248feb6b5054"
     }
   ],
   "raw_rom_bytes_included": false

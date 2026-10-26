@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "axp-e-rev2-retail",
+    "sha256": "02ca41513580a8b780989dee428df747b52a0b1a55bec617886b4059eb1152fb"
+  },
+  "profile": "rs",
+  "source": "src/vblank_intr.c",
+  "source_sha256": "141394c41c8bbd2e107ef6f47deac00ce4580c45a5ef787ef3f8d42b35ab5810",
+  "function": {
+    "name": "VBlankIntr",
+    "address": "0x08000570",
+    "range_end_exclusive": "0x080005D2",
+    "rom_code_range": {
+      "start_offset": 1392,
+      "end_offset_exclusive": 1490,
+      "length": 98,
+      "sha256": "008289be4647a5838302b1fca109ab367bdae2e70972e60fc2baf53c6096849e",
+      "raw_bytes_published": false
+    },
+    "control_flow": {
+      "instruction_halfwords": 49,
+      "return_count": 1,
+      "call_count": 6,
+      "raw_halfwords_omitted": true
+    }
+  },
+  "calls": [
+    {
+      "name": "LinkVSync",
+      "source": "0x0800057A",
+      "target": "0x08008BEC"
+    },
+    {
+      "name": "m4aSoundVSync",
+      "source": "0x08000586",
+      "target": "0x081DD780"
+    },
+    {
+      "name": "indirect callback trampoline",
+      "source": "0x0800059A",
+      "target": "0x081E07D4"
+    },
+    {
+      "name": "m4aSoundMain",
+      "source": "0x080005AC",
+      "target": "0x081DDE94"
+    },
+    {
+      "name": "sub_800C35C",
+      "source": "0x080005B0",
+      "target": "0x0800C35C"
+    },
+    {
+      "name": "Random",
+      "source": "0x080005B4",
+      "target": "0x08040EA4"
+    }
+  ],
+  "literal_addresses": {
+    "gLinkVSyncDisabled": "0x03001BF8",
+    "REG_IME": "0x04000208",
+    "gMain": "0x03001770",
+    "gPcmDmaCounter": "0x03002400",
+    "gSoundInfo": "0x03005FD0",
+    "INTR_CHECK": "0x03007FF8"
+  },
+  "behavior": {
+    "ime_guarded_sound_vsync": true
+  },
+  "proven_offsets": {
+    "vblankCallback": 12,
+    "intrCheck": 28,
+    "vblankCounter1": 32,
+    "vblankCounter2": 36,
+    "pcmDmaCounter": 4
+  },
+  "interrupt_flag": "0x0001",
+  "evidence_dependency": {
+    "path": "analysis/axp-e-rev2-retail-interrupt-init-map.json",
+    "sha256": "4e46f961b3a91cc9cc25f42f519d368d11578066a1a1f0e388896d92f5e5a940",
+    "relation": "VBlankIntr immediately follows the SetSerialCallback code and literal span"
+  },
+  "origin_reference": false,
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "path": "src/main.c",
+    "match_kind": "adjacent interrupt layout, Thumb control flow, call order, literals, constants, and state offsets",
+    "raw_rom_bytes_published": false
+  },
+  "raw_rom_bytes_included": false
+}
