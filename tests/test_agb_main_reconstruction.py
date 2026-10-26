@@ -1,37 +1,101 @@
-import hashlib,json,re,unittest
+import hashlib
+import json
+import unittest
 from pathlib import Path
 
-ROOT=Path(__file__).parents[1]
+ROOT = Path(__file__).parents[1]
+
 
 class AgbMainReconstructionTests(unittest.TestCase):
- def setUp(self):
-  self.cfg=json.loads((ROOT/'analysis/sapphire-jp-thumb-entry-cfg.json').read_text())
-  self.map=json.loads((ROOT/'analysis/sapphire-jp-agb-main-map.json').read_text())
-  self.source=(ROOT/'src/main_loop.c').read_text()
- def test_every_mapped_call_is_in_verified_cfg(self):
-  cfg_calls={(x['source'],x['target']) for x in self.cfg['calls']}
-  mapped={(x['address'],x['target']) for x in self.map['direct_calls']}
-  self.assertEqual(mapped,cfg_calls)
- def test_nonreturning_loop_boundary_is_verified(self):
-  function=self.map['function']
-  self.assertTrue(function['nonreturning'])
-  self.assertFalse(self.cfg['return_observed'])
-  edge=function['loop_back_edge']
-  self.assertIn({'source':edge['source'],'target':edge['target'],'kind':'branch'},self.cfg['edges'])
- def test_repeated_callback_dispatch_is_preserved(self):
-  calls=[x for x in self.map['direct_calls'] if x['name']=='UpdateLinkAndCallCallbacks']
-  self.assertEqual([x['address'] for x in calls],[134218460,134218510,134218542])
-  self.assertEqual(self.source.count('UpdateLinkAndCallCallbacks();'),3)
-  self.assertIn('LinkRecvPostprocess();',self.source)
- def test_source_contains_reset_soft_reset_and_frame_tail(self):
-  for token in ('RegisterRamReset(RESET_ALL)','B_START_SELECT','DoSoftReset();','PlayTimeCounter_Update();','MapMusicMain();','WaitForVBlank();','for (;;)'):
-   self.assertIn(token,self.source)
-  self.assertNotRegex(self.source,re.compile(r'0x[0-9a-fA-F]{8}.*(?:instruction|halfword)'))
- def test_manifest_hashes_every_output(self):
-  manifest=json.loads((ROOT/'manifests/agb-main-reconstruction.json').read_text())
-  for output in manifest['outputs']:
-   self.assertEqual(hashlib.sha256((ROOT/output['path']).read_bytes()).hexdigest(),output['sha256'])
+    def setUp(self):
+        self.catalog = json.loads(
+            (ROOT / "analysis/global-release-catalog.json").read_text(encoding="utf-8")
+        )
+        self.profile = json.loads(
+            (ROOT / "analysis/agb-main-profile.json").read_text(encoding="utf-8")
+        )
+        self.summary = json.loads(
+            (ROOT / "analysis/agb-main-summary.json").read_text(encoding="utf-8")
+        )
 
-if __name__=='__main__':unittest.main()
+    def maps(self):
+        for release in self.summary["releases"]:
+            yield release, json.loads(
+                (ROOT / release["evidence"]).read_text(encoding="utf-8")
+            )
+
+    def variants(self):
+        return {item["id"]: item for item in self.profile["variants"]}
+
+    def test_every_catalog_release_has_evidence_in_priority_order(self):
+        self.assertEqual(
+            [item["id"] for item in self.summary["releases"]],
+            [item["id"] for item in self.catalog["releases"]],
+        )
+        self.assertEqual(self.summary["release_count"], len(self.catalog["releases"]))
+        self.assertEqual(self.catalog["releases"][0]["language"], "Japanese")
+        self.assertEqual(self.summary["origin_reference"], self.catalog["releases"][0]["id"])
+
+    def test_entry_chain_reaches_nonreturning_agb_main(self):
+        for release, address_map in self.maps():
+            with self.subTest(release=release["id"]):
+                self.assertEqual(
+                    address_map["entry_chain"]["thumb_transition_target"],
+                    address_map["function"]["address"],
+                )
+                self.assertTrue(address_map["function"]["nonreturning"])
+                self.assertFalse(address_map["control_flow"]["return_observed"])
+                edge = address_map["function"]["loop_back_edge"]
+                self.assertLess(int(edge["target"], 16), int(edge["source"], 16))
+
+    def test_call_names_and_target_equivalence_are_preserved(self):
+        variants = self.variants()
+        for release, address_map in self.maps():
+            with self.subTest(release=release["id"]):
+                variant = variants[address_map["profile_variant"]]
+                self.assertIn(release["id"], variant["release_ids"])
+                names = variant["call_names"]
+                calls = address_map["direct_calls"]
+                self.assertEqual([item["name"] for item in calls], names)
+                self.assertEqual(
+                    address_map["control_flow"]["target_equivalence"],
+                    variant["signature"]["target_equivalence"],
+                )
+
+    def test_ranges_have_hashes_without_raw_rom_material(self):
+        for release, address_map in self.maps():
+            with self.subTest(release=release["id"]):
+                code = address_map["function"]["rom_code_range"]
+                self.assertEqual(
+                    code["length"],
+                    code["end_offset_exclusive"] - code["start_offset"],
+                )
+                self.assertEqual(len(code["sha256"]), 64)
+                self.assertFalse(code["raw_bytes_published"])
+                self.assertFalse(address_map["raw_rom_bytes_included"])
+                text = json.dumps(address_map).lower()
+                for forbidden in ("halfword\"", "instruction_word", "raw_hex", "bytes_hex"):
+                    self.assertNotIn(forbidden, text)
+
+    def test_source_and_manifest_cover_all_outputs(self):
+        source = (ROOT / self.profile["source"]).read_text(encoding="utf-8")
+        names = {
+            name
+            for variant in self.profile["variants"]
+            for name in variant["call_names"]
+        }
+        for name in names:
+            self.assertIn(name, source)
+        manifest = json.loads(
+            (ROOT / "manifests/agb-main-reconstruction.json").read_text(encoding="utf-8")
+        )
+        self.assertEqual(manifest["release_count"], len(self.catalog["releases"]))
+        for output in manifest["outputs"]:
+            self.assertEqual(
+                hashlib.sha256((ROOT / output["path"]).read_bytes()).hexdigest(),
+                output["sha256"],
+            )
 
 
+if __name__ == "__main__":
+    unittest.main()

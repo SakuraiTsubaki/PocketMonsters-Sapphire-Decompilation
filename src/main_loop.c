@@ -42,6 +42,10 @@ extern void PlayTimeCounter_Update(void);
 extern void MapMusicMain(void);
 extern void WaitForVBlank(void);
 
+#ifndef AGB_MAIN_USE_LINK_RECV_POSTPROCESS
+#define AGB_MAIN_USE_LINK_RECV_POSTPROCESS 1
+#endif
+
 enum {
     RESET_ALL = 0xFF,
     A_BUTTON = 1,
@@ -86,7 +90,9 @@ void AgbMain(void)
             UpdateLinkAndCallCallbacks();
             if (gLink.recvQueue.count > 1 && LinkRecvQueueReady() == 1) {
                 gMain.newKeys = 0;
+#if AGB_MAIN_USE_LINK_RECV_POSTPROCESS
                 LinkRecvPostprocess();
+#endif
                 gLinkTransferringData = 1;
                 UpdateLinkAndCallCallbacks();
                 gLinkTransferringData = 0;
@@ -98,5 +104,4 @@ void AgbMain(void)
         WaitForVBlank();
     }
 }
-
 
