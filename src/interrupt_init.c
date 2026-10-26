@@ -4,7 +4,8 @@
 typedef void (*IntrCallback)(void);
 typedef void (*MainCallback)(void);
 
-struct MainInterruptState {
+struct MainInterruptState
+{
     MainCallback callback1;
     MainCallback callback2;
     uint8_t unknown_008[4];
@@ -14,7 +15,8 @@ struct MainInterruptState {
     IntrCallback serialCallback;
 };
 
-struct DmaChannelRegisters {
+struct DmaChannelRegisters
+{
     const void *source;
     void *destination;
     uint32_t control;
@@ -31,17 +33,20 @@ extern uint8_t IntrMain_Buffer[0x800];
 #define REG_DISPSTAT (*(volatile uint16_t *)0x04000004)
 #define REG_IE (*(volatile uint16_t *)0x04000200)
 #define REG_IME (*(volatile uint16_t *)0x04000208)
-#define DMA_ENABLE (1u << 31)
-#define DMA_32BIT (1u << 26)
-#define INTR_FLAG_VBLANK 1
-#define DISPSTAT_VBLANK_INTR 8
+
+enum
+{
+    DMA_ENABLE = 1u << 31,
+    DMA_32BIT = 1u << 26,
+    DISPSTAT_VBLANK_INTR = 8,
+    INTR_FLAG_VBLANK = 1
+};
 
 void SetVBlankCallback(IntrCallback callback);
 void SetHBlankCallback(IntrCallback callback);
 void SetVCountCallback(IntrCallback callback);
 void SetSerialCallback(IntrCallback callback);
 
-/* AXPJ rev0: 0x080004c8..0x0800051b. */
 void InitIntrHandlers(void)
 {
     unsigned i;
@@ -63,8 +68,22 @@ void InitIntrHandlers(void)
     REG_IE |= INTR_FLAG_VBLANK;
 }
 
-/* AXPJ rev0 callback setters: 0x08000544..0x08000573. */
-void SetVBlankCallback(IntrCallback callback) { gMain.vblankCallback = callback; }
-void SetHBlankCallback(IntrCallback callback) { gMain.hblankCallback = callback; }
-void SetVCountCallback(IntrCallback callback) { gMain.vcountCallback = callback; }
-void SetSerialCallback(IntrCallback callback) { gMain.serialCallback = callback; }
+void SetVBlankCallback(IntrCallback callback)
+{
+    gMain.vblankCallback = callback;
+}
+
+void SetHBlankCallback(IntrCallback callback)
+{
+    gMain.hblankCallback = callback;
+}
+
+void SetVCountCallback(IntrCallback callback)
+{
+    gMain.vcountCallback = callback;
+}
+
+void SetSerialCallback(IntrCallback callback)
+{
+    gMain.serialCallback = callback;
+}

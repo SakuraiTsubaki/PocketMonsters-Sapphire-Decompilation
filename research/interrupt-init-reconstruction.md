@@ -1,11 +1,5 @@
-# AXPJ revision 0 interrupt initialization
+# Sapphire interrupt initialization reconstruction
 
-`InitIntrHandlers` at `0x080004C8` copies 14 interrupt callbacks, copies
-`IntrMain` to the 0x800-byte IWRAM buffer with DMA3, installs the interrupt
-vector, clears the VBlank/HBlank/Serial callbacks, and enables VBlank IRQ state.
+The Japanese release `axp-j-rev0-retail` is the origin reference. All 12 cataloged releases (Japanese, English, German, French, Italian, Spanish) contain exactly one InitIntrHandlers structure and its callback setters matching the `rs` profile. VBlank is enabled with direct IE and DISPSTAT writes.
 
-The four callback setters at `0x08000544` through `0x08000573` prove the
-`gMain` callback offsets. The Sapphire interrupt table template is
-`0x081B325C`; this game-specific literal is not substituted from the other
-version. Exact ROM-range and output hashes are retained without publishing raw
-instruction bytes.
+The implementation copies 14 table entries, DMA-copies the 0x800-byte interrupt dispatcher with DMA3 control 0x84000200, installs the IWRAM vector, clears callbacks and enables VBlank. Per-release maps retain code ranges, hashes, validated literals and call targets without ROM instruction bytes. Naming and behavior are corroborated by `pret/pokeruby` at `5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f`, `src/main.c`.

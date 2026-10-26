@@ -1,28 +1,82 @@
 {
   "schema_version": 1,
-  "target": {
-    "release": "AXPJ-rev0",
-    "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"
+  "game": "Sapphire",
+  "profile": "rs",
+  "origin_reference": "axp-j-rev0-retail",
+  "release_count": 12,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/interrupt_init_catalog.py",
+    "tool_sha256": "5b61f7711f2714288c95e0a9f11b558438db53b82cc14a87833a197cf95c65ba"
   },
-  "functions": [
-    "InitIntrHandlers",
-    "SetVBlankCallback",
-    "SetHBlankCallback",
-    "SetVCountCallback",
-    "SetSerialCallback"
-  ],
   "outputs": [
     {
       "path": "src/interrupt_init.c",
-      "sha256": "0161b35c96a7bfba3c8b0395606666e115117d435e202cf5d76f8165b9039b7f"
+      "sha256": "4fa32cd0781c227a47487f4936d63eb9faece40ea64b6336c208a04de5d389ed"
     },
     {
-      "path": "analysis/sapphire-jp-interrupt-init-map.json",
-      "sha256": "a1e4e6918c81d6d78fe010d62f84da1302757d1c23402ec5047147589cf6f8db"
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "756bce70a62f6fc7c42934bf2163fd94d1fec4c648f0e3024ddef622ea101571"
+    },
+    {
+      "path": "analysis/axp-j-rev0-retail-interrupt-init-map.json",
+      "sha256": "754b72415f0b3ddaa18b074a025bfa3f48d07fd0c812f72b749869657131c81c"
+    },
+    {
+      "path": "analysis/axp-e-rev0-retail-interrupt-init-map.json",
+      "sha256": "1582408c5dc4ccd3543b4869ae887f96c3b76b12703a3f1ae788a4af7585cf6b"
+    },
+    {
+      "path": "analysis/axp-e-rev1-retail-interrupt-init-map.json",
+      "sha256": "4b22adc793828a026bbe81674a63f1578757b622567f0de8f0cf7d63574b4ea5"
+    },
+    {
+      "path": "analysis/axp-e-rev2-retail-interrupt-init-map.json",
+      "sha256": "4e46f961b3a91cc9cc25f42f519d368d11578066a1a1f0e388896d92f5e5a940"
+    },
+    {
+      "path": "analysis/axp-d-rev0-retail-interrupt-init-map.json",
+      "sha256": "0b12aac411f1d4eba0940e399159b02b7306768fc3a77b3d6a8c3b58e2b8b5bb"
+    },
+    {
+      "path": "analysis/axp-d-rev1-retail-interrupt-init-map.json",
+      "sha256": "3914a47c5a31706a579b10cc26e4f94394a061da53b07b22c8a6168ba5ec922c"
+    },
+    {
+      "path": "analysis/axp-f-rev0-retail-interrupt-init-map.json",
+      "sha256": "d3700f8416a8eed7dd4677767942b573df333dcf686399c9758b7214e42fe488"
+    },
+    {
+      "path": "analysis/axp-f-rev1-retail-interrupt-init-map.json",
+      "sha256": "e73606d58964852027670bb24b845e4c9474d26e83ecfd07f4ae6a0eed77dc71"
+    },
+    {
+      "path": "analysis/axp-i-rev0-retail-interrupt-init-map.json",
+      "sha256": "69b75397c2168f68eb9b3a3d42fc64fb378506b7fae8f08cb8f0406a90c4bec4"
+    },
+    {
+      "path": "analysis/axp-i-rev1-retail-interrupt-init-map.json",
+      "sha256": "3f61f0200c1455ff6bde07504deb45a18e5a839dfaf5d0510238dc0428b62bd7"
+    },
+    {
+      "path": "analysis/axp-s-rev0-retail-interrupt-init-map.json",
+      "sha256": "aded2aa3c1e264e5036c8ee89f0392458fba51b3e3bdbfeaf188f6f4358cfe35"
+    },
+    {
+      "path": "analysis/axp-s-rev1-retail-interrupt-init-map.json",
+      "sha256": "2251254b9b859a38c27d4ecd30af6dac7aef6660d2c079585e32df177761c4ab"
+    },
+    {
+      "path": "analysis/interrupt-init-summary.json",
+      "sha256": "7af249457f440f9e6363ac4d04615a36e3e038acec34f2b2e0ed6978e4880802"
     },
     {
       "path": "research/interrupt-init-reconstruction.md",
-      "sha256": "f0adabe23327b618459cf064d662bf8940102e7c4ccafe561d373f925aba5ea8"
+      "sha256": "4a39c59e2c1170872d13e5caa12da59eadf673437e86624aad42c00de3a03368"
+    },
+    {
+      "path": "tests/test_interrupt_init_reconstruction.py",
+      "sha256": "845a2f962843e3365d1602528ba24b84291376b08e5a57e01e5f04f6cb54fa3b"
     }
   ],
   "raw_rom_bytes_included": false
