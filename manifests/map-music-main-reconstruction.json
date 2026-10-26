@@ -1,33 +1,83 @@
 {
   "schema_version": 1,
-  "target": {
-    "release": "AXPJ-rev0",
-    "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"
-  },
+  "game": "Sapphire",
   "function": "MapMusicMain",
+  "origin_reference": "axp-j-rev0-retail",
+  "release_count": 12,
   "generator": {
     "repository": "SakuraiTsubaki/Decompilation",
-    "tool": "tools/thumb_cfg.py",
-    "minimum_commit": "4f687a912ecc40823a17a67fa885768cdca12e98"
+    "tool": "tools/map_music_catalog.py",
+    "tool_sha256": "075b0e127192699313a618260cf0906e13374a96d80020a301a022f2644d68cd"
   },
   "outputs": [
     {
       "path": "src/map_music_main.c",
-      "sha256": "e98a408ff7496f5419298bfc27ef9988e74c125d247267b48cd84b90f0b963f6"
+      "sha256": "2ac443ed3a163fb4cfa0305551388f4ce2b08ea9404f3aa3162f941d01b6e79d"
     },
     {
-      "path": "analysis/sapphire-jp-map-music-main-cfg.json",
-      "sha256": "09b2e5c530b8d1c9f38fff8465f4afe1686944a51a5175304947bdfdb8960481"
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "756bce70a62f6fc7c42934bf2163fd94d1fec4c648f0e3024ddef622ea101571"
     },
     {
-      "path": "analysis/sapphire-jp-map-music-main-map.json",
-      "sha256": "9391c654917218d1e18a27fa51c82a41c10c2e9e9d24fc5034fb9780d9b0edc9"
+      "path": "analysis/map-music-summary.json",
+      "sha256": "d43897e77b5bc63402a9728148add8bf9e7866a89bdebba3d8d5c26dde408ad9"
+    },
+    {
+      "path": "analysis/axp-j-rev0-retail-map-music-main-map.json",
+      "sha256": "f6502607ebeec3a7dc0ea7efa12f4495cbd57e465a0e17fe5dd8f9030a03c56c"
+    },
+    {
+      "path": "analysis/axp-e-rev0-retail-map-music-main-map.json",
+      "sha256": "6f35c61739f863a58c3de376c24bf82a9a367fbe7dea1ea83c44ad1df731ede0"
+    },
+    {
+      "path": "analysis/axp-e-rev1-retail-map-music-main-map.json",
+      "sha256": "25beb31f4eb3086af32dc828c5975b6fd8b987af70b690585918295c5f0a0d98"
+    },
+    {
+      "path": "analysis/axp-e-rev2-retail-map-music-main-map.json",
+      "sha256": "e9f764c6ebc09f818f9a65956eb907f3d6b9cd2000639177c542f26a56867c6c"
+    },
+    {
+      "path": "analysis/axp-d-rev0-retail-map-music-main-map.json",
+      "sha256": "43aff7a7a32c1b895208a570d7ee2571f0253f06eccab668d95b388bc0d7c8c0"
+    },
+    {
+      "path": "analysis/axp-d-rev1-retail-map-music-main-map.json",
+      "sha256": "f6dfc21037162dd4123f4a28d66c8888a1ed20e8531486eeffd20315fc12b74d"
+    },
+    {
+      "path": "analysis/axp-f-rev0-retail-map-music-main-map.json",
+      "sha256": "f64a2523730f862ff894c2d57e3f7910eecd0b2def15dbd36c091aeac91c4112"
+    },
+    {
+      "path": "analysis/axp-f-rev1-retail-map-music-main-map.json",
+      "sha256": "81bf611bfa5aad0cc4568b6b413da054a823b66fbb5779359f5f6adb1e196440"
+    },
+    {
+      "path": "analysis/axp-i-rev0-retail-map-music-main-map.json",
+      "sha256": "2bb033919694ba22d97d946d2d09de7dc5f6cb3457391ce8056db035dddeffdf"
+    },
+    {
+      "path": "analysis/axp-i-rev1-retail-map-music-main-map.json",
+      "sha256": "22c93cb9ab386f8a148996e5fc6339c7570c483089c940877b671a1f5253e76f"
+    },
+    {
+      "path": "analysis/axp-s-rev0-retail-map-music-main-map.json",
+      "sha256": "006a18578160852cb1b0ea1f20b457fbcc2cbbb5289f588e75af50622524505e"
+    },
+    {
+      "path": "analysis/axp-s-rev1-retail-map-music-main-map.json",
+      "sha256": "a4d7ef19e3682b7e9b3bf8fe262e706ba773f2c7d35bc19be024b35f460ad0c9"
     },
     {
       "path": "research/map-music-main-reconstruction.md",
-      "sha256": "6c5dd935bb314e84dd34a9eabf969ee4e9ad373c575f59ce513985473a6a5b14"
+      "sha256": "421ad6701044b7ddf5effddd952460a9fcf79749f9afd0b58f8cbf4ae3f089bc"
+    },
+    {
+      "path": "tests/test_map_music_main_reconstruction.py",
+      "sha256": "47e4e521a4fb1e47a253c6514959288fc87c5fed39604388e640144302b41d53"
     }
   ],
   "raw_rom_bytes_included": false
 }
-

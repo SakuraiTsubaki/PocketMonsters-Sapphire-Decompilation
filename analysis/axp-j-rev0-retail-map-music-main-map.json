@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "axp-j-rev0-retail",
+    "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"
+  },
+  "origin_reference": true,
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "path": "src/sound.c",
+    "raw_rom_bytes_published": false
+  },
+  "raw_rom_bytes_included": false,
+  "source": "src/map_music_main.c",
+  "source_sha256": "2ac443ed3a163fb4cfa0305551388f4ce2b08ea9404f3aa3162f941d01b6e79d",
+  "function": {
+    "name": "MapMusicMain",
+    "address": "0x08071BFC",
+    "range_end_exclusive": "0x08071CE4",
+    "rom_code_range": {
+      "start_offset": 465916,
+      "end_offset_exclusive": 466148,
+      "length": 232,
+      "sha256": "aae49f25a7ff56e264652c7944d6913586830fca9c93fb2f71785fb2a580f9c5",
+      "raw_bytes_published": false
+    },
+    "control_flow": {
+      "instruction_halfwords": 80,
+      "edge_count": 23,
+      "return_count": 1,
+      "call_count": 8,
+      "raw_halfwords_omitted": true
+    }
+  },
+  "jump_table": {
+    "address": "0x08071C1C",
+    "cases": {
+      "0": "0x08071CDE",
+      "1": "0x08071C3C",
+      "2": "0x08071CDE",
+      "3": "0x08071CDE",
+      "4": "0x08071CDE",
+      "5": "0x08071C50",
+      "6": "0x08071C70",
+      "7": "0x08071CAC"
+    }
+  },
+  "calls": [
+    {
+      "name": "PlayBGM",
+      "source": "0x08071C44",
+      "target": "0x080724B0"
+    },
+    {
+      "name": "IsBGMStopped",
+      "source": "0x08071C50",
+      "target": "0x08072064"
+    },
+    {
+      "name": "IsBGMStopped",
+      "source": "0x08071C70",
+      "target": "0x08072064"
+    },
+    {
+      "name": "IsFanfareTaskInactive",
+      "source": "0x08071C7A",
+      "target": "0x08071F34"
+    },
+    {
+      "name": "PlayBGM",
+      "source": "0x08071C98",
+      "target": "0x080724B0"
+    },
+    {
+      "name": "IsBGMStopped",
+      "source": "0x08071CAC",
+      "target": "0x08072064"
+    },
+    {
+      "name": "IsFanfareTaskInactive",
+      "source": "0x08071CB6",
+      "target": "0x08071F34"
+    },
+    {
+      "name": "FadeInNewBGM",
+      "source": "0x08071CC8",
+      "target": "0x08071FA8"
+    }
+  ],
+  "behavior": {
+    "state_cases": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "shared_idle_target_cases": [
+      0,
+      2,
+      3,
+      4
+    ]
+  }
+}
