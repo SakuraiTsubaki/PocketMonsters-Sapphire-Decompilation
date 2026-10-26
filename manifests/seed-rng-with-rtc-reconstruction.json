@@ -1,33 +1,131 @@
 {
   "schema_version": 1,
-  "target": {
-    "release": "AXPJ-rev0",
-    "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"
-  },
+  "game": "Pokemon Sapphire",
   "function": "SeedRngWithRtc",
+  "origin_reference": "axp-j-rev0-retail",
+  "release_count": 12,
   "generator": {
     "repository": "SakuraiTsubaki/Decompilation",
-    "tool": "tools/thumb_cfg.py",
-    "minimum_commit": "0bf18299d057f76b801016390b3a57892c8a50df"
+    "tool": "tools/seed_rng_with_rtc_catalog.py",
+    "tool_sha256": "7c53307559e7df365bac276fce479a0e0e39ae575c01b79a793c8872aaf3d6e4"
   },
   "outputs": [
     {
       "path": "src/seed_rng_with_rtc.c",
-      "sha256": "2cc25e30e7fa6bc3880f08a76958d9ddda0f65010fa733fe1075afb487a4d64e"
+      "sha256": "f1e20f8c2a185aa4a2b71dcd3dc84f63b8c8d719ad9a4533695066f79a73e1a4"
     },
     {
-      "path": "analysis/sapphire-jp-seed-rng-with-rtc-cfg.json",
-      "sha256": "2271f0ff875ec998dc6439e890bcf0351bc3557a5a6fbfacb995043c063c09a8"
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "756bce70a62f6fc7c42934bf2163fd94d1fec4c648f0e3024ddef622ea101571"
     },
     {
-      "path": "analysis/sapphire-jp-seed-rng-with-rtc-map.json",
-      "sha256": "28649ceab5dd260bc0ae2252b7c1d62b16253ce530e134ec01b4555b52061e09"
+      "path": "analysis/axp-j-rev0-retail-seed-rng-with-rtc-cfg.json",
+      "sha256": "2b7dc788a4051e260c6bfe537666553066ff34b41b3098a140a5ba554e0f805c"
+    },
+    {
+      "path": "analysis/axp-j-rev0-retail-seed-rng-with-rtc-map.json",
+      "sha256": "c46c61ba9039149538b3d66a7e364ec916a8abfa230a8c32018967361253e387"
+    },
+    {
+      "path": "analysis/axp-e-rev0-retail-seed-rng-with-rtc-cfg.json",
+      "sha256": "0567baadc4b50834cf6d425637fb06a392853a1d642bfda98344d507363a92b6"
+    },
+    {
+      "path": "analysis/axp-e-rev0-retail-seed-rng-with-rtc-map.json",
+      "sha256": "19683e55dadd93ec56dc7dacf73ff6a261714406099888aac326763f8a671b53"
+    },
+    {
+      "path": "analysis/axp-e-rev1-retail-seed-rng-with-rtc-cfg.json",
+      "sha256": "c0502e94a13cf3677ffd0acffd8697938d3a98edf1b9e0c3d0bafb0542c812bb"
+    },
+    {
+      "path": "analysis/axp-e-rev1-retail-seed-rng-with-rtc-map.json",
+      "sha256": "7299b468be0415d31318fd733582fd2354753806a4d510283ef6b9fa2b7eb1a1"
+    },
+    {
+      "path": "analysis/axp-e-rev2-retail-seed-rng-with-rtc-cfg.json",
+      "sha256": "cbb1182f2fc53777f9db3019be182c4bcf09c73c0b9811e39c2b9af3fb74f0dc"
+    },
+    {
+      "path": "analysis/axp-e-rev2-retail-seed-rng-with-rtc-map.json",
+      "sha256": "c0d2b510e1bc5b9c3244c993a1a57da9f9c17116e8622ff19902bd24890fd986"
+    },
+    {
+      "path": "analysis/axp-d-rev0-retail-seed-rng-with-rtc-cfg.json",
+      "sha256": "30cd70811365155b6f7c93bc3da73bf11e551cd732a38e2fe4abea7636efd77e"
+    },
+    {
+      "path": "analysis/axp-d-rev0-retail-seed-rng-with-rtc-map.json",
+      "sha256": "7a6017fc3dc9a4d81d9efa0aac15ee1133aa47ebdd475a9c258060ff2268d545"
+    },
+    {
+      "path": "analysis/axp-d-rev1-retail-seed-rng-with-rtc-cfg.json",
+      "sha256": "be066f541c0bf5adca6b0e5f9d00a319868854307aad99a4f3d7e83161e63cb9"
+    },
+    {
+      "path": "analysis/axp-d-rev1-retail-seed-rng-with-rtc-map.json",
+      "sha256": "0e4bf627dc0e5144d3a6f1e13d725609a804cbc205d3fd864b7f8e8f979b2f67"
+    },
+    {
+      "path": "analysis/axp-f-rev0-retail-seed-rng-with-rtc-cfg.json",
+      "sha256": "666a2bbcbdb330d3d496215af1102c9c0428aa0c03afa7f77f6b77d980b3aee0"
+    },
+    {
+      "path": "analysis/axp-f-rev0-retail-seed-rng-with-rtc-map.json",
+      "sha256": "f3e7899d520ec2fc3a3a9cbe155ecae366fcbf6766f886ae92368de3e101c78b"
+    },
+    {
+      "path": "analysis/axp-f-rev1-retail-seed-rng-with-rtc-cfg.json",
+      "sha256": "4e59ea5e3926187dee4f26841f7cb56043fef55f59643d038aa599568a46e76a"
+    },
+    {
+      "path": "analysis/axp-f-rev1-retail-seed-rng-with-rtc-map.json",
+      "sha256": "be17a456496026307afd5512e3876cf149e44bf7cbd73664529d1fe4d6bb3560"
+    },
+    {
+      "path": "analysis/axp-i-rev0-retail-seed-rng-with-rtc-cfg.json",
+      "sha256": "5c7ce71e2fefb7e9510514b91ba64c030cbc7a78cfe5f399fd66e699bdba37a3"
+    },
+    {
+      "path": "analysis/axp-i-rev0-retail-seed-rng-with-rtc-map.json",
+      "sha256": "e0f2a83693f7f2805c936484942486d17e25f208a4b214ec5fe348bf4374a39a"
+    },
+    {
+      "path": "analysis/axp-i-rev1-retail-seed-rng-with-rtc-cfg.json",
+      "sha256": "bfebca9e509b6b1a611c1b4aa15f8ff4a9e48fda29853490c63ba483fe647ad6"
+    },
+    {
+      "path": "analysis/axp-i-rev1-retail-seed-rng-with-rtc-map.json",
+      "sha256": "1b4867019b0daf5de776c7946fe8f75235fe0f63136c0020e0ee3966ec9a76a6"
+    },
+    {
+      "path": "analysis/axp-s-rev0-retail-seed-rng-with-rtc-cfg.json",
+      "sha256": "1bedefd95cbac6e66ef6c2f8e409bb7cf89482d42fe46ae5c61f92409d8b4069"
+    },
+    {
+      "path": "analysis/axp-s-rev0-retail-seed-rng-with-rtc-map.json",
+      "sha256": "2195782cf67d2e8004ed395a9f6fea74baf16a5ad83cc04df1e6d2d413d88b6b"
+    },
+    {
+      "path": "analysis/axp-s-rev1-retail-seed-rng-with-rtc-cfg.json",
+      "sha256": "a6b555d99b52d06bcba137c3b079a1f11e65d41f9533211c36a933de74a7642f"
+    },
+    {
+      "path": "analysis/axp-s-rev1-retail-seed-rng-with-rtc-map.json",
+      "sha256": "f9162ba2a947d973dea05651dbb17ae887bfe592856d070668762e0a0ff8b614"
+    },
+    {
+      "path": "analysis/seed-rng-with-rtc-summary.json",
+      "sha256": "1585932b3e4737b874f1bbd280c9e7faa82fdcc0e1ec2f9c181d4b95c856e1ce"
     },
     {
       "path": "research/seed-rng-with-rtc-reconstruction.md",
-      "sha256": "e6d6bc8004796f80f04482df119553cb4f6c45cb2f1839babffb50abf77c54d2"
+      "sha256": "41b5a85b0356aa6ead641dcebb1b505618afbacbadac966e0d9a278c1a3edc9d"
+    },
+    {
+      "path": "tests/test_seed_rng_with_rtc_reconstruction.py",
+      "sha256": "8f89de9c7811e9e7ad6902355197b54a5dee7174efa67bdc5f2c89522bbe8e04"
     }
   ],
   "raw_rom_bytes_included": false
 }
-

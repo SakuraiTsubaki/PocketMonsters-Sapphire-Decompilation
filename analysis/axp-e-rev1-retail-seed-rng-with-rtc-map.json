@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "axp-e-rev1-retail",
+    "sha256": "2f680a43e5c57aede4cb3b2cb04f7e15079efc122c88edaacfd6026db6e920ac"
+  },
+  "source": "src/seed_rng_with_rtc.c",
+  "source_sha256": "f1e20f8c2a185aa4a2b71dcd3dc84f63b8c8d719ad9a4533695066f79a73e1a4",
+  "function": {
+    "name": "SeedRngWithRtc",
+    "address": "0x080003E4",
+    "range_end_exclusive": "0x080003FC",
+    "rom_code_range": {
+      "start_offset": 996,
+      "end_offset_exclusive": 1020,
+      "length": 24,
+      "sha256": "d7611181f5117740a452e4c16a4a19109f44c5cbf4a6879ce1e660538797fae2",
+      "raw_bytes_published": false
+    },
+    "cfg": "analysis/axp-e-rev1-retail-seed-rng-with-rtc-cfg.json"
+  },
+  "calls": [
+    {
+      "name": "RtcGetMinuteCount",
+      "source": "0x080003E6",
+      "target": "0x0800968C"
+    },
+    {
+      "name": "SeedRng",
+      "source": "0x080003F4",
+      "target": "0x08040EC4"
+    }
+  ],
+  "behavior": {
+    "input": "RtcGetMinuteCount 32-bit result",
+    "fold": "upper 16 bits XOR lower 16 bits",
+    "mask_literal": "0x0000FFFF",
+    "seed_width_bits": 16
+  },
+  "origin_reference": false,
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "path": "src/main.c",
+    "match_kind": "Thumb control flow, 0xFFFF literal, call order, and XOR fold",
+    "raw_rom_bytes_published": false
+  },
+  "raw_rom_bytes_included": false
+}
