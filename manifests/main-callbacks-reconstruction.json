@@ -1,27 +1,88 @@
 {
   "schema_version": 1,
-  "id": "sapphire-jp-main-callbacks-reconstruction",
-  "target": {
-    "release": "AXPJ-rev0",
-    "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"
+  "game": "Sapphire",
+  "cluster": [
+    "UpdateLinkAndCallCallbacks",
+    "InitMainCallbacks",
+    "CallCallbacks",
+    "SetMainCallback2"
+  ],
+  "origin_reference": "axp-j-rev0-retail",
+  "release_count": 12,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/main_callback_catalog.py",
+    "tool_sha256": "cebed0fd5a611a984866fa74779d21542ebb651e415d974435158352a1c22962"
   },
   "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "756bce70a62f6fc7c42934bf2163fd94d1fec4c648f0e3024ddef622ea101571"
+    },
     {
       "path": "src/main_callbacks.c",
       "sha256": "9d783052a0efb72cef16446aebdfef0de9011781be8cf27dd54b674edad552a2"
     },
     {
-      "path": "analysis/main-callbacks-map.json",
-      "sha256": "105305f1d7b218df355627e4389f677ab1dc49901b6e4f20a4461dc3f6c3e142"
+      "path": "analysis/main-callbacks-summary.json",
+      "sha256": "86ed2adb2bd419f4762c5ff37a299291e5e5a8ab847c068b60891855fdc2f238"
+    },
+    {
+      "path": "analysis/axp-j-rev0-retail-main-callbacks-map.json",
+      "sha256": "9b3c09ca7ee1db3d8524053c44fab49ae7b92b92841be0cc73a88cc4598695e8"
+    },
+    {
+      "path": "analysis/axp-e-rev0-retail-main-callbacks-map.json",
+      "sha256": "61c8b473e1b4ca922e492963164e38d64e574a24656b7e4c63871a0434104cde"
+    },
+    {
+      "path": "analysis/axp-e-rev1-retail-main-callbacks-map.json",
+      "sha256": "259fef6b907837bc06d62e55c3ee3a7e4e80affaff75cba6ddf3b119924ca68b"
+    },
+    {
+      "path": "analysis/axp-e-rev2-retail-main-callbacks-map.json",
+      "sha256": "ba20291723f06dfca0491b07c9d149668eba4f43cbc1264d8b3c4d93d0a3a44b"
+    },
+    {
+      "path": "analysis/axp-d-rev0-retail-main-callbacks-map.json",
+      "sha256": "7e3b0d910bb94a6ffe697fefab8b75c3c8cbba78edeacc56c4896786f1b9050e"
+    },
+    {
+      "path": "analysis/axp-d-rev1-retail-main-callbacks-map.json",
+      "sha256": "62328b09e0cf55a02f575ca6998d56ee4140e4ff894f0b29d1df0446eb99e8ba"
+    },
+    {
+      "path": "analysis/axp-f-rev0-retail-main-callbacks-map.json",
+      "sha256": "c1cc41954c7b2c1f5e5eccc3c90b98b320eeef57de18e19a386b2f719e843d23"
+    },
+    {
+      "path": "analysis/axp-f-rev1-retail-main-callbacks-map.json",
+      "sha256": "39b629f1f65efba1b46b50675f3e5d5456bf7ac47ad3f7471ac44183331d2eb8"
+    },
+    {
+      "path": "analysis/axp-i-rev0-retail-main-callbacks-map.json",
+      "sha256": "2c5cb5f397287abfbe5aa0208f1d7e49c867e9f9ad9b730c4182bb828c0d4c60"
+    },
+    {
+      "path": "analysis/axp-i-rev1-retail-main-callbacks-map.json",
+      "sha256": "4b5ae209e0c0206e94293287abdb9fc92b50d7d49b7b39b55b2941a2913e45b0"
+    },
+    {
+      "path": "analysis/axp-s-rev0-retail-main-callbacks-map.json",
+      "sha256": "c4c48792d8589be765102de06e43cfd2fc9273165248d3928d3c805abce95f9c"
+    },
+    {
+      "path": "analysis/axp-s-rev1-retail-main-callbacks-map.json",
+      "sha256": "fbceefd80991c2b6ed94c04c05e5211206191d6ef9eed3de006f26fd1147649e"
     },
     {
       "path": "research/main-callbacks-reconstruction.md",
-      "sha256": "5acd6c791011293169b26a84a3a34d6f7a185b6fd104c46a9d8c997b3dfd2c04"
+      "sha256": "97f1b83cac6eea2110f63de3fcab008e70ccb3ef63eb95296afd14ae9b586d2e"
+    },
+    {
+      "path": "tests/test_main_callbacks_reconstruction.py",
+      "sha256": "484fb6245418b4409b7cf55e5386873b49bae06f1d3dd5cc82e054a10021e2a3"
     }
   ],
-  "verification": {
-    "test": "tests/test_main_callbacks_reconstruction.py",
-    "function_range_hashes": "analysis/main-callbacks-map.json",
-    "raw_rom_bytes_published": false
-  }
+  "raw_rom_bytes_included": false
 }

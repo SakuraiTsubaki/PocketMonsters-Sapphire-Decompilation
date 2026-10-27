@@ -1,5 +1,3 @@
-# Main callback reconstruction
+# Sapphire main callback cluster reconstruction
 
-The existing AXPJ revision-zero callback reconstruction is now tied to four exact ROM ranges. It covers link processing, callback initialization, two indirect callback dispatches, and callback2/state assignment. Names follow `pret/pokeruby`; addresses, structure offsets, and range hashes come from the verified Japanese ROM.
-
-The C source and map contain no verbatim ROM byte extracts. Sapphire and Ruby are kept as separate evidence even where functions are byte-identical.
+The Japanese release `axp-j-rev0-retail` is the origin reference. All 12 cataloged releases (Japanese, English, German, French, Italian, Spanish) were verified from `AgbMain` call targets. `CallCallbacks` is reached as the terminal direct callee of `UpdateLinkAndCallCallbacks`; `SetMainCallback2` is reached from `InitMainCallbacks` and cross-checked against the existing global SetMainCallback2 catalog. Per-release maps retain function ranges, hashes, named direct calls and raw-free CFG summaries. No ROM instruction bytes are published.
