@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "axp-e-rev1-retail",
+    "sha256": "2f680a43e5c57aede4cb3b2cb04f7e15079efc122c88edaacfd6026db6e920ac"
+  },
+  "origin_reference": false,
+  "raw_rom_bytes_included": false,
+  "function": {
+    "name": "AgbMain",
+    "address": "0x0800024C",
+    "range_end_exclusive": "0x0800033A",
+    "nonreturning": true,
+    "rom_code_range": {
+      "start_offset": 588,
+      "end_offset_exclusive": 826,
+      "length": 238,
+      "sha256": "5b7b112826b72c0cbde961c155dc9a86f26b8117204b2f34847230c6534b17f1",
+      "raw_bytes_published": false
+    }
+  },
+  "control_flow": {
+    "instruction_halfwords": 102,
+    "edge_count": 18,
+    "edge_kinds": {
+      "branch": 2,
+      "conditional-fallthrough": 8,
+      "conditional-taken": 8
+    },
+    "direct_call_count": 20,
+    "return_count": 0,
+    "loop_back_edge": {
+      "source": "0x08000338",
+      "target": "0x080002A4"
+    },
+    "raw_halfwords_omitted": true
+  },
+  "cross_reference": {
+    "agb_main_map": "analysis/axp-e-rev1-retail-agb-main-map.json",
+    "agb_main_map_sha256": "0352220375fb1baa1d51dcc82712eba150e9bc9d29c029c60214c387b7eac1ac"
+  }
+}

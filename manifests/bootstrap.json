@@ -1,1 +1,79 @@
-{"schema_version":1,"id":"sapphire-jp-bootstrap","generator":{"repository":"SakuraiTsubaki/Decompilation","tool":"tools/gba_bootstrap.py","version":"1.0.0"},"inputs":[{"size":8388608,"sha256":"6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"}],"outputs":[{"path":"analysis/sapphire-jp-bootstrap.json","sha256":"cb8aee9a5b41686831591d093527f8978f2a3c79612122fcf598c24cef7197c5"}]}
+{
+  "schema_version": 1,
+  "game": "Sapphire",
+  "evidence_kind": "bootstrap",
+  "origin_reference": "axp-j-rev0-retail",
+  "release_count": 12,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/entry_bootstrap_catalog.py",
+    "tool_sha256": "a31fa9fef5ec7074a301e8cd5b49689decbd237e73e303fc290cfe50aeefb369"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "756bce70a62f6fc7c42934bf2163fd94d1fec4c648f0e3024ddef622ea101571"
+    },
+    {
+      "path": "analysis/entry-bootstrap-summary.json",
+      "sha256": "2545b91386d3bf0e6531ccd4c9cbdb913fd3b5bb0e9a838d5b88eb840273f2aa"
+    },
+    {
+      "path": "analysis/axp-j-rev0-retail-bootstrap.json",
+      "sha256": "a2d9c62e042124b0f2c73f57e9fc88c1fa8e7b5efc2826c7f6e8310103e47efb"
+    },
+    {
+      "path": "analysis/axp-e-rev0-retail-bootstrap.json",
+      "sha256": "a1412975fecc189fd16a62e8aee5ba8638b78c6285db6bb70210b72d04ffa1bb"
+    },
+    {
+      "path": "analysis/axp-e-rev1-retail-bootstrap.json",
+      "sha256": "d88df7d7e7e4ec5b122cdbae2008623091a2539019e543d472a5160d45318797"
+    },
+    {
+      "path": "analysis/axp-e-rev2-retail-bootstrap.json",
+      "sha256": "869730ae5673a7b2b334bb7f8db4447a47103f0d58208a8ebbe0eb9971f4064b"
+    },
+    {
+      "path": "analysis/axp-d-rev0-retail-bootstrap.json",
+      "sha256": "89c5d22d88f6261603086430322ad758f1591b50d4edf6bab5a8cb867a1b8b2a"
+    },
+    {
+      "path": "analysis/axp-d-rev1-retail-bootstrap.json",
+      "sha256": "55cf26d89da5beb3255d3373a4ffcfd677e9ebdcc480c61acf806fa1621fc9a2"
+    },
+    {
+      "path": "analysis/axp-f-rev0-retail-bootstrap.json",
+      "sha256": "93a1f3f8723f18f554f37c9435b1830d81e948fac421d6e5439456e92ce28dd3"
+    },
+    {
+      "path": "analysis/axp-f-rev1-retail-bootstrap.json",
+      "sha256": "44ec84eb8215796ff1b5ba43c3c51d04d1ec3ba57f85bac5faf5e47e6a09b6af"
+    },
+    {
+      "path": "analysis/axp-i-rev0-retail-bootstrap.json",
+      "sha256": "35c2ab3a5ebde251dad60fb129fadcd474a82fdc31c25bd6a896047caffbd539"
+    },
+    {
+      "path": "analysis/axp-i-rev1-retail-bootstrap.json",
+      "sha256": "6ff5352f652777c43556d313301faeb925d91e64a33a50e4834b51e67ef28d24"
+    },
+    {
+      "path": "analysis/axp-s-rev0-retail-bootstrap.json",
+      "sha256": "5c6906b7bda7cccd4630f2264a4473fdc25f91d1cc65d4c4ec54a013d8fdc881"
+    },
+    {
+      "path": "analysis/axp-s-rev1-retail-bootstrap.json",
+      "sha256": "bcf0bbaf560de736647fd8dd5d357da668b14187c283a6a3c696f311d699f522"
+    },
+    {
+      "path": "research/bootstrap-transition.md",
+      "sha256": "448b4dc0e69b4afbb1398bae6ef0cb36027ed36dc42be15f4073d388c40eba7c"
+    },
+    {
+      "path": "tests/test_bootstrap.py",
+      "sha256": "14ba1e30518d8dd3c9634d8981bd370a2bcd14564659a502f85ea0684ff3fb76"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

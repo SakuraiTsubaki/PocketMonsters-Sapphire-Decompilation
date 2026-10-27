@@ -1,1 +1,79 @@
-{"schema_version":1,"id":"sapphire-jp-thumb-entry-cfg","generator":{"repository":"SakuraiTsubaki/Decompilation","tool":"tools/thumb_cfg.py","version":"1.0.0"},"inputs":[{"size":8388608,"sha256":"6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"}],"outputs":[{"path":"analysis/sapphire-jp-thumb-entry-cfg.json","sha256":"57330262da92944ca2a9f847ea8e26449c5460e5af9ea67541d45ae0bdfb3045"}]}
+{
+  "schema_version": 1,
+  "game": "Sapphire",
+  "evidence_kind": "thumb-entry-cfg",
+  "origin_reference": "axp-j-rev0-retail",
+  "release_count": 12,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/entry_bootstrap_catalog.py",
+    "tool_sha256": "a31fa9fef5ec7074a301e8cd5b49689decbd237e73e303fc290cfe50aeefb369"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "756bce70a62f6fc7c42934bf2163fd94d1fec4c648f0e3024ddef622ea101571"
+    },
+    {
+      "path": "analysis/entry-bootstrap-summary.json",
+      "sha256": "2545b91386d3bf0e6531ccd4c9cbdb913fd3b5bb0e9a838d5b88eb840273f2aa"
+    },
+    {
+      "path": "analysis/axp-j-rev0-retail-thumb-entry-cfg.json",
+      "sha256": "724f24a1271e1f1fec3de3bfc54525e9bc1a9a34087436f62ab76e90575a3bd7"
+    },
+    {
+      "path": "analysis/axp-e-rev0-retail-thumb-entry-cfg.json",
+      "sha256": "bc06060f9373d2a4f43cd2bb1a6ac2d6fa2b7a1730efb218dc52468d7454751e"
+    },
+    {
+      "path": "analysis/axp-e-rev1-retail-thumb-entry-cfg.json",
+      "sha256": "a5e1fa966f89ab66faf52077a681219a82c66495b54505a0e91145a69ea05221"
+    },
+    {
+      "path": "analysis/axp-e-rev2-retail-thumb-entry-cfg.json",
+      "sha256": "acfe62b16201c012cd6bb9000dd9a5b214b33a113e1ae33fff783efa8f8592fd"
+    },
+    {
+      "path": "analysis/axp-d-rev0-retail-thumb-entry-cfg.json",
+      "sha256": "90dee5ed83bbdd77d1f603ecc75d1774a5b9c1cd3954788d3cb8364c46d76259"
+    },
+    {
+      "path": "analysis/axp-d-rev1-retail-thumb-entry-cfg.json",
+      "sha256": "f8b67fdcd80c114b0b9f5a7864ee6d3946ed620641befc4d605dc3963c419256"
+    },
+    {
+      "path": "analysis/axp-f-rev0-retail-thumb-entry-cfg.json",
+      "sha256": "f5f8deab3ea614d70e6f85f4929af623d68e34d846d6eb74680c222867a6bcb8"
+    },
+    {
+      "path": "analysis/axp-f-rev1-retail-thumb-entry-cfg.json",
+      "sha256": "602d1e22907bd9d3213ddbeae7e9dc50a01fae1658cfe9e39374e6bf550a2cb0"
+    },
+    {
+      "path": "analysis/axp-i-rev0-retail-thumb-entry-cfg.json",
+      "sha256": "1d74a099d769539c15f0e2a299d8de1a6c75ebead9b77f9dcd652a673ad12792"
+    },
+    {
+      "path": "analysis/axp-i-rev1-retail-thumb-entry-cfg.json",
+      "sha256": "52f1d8a01919187d41a45507219625f9c613987f570cb80dca1a860e34a62b8e"
+    },
+    {
+      "path": "analysis/axp-s-rev0-retail-thumb-entry-cfg.json",
+      "sha256": "bf69a913b0c567d0269f71ccd702cbaf11b1a49c02ad79457d4043e10284f208"
+    },
+    {
+      "path": "analysis/axp-s-rev1-retail-thumb-entry-cfg.json",
+      "sha256": "bd8eb07917c8657b60d55845ca0ba8d604345680eb188fa2a4a679d4e7647ab8"
+    },
+    {
+      "path": "research/thumb-entry-cfg.md",
+      "sha256": "61f152bc02e9ba262d651d8c979ba6af16e19ee5924018646f60520f1def0acb"
+    },
+    {
+      "path": "tests/test_thumb_entry_cfg.py",
+      "sha256": "5ff4ee1e37e28e8d1de368b647056de39bdd51d7f89b72bc06c18a4cddc11377"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

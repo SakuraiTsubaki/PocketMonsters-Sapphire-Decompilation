@@ -1,3 +1,3 @@
-# Japanese ROM entrypoint reconstruction
+# Sapphire GBA entrypoint reconstruction
 
-The selected Japanese target begins with ARM word `0xea000032`, branching from `0x08000000` to `0x080000d0` under ARM PC+8 semantics. The checked-in assembly preserves the exact word and the JSON evidence is gated by the selected target SHA-256. No ROM binary is stored.
+The Japanese release `axp-j-rev0-retail` is the origin reference. All 12 cataloged releases (Japanese, English, German, French, Italian, Spanish) contain a verified ARM branch at the GBA entry address. Per-release evidence stores the target and a four-byte range hash without publishing the encoded instruction word. `src/rom_entry.s` preserves the semantic branch using symbols.

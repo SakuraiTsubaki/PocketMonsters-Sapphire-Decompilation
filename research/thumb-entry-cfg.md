@@ -1,4 +1,3 @@
-# Thumb entry reachable control flow
+# Sapphire Thumb entry CFG
 
-Exact-hash analysis starts at the proven Thumb target `0x0800024c`. Conservative traversal reaches 107 halfwords across `0x0800024c`–`0x08000344`, records 18 direct edges and 21 BL calls, and does not follow callees. No return is reachable in this graph; this is evidence for a non-returning bootstrap path, not a claimed complete function boundary. The scan ceiling is `0x0800424c`.
-
+All 12 cataloged releases were conservatively traced from the bootstrap Thumb target through the non-returning `AgbMain` loop. Compact CFG evidence is cross-checked against each release's `AgbMain` map and records only counts, edge kinds, the loop edge and hashes; Thumb halfwords and instruction arrays are omitted.
