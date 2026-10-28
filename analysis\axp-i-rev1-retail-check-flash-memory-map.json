@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "axp-i-rev1-retail",
+    "sha256": "e2f75b0ce7c55d5cbe6ec23eee5f2806101a02a00a13b3c4fdfe7f7d3e8b6898"
+  },
+  "origin_reference": false,
+  "function": {
+    "name": "CheckForFlashMemory",
+    "address": "0x08047D04",
+    "range_end_exclusive": "0x08047D2A",
+    "source": "src/check_flash_memory.c",
+    "source_sha256": "d5a99f21f5bd22d8374439df49fb709f9a89e7fb7191ecf23079fe3a6f94e21d",
+    "rom_code_range": {
+      "start_offset": 294148,
+      "end_offset_exclusive": 294186,
+      "length": 38,
+      "sha256": "38f3bf8878c3edb776dcabb6ebb60a7743f0e7403584564efd1d2a133ff320e2",
+      "raw_bytes_published": false
+    },
+    "calls": [
+      {
+        "name": "IdentifyFlash",
+        "source": "0x08047D06",
+        "target": "0x081E1740"
+      },
+      {
+        "name": "InitFlashTimer",
+        "source": "0x08047D16",
+        "target": "0x08000720"
+      }
+    ],
+    "control_flow": {
+      "instruction_halfwords": 17,
+      "edge_count": 3,
+      "edge_kinds": {
+        "branch": 1,
+        "conditional-fallthrough": 1,
+        "conditional-taken": 1
+      },
+      "direct_call_count": 2,
+      "return_count": 1,
+      "canonical_reachable_bytes_sha256": "9d6410c39159ffc9b4e0a1d856b1edf90c56c704d162f623da728b95d3d8a0b7",
+      "raw_halfwords_omitted": true
+    }
+  },
+  "verified_behavior": {
+    "identify_flash_success_value": 0,
+    "present_flag_on_success": 1,
+    "present_flag_on_failure": 0,
+    "initializes_flash_timer_only_on_success": true
+  },
+  "cross_reference": {
+    "agb_main_map": "analysis/axp-i-rev1-retail-agb-main-map.json",
+    "agb_main_map_sha256": "5f1bcf95587377f1c99dec5aac312807a71a1eb131bc3a978aff061e099d8013"
+  },
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "path": "src/load_save.c",
+    "match_kind": "caller identity, call order, branch and state store"
+  },
+  "raw_rom_bytes_included": false
+}
