@@ -19,7 +19,11 @@ class InitFlashTimerReconstructionTests(unittest.TestCase):
             self.assertEqual(evidence["target"]["sha256"], release["sha256"])
             self.assertEqual(evidence["function"]["calls"][0]["name"], "SetFlashTimerIntr")
             self.assertEqual(evidence["verified_behavior"]["timer_index"], 2)
-            self.assertEqual(evidence["verified_behavior"]["interrupt_table_slot"], 7)
+            self.assertIsNone(evidence["verified_behavior"]["interrupt_table_slot"])
+            self.assertEqual(evidence["verified_behavior"]["handler_source"],
+                             "gFlashTimerIntrFunc")
+            self.assertEqual(evidence["verified_behavior"]["handler_operand_form"],
+                             "loaded-handler")
             self.assertTrue(evidence["control_flow"]["raw_halfwords_omitted"])
             self.assertFalse(evidence["raw_rom_bytes_included"])
 
@@ -33,4 +37,3 @@ class InitFlashTimerReconstructionTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-

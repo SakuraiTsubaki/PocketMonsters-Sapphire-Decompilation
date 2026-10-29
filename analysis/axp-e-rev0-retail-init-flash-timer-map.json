@@ -10,7 +10,7 @@
     "address": "0x080005EC",
     "range_end_exclusive": "0x080005FC",
     "source": "src/init_flash_timer.c",
-    "source_sha256": "4274128ae51b0a314c7dbd38b803828c3a4612787d31a85d6e4b05ae7ee858ab",
+    "source_sha256": "dad91a24f368a0932b5374703fcdeab49dc1865f4aa17a761efc24fa5488793a",
     "rom_code_range": {
       "start_offset": 1516,
       "end_offset_exclusive": 1532,
@@ -36,8 +36,9 @@
   },
   "verified_behavior": {
     "timer_index": 2,
-    "interrupt_table_slot": 7,
-    "pointer_variant": "direct"
+    "handler_operand_form": "loaded-handler",
+    "handler_source": "gFlashTimerIntrFunc",
+    "interrupt_table_slot": null
   },
   "cross_reference": {
     "check_flash_memory_map": "analysis/axp-e-rev0-retail-check-flash-memory-map.json",

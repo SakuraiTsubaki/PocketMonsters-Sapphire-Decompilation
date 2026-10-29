@@ -2,11 +2,10 @@
 
 typedef void (*IntrFunc)(void);
 
-extern IntrFunc gIntrTable[];
-extern void SetFlashTimerIntr(uint8_t timer, IntrFunc *handlerSlot);
+extern IntrFunc gFlashTimerIntrFunc;
+extern void SetFlashTimerIntr(uint8_t timer, IntrFunc handler);
 
 void InitFlashTimer(void)
 {
-    SetFlashTimerIntr(2, gIntrTable + 7);
+    SetFlashTimerIntr(2, gFlashTimerIntrFunc);
 }
-

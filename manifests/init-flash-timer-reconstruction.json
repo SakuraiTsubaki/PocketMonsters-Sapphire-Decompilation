@@ -7,7 +7,7 @@
   "generator": {
     "repository": "SakuraiTsubaki/Decompilation",
     "tool": "tools/init_flash_timer_catalog.py",
-    "tool_sha256": "7e99f0d2b6fcb7212625b43e5a31def9b56bcac165ed5d951618ffff270760c7"
+    "tool_sha256": "5d7c82944ea08dcd4f17206d25309fe08d4e12a6b531320fc59a9841585b5bee"
   },
   "outputs": [
     {
@@ -16,7 +16,7 @@
     },
     {
       "path": "src/init_flash_timer.c",
-      "sha256": "4274128ae51b0a314c7dbd38b803828c3a4612787d31a85d6e4b05ae7ee858ab"
+      "sha256": "dad91a24f368a0932b5374703fcdeab49dc1865f4aa17a761efc24fa5488793a"
     },
     {
       "path": "analysis/init-flash-timer-summary.json",
@@ -24,59 +24,59 @@
     },
     {
       "path": "analysis/axp-j-rev0-retail-init-flash-timer-map.json",
-      "sha256": "b77e58cd8b2e35bce154846fbcafff311ea228eb407199ae07cf25bac760cb09"
+      "sha256": "7c22a303a807803649ec148dc4cad7ceeae0745096f6a81a9ca9e4eed93a5330"
     },
     {
       "path": "analysis/axp-e-rev0-retail-init-flash-timer-map.json",
-      "sha256": "0c13c7e3d740010cb74a2e2c3d9436fd4af4c55fe0511d2a5c9ebf81e82324fd"
+      "sha256": "46b7cd49c7f472caa4487310cf28bc8087f1e491fca1852085110853b28c009d"
     },
     {
       "path": "analysis/axp-e-rev1-retail-init-flash-timer-map.json",
-      "sha256": "b0c3eb4db2dc47018d788495f50d709c109426417a1dcb7a8c6ec16dee844bfc"
+      "sha256": "eadbbd201005ae307c157ad2debfbd33e48337902009616c66025d1abbccf69d"
     },
     {
       "path": "analysis/axp-e-rev2-retail-init-flash-timer-map.json",
-      "sha256": "b2893504b3614f20fc28acceb4a0dfc58baa340e3caec2b377d6935518665676"
+      "sha256": "1f4ba7ff7ae44b0c4c5b0db0b13f5def12e54a87acc6a1b32550887699321841"
     },
     {
       "path": "analysis/axp-d-rev0-retail-init-flash-timer-map.json",
-      "sha256": "2baf8f6f528ed2d5a79c72c376509989fefe5f126fa1de49a0de2c7486984329"
+      "sha256": "5d5d26d05e46b20d0cd00c906b156b237474c4d78462ff184e958aea15892386"
     },
     {
       "path": "analysis/axp-d-rev1-retail-init-flash-timer-map.json",
-      "sha256": "f1e52b8f53285d19bc50aa0a40a99e89c9effecd584f5c743c79f997fbee4f93"
+      "sha256": "20b35392ff3f5fa1b1165a3c7208442e2dfb60bdf4e12b7bb0d5282080173bdf"
     },
     {
       "path": "analysis/axp-f-rev0-retail-init-flash-timer-map.json",
-      "sha256": "bdfc32ef52800a35c1ac310f90b5cb5538f4239c28bed4f69434ef371f5c715e"
+      "sha256": "636000c901ae8cafb51787d3cf8666b67146c948d06062b0cd5162b806f325a8"
     },
     {
       "path": "analysis/axp-f-rev1-retail-init-flash-timer-map.json",
-      "sha256": "fbf04a287cbef153df09ab16ad915e0e52572f0a09c638c4922c9b47efcd7b05"
+      "sha256": "2e21fd39172b5822233237e732fca3be93f0377a19dc4ea2033d119f960bd781"
     },
     {
       "path": "analysis/axp-i-rev0-retail-init-flash-timer-map.json",
-      "sha256": "b712404394b4dd70fc04e1883c88ce45600c3e01cf630dd98fa4c37c1a0558a5"
+      "sha256": "071b84c69a1196ca2950f14ff26084d6193cff40d0276da95907ab9daef5826d"
     },
     {
       "path": "analysis/axp-i-rev1-retail-init-flash-timer-map.json",
-      "sha256": "0194bb393576202018508222d2af25f81f37bda26b2cdc516b16d8f867f4c9a6"
+      "sha256": "90628161333791adc7753c0e04d3aabbad76a1f518fc4e39d3db9296cd00c244"
     },
     {
       "path": "analysis/axp-s-rev0-retail-init-flash-timer-map.json",
-      "sha256": "818ed6f0bf0640cd00f61ebe66063bea6d79815595a9b863537990bdace9efce"
+      "sha256": "4d49a8cfe2f15e4f3cc15daf19bd36fd941307e51692d4e727e36c02a117fa1f"
     },
     {
       "path": "analysis/axp-s-rev1-retail-init-flash-timer-map.json",
-      "sha256": "2d0b6da16396e0d8b8eec86760876b9a348fab447c6a1b83b104556a01a219b2"
+      "sha256": "367b7cd97c4537e6c96d40bb10092b64282ca850bab522a049409e982d757f68"
     },
     {
       "path": "research/init-flash-timer-reconstruction.md",
-      "sha256": "a81a4f8a922a382bfbfee581d430f4dd52d1870485a0bbd55ed67ea5527470af"
+      "sha256": "3df4ee9e9a912a24dffbab1ee4c5529235d378f0b56d257f3058ff8375a7ffb2"
     },
     {
       "path": "tests/test_init_flash_timer_reconstruction.py",
-      "sha256": "4103e815fc25e625fa62e49818a73cc5b2dd38295966eaa4c4bcac071e1c97b0"
+      "sha256": "b7ca7875f7d404a7b82205c205204c0f1044855f90800b3cb80f709565e59494"
     }
   ],
   "raw_rom_bytes_included": false
