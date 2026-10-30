@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "Sapphire",
+  "function": "SoftReset",
+  "origin_reference": "axp-j-rev0-retail",
+  "release_count": 12,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/soft_reset_catalog.py",
+    "tool_sha256": "5b8b5947dab5a77687a5012fd79ec2c3a5f83e8c6759e51ea56cb70a4383918b"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "756bce70a62f6fc7c42934bf2163fd94d1fec4c648f0e3024ddef622ea101571"
+    },
+    {
+      "path": "src/soft_reset.s",
+      "sha256": "e37cd98386ecac57d28c2c50ce2d627d38001f225ea4ba3a65255b2846ecf9bd"
+    },
+    {
+      "path": "analysis/soft-reset-summary.json",
+      "sha256": "80be6889744566be0f08e9ce1b739d3c38955c745d84d52a1d36745078e70ec0"
+    },
+    {
+      "path": "analysis/axp-j-rev0-retail-soft-reset-map.json",
+      "sha256": "63b40195f1ad180f3d79f33c6b9e37f81edd6fcd33f98010406ab4505bc1a79b"
+    },
+    {
+      "path": "analysis/axp-e-rev0-retail-soft-reset-map.json",
+      "sha256": "7e6f8ef29356fe1bfa8ecb1c1a2421939d273a50d86290199dc123049639624f"
+    },
+    {
+      "path": "analysis/axp-e-rev1-retail-soft-reset-map.json",
+      "sha256": "ba36861edb0bafd3a6fabec8370ef6c5d5cb35937bfb6bef841f7ba51117a19a"
+    },
+    {
+      "path": "analysis/axp-e-rev2-retail-soft-reset-map.json",
+      "sha256": "5f758afa4eabc1f4b2ad1491e912d110ae43ccc2ddef158d821b630b26d2a603"
+    },
+    {
+      "path": "analysis/axp-d-rev0-retail-soft-reset-map.json",
+      "sha256": "8cb59487b543b402394eaaf403b2e243287cdec280231df2a7698f2d77b86afb"
+    },
+    {
+      "path": "analysis/axp-d-rev1-retail-soft-reset-map.json",
+      "sha256": "e8cecf2e3bea55ed5328f79614ce009bc65eaf940c9d53d534ac98e1125ee7ea"
+    },
+    {
+      "path": "analysis/axp-f-rev0-retail-soft-reset-map.json",
+      "sha256": "5b0126a8abc62a2291f8d564deb39f220a5e2451f9adc8093449f5e79c6bd955"
+    },
+    {
+      "path": "analysis/axp-f-rev1-retail-soft-reset-map.json",
+      "sha256": "a594c728a800ebed67b31f410c9a9aa224d4a2d347e9803387d7ac30060d25de"
+    },
+    {
+      "path": "analysis/axp-i-rev0-retail-soft-reset-map.json",
+      "sha256": "0aefa1aaf5ef4c1392662cf9d591b148b516780dd4b35b7aeb805bac03d9b1b0"
+    },
+    {
+      "path": "analysis/axp-i-rev1-retail-soft-reset-map.json",
+      "sha256": "02ad2a9f30ea292bbc723e446055736c108ffe3c297bb110a32edef8bd01c2ac"
+    },
+    {
+      "path": "analysis/axp-s-rev0-retail-soft-reset-map.json",
+      "sha256": "9250e4b0188be8a0cc9a6dfeeeec10c2f0b52c038036d99bfcda479961a6ecb8"
+    },
+    {
+      "path": "analysis/axp-s-rev1-retail-soft-reset-map.json",
+      "sha256": "593113f6dc9a088db85aa3de7ebe90094cefe0ca3b4516e6d621d176107cc4ab"
+    },
+    {
+      "path": "research/soft-reset-reconstruction.md",
+      "sha256": "02b1a41c81ba6117605ae51bb17fa7f29620acab548167249f2a5e921ff53521"
+    },
+    {
+      "path": "tests/test_soft_reset_reconstruction.py",
+      "sha256": "54bad04f016099a14e9f63fc56f85d71e95c740a88415802848ecc29bee36cbc"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
