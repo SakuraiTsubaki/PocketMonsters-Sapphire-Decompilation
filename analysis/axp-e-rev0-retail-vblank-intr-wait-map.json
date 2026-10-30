@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "target": {
+    "release": "axp-e-rev0-retail",
+    "sha256": "c36c1b899503e8823ee7eb607eea583adcef7ea92ff804838b193c227f2c6657",
+    "build_kind": "retail"
+  },
+  "origin_reference": false,
+  "function": {
+    "name": "VBlankIntrWait",
+    "address": "0x081E07B4",
+    "range_end_exclusive": "0x081E07BA",
+    "source": "src/vblank_intr_wait.s",
+    "source_sha256": "dc84f39a776225ae4d581ff7424e522f60b4cf8244c043645d9f5f292e563686",
+    "rom_code_range": {
+      "start_offset": 1968052,
+      "end_offset_exclusive": 1968058,
+      "length": 6,
+      "sha256": "bf9fc420439437739d9c6b74b51fbe54a172af5a3d24fd499ba4acd0bc9c4050",
+      "raw_bytes_published": false
+    }
+  },
+  "verified_behavior": {
+    "length": 6,
+    "instruction_halfwords": 3,
+    "temporary_register": "r2",
+    "temporary_value": 0,
+    "software_interrupt": 5,
+    "return_instruction": "bx lr"
+  },
+  "cross_reference": {
+    "wait_for_vblank_map": "analysis/axp-e-rev0-retail-wait-for-vblank-map.json",
+    "wait_for_vblank_map_sha256": "35fa4bb9a19d7aa9f59aa51847d0d0930656d2520f235446a0c139200a5c1014"
+  },
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "path": "src/main.c"
+  },
+  "raw_rom_bytes_included": false
+}
