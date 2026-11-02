@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "Sapphire",
+  "asset": "GbaHeaderNintendoLogo",
+  "origin_reference": "axp-j-rev0-retail",
+  "release_count": 12,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/header_logo_catalog.py",
+    "tool_sha256": "55641a0145cf323334c26b9aae9f4dc344be0043b2c2e057bd0a2dc470dae212"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "756bce70a62f6fc7c42934bf2163fd94d1fec4c648f0e3024ddef622ea101571"
+    },
+    {
+      "path": "graphics/header/nintendo-logo.png",
+      "sha256": "f07daf6e489d64b7e2bbf80c7f23104dece36e88e706ee8a779790f6e8377a8b"
+    },
+    {
+      "path": "analysis/header-logo-summary.json",
+      "sha256": "711b6d432ca0e3b4e4b593a8500d6867934d4a964103581205099e14fbfe4bc9"
+    },
+    {
+      "path": "analysis/axp-j-rev0-retail-header-logo.json",
+      "sha256": "523b297ebc84aef5514a1deb308a614b303f4dd133f42628f68bbdcae6384405"
+    },
+    {
+      "path": "analysis/axp-e-rev0-retail-header-logo.json",
+      "sha256": "76621131154c555e1106ded896118d566634fb27c513e7e86ff86bb22f01594d"
+    },
+    {
+      "path": "analysis/axp-e-rev1-retail-header-logo.json",
+      "sha256": "57121744dbddff1d4897a430acb32c7416d76e97b90d34ade1584e67d9ef2a07"
+    },
+    {
+      "path": "analysis/axp-e-rev2-retail-header-logo.json",
+      "sha256": "641acc219f0e99aaf17146fdff9b338615461cb22b6c8679c2d697c8d140a95c"
+    },
+    {
+      "path": "analysis/axp-d-rev0-retail-header-logo.json",
+      "sha256": "dc1d887b6fb9357966e1d7bdcffded6714e30ff887e4708f17e3b5197e2564f9"
+    },
+    {
+      "path": "analysis/axp-d-rev1-retail-header-logo.json",
+      "sha256": "31a70ac01f2e0bce886d75f3ba37accaf9eddf3a08011307d5a8d03cce3ef8b0"
+    },
+    {
+      "path": "analysis/axp-f-rev0-retail-header-logo.json",
+      "sha256": "eb35aa55606c4da2b8128d39e635e9182cad926bff6518145dc8c933a297ab5b"
+    },
+    {
+      "path": "analysis/axp-f-rev1-retail-header-logo.json",
+      "sha256": "2cd6da64d0dd7511b088667ca63e39daa0213ad523f682b6774f0adfa8972dde"
+    },
+    {
+      "path": "analysis/axp-i-rev0-retail-header-logo.json",
+      "sha256": "408f6129764fb43262f0207bdd559286827973ab9d2bd09189b033ca0b107e8b"
+    },
+    {
+      "path": "analysis/axp-i-rev1-retail-header-logo.json",
+      "sha256": "ea082411b47cc85a7a427354036e5b6f07f30ac4e55e63aee46a83560034fc11"
+    },
+    {
+      "path": "analysis/axp-s-rev0-retail-header-logo.json",
+      "sha256": "fb264158c9eea2b28c90bb3718e61d71cdf24b6033a0d6eac2043c15e10bfa41"
+    },
+    {
+      "path": "analysis/axp-s-rev1-retail-header-logo.json",
+      "sha256": "fdca53e8f61e45bed5cfc8037fcd268f17caaf721fd982ce578d9378a9af46e6"
+    },
+    {
+      "path": "research/header-logo-reconstruction.md",
+      "sha256": "0b3f8296c04e7894eeabb3a1a56aebf2e81d9b547e26dad15158fe9e313a47f6"
+    },
+    {
+      "path": "tests/test_header_logo_reconstruction.py",
+      "sha256": "1ae3251d884c16da775d75626c40c6ec2d7278209be879059da5d737e83f255f"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
