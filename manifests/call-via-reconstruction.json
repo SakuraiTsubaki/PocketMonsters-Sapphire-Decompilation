@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "Sapphire",
+  "library": "libgcc",
+  "object": "_call_via_rX.o",
+  "origin_reference": "axp-j-rev0-retail",
+  "release_count": 12,
+  "function_count": 15,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/call_via_catalog.py",
+    "tool_sha256": "e30748f1d1af711d3815d8e1dd50ab9d242d8b340cf2a6cef8d59f753719c5be"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "756bce70a62f6fc7c42934bf2163fd94d1fec4c648f0e3024ddef622ea101571"
+    },
+    {
+      "path": "src/call_via_stubs.s",
+      "sha256": "949d4f0bd48d0e6948271bebb1994478ae2bea90dca5c566f8a88aaaf7f5f908"
+    },
+    {
+      "path": "analysis/call-via-summary.json",
+      "sha256": "6a22926471e4d9ec98d3b3dd62d17d202d330d711d47204acb0836ccc31752e0"
+    },
+    {
+      "path": "analysis/axp-j-rev0-retail-call-via-map.json",
+      "sha256": "a113d803724f66ce58d30ba0f936a1043f9491dd3b456bba9f75767e1f8c7cf9"
+    },
+    {
+      "path": "analysis/axp-e-rev0-retail-call-via-map.json",
+      "sha256": "2e32a7b10397ee5492f7c0b0cff92c2dbd94d66e24426c158f1cd32bcb906f39"
+    },
+    {
+      "path": "analysis/axp-e-rev1-retail-call-via-map.json",
+      "sha256": "637635c6c668a7b1b48dc6eda74bdd2b3d6d03e8dc0a2b31d18c2f07918a8cc8"
+    },
+    {
+      "path": "analysis/axp-e-rev2-retail-call-via-map.json",
+      "sha256": "d6b51a8b2f373d704aec11e35012d237cece46597469f6c8aad18d66548c91fb"
+    },
+    {
+      "path": "analysis/axp-d-rev0-retail-call-via-map.json",
+      "sha256": "c3bb3adca115d77c5e248f59955719ef5648bfec270435f8ffebbd0b88d54eba"
+    },
+    {
+      "path": "analysis/axp-d-rev1-retail-call-via-map.json",
+      "sha256": "e60964da7f820154996790fb4c22ce16080375c912b43198d70419b9de8c375a"
+    },
+    {
+      "path": "analysis/axp-f-rev0-retail-call-via-map.json",
+      "sha256": "a0b8f09bc06776e0ead0efcbb0288d7c7dcc510c79e5df8ec374579d09dd3278"
+    },
+    {
+      "path": "analysis/axp-f-rev1-retail-call-via-map.json",
+      "sha256": "6a555b2d895b24100fbafe4665f6d2c549a1cb4b73c8d4b7679140e6f0a2efe2"
+    },
+    {
+      "path": "analysis/axp-i-rev0-retail-call-via-map.json",
+      "sha256": "00edcf17c44eae9b2c80c24fe74b8f68b6017a3b10b9ac4c68756a79002ffae6"
+    },
+    {
+      "path": "analysis/axp-i-rev1-retail-call-via-map.json",
+      "sha256": "8ff4815d294cd131de0dd146c3d449bec0a9df4e010fd2a5035bd4b5857a3f9e"
+    },
+    {
+      "path": "analysis/axp-s-rev0-retail-call-via-map.json",
+      "sha256": "05a6d74ce3d00a7f474fca7e9206c992e3d24dd58da66926fa1229cb3bb9e9b9"
+    },
+    {
+      "path": "analysis/axp-s-rev1-retail-call-via-map.json",
+      "sha256": "2f18dfdd8ce7688e38e08f470c03df7f2eaeabff814d3f5f6705c8cf51dc8502"
+    },
+    {
+      "path": "research/call-via-reconstruction.md",
+      "sha256": "6b7e4d845b1848178e9896361f2114d6800df77f50d972cae62ea0307952f95f"
+    },
+    {
+      "path": "tests/test_call_via_reconstruction.py",
+      "sha256": "d8a42d67b4c0e309bc9a79a04a43b4ae6952a228d35c88209d72bda01945e54c"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
