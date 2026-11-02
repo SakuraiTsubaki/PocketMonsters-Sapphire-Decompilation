@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "target": {
+    "release": "axp-d-rev1-retail",
+    "sha256": "c27271a60fdeadc6eed957e0392e7d878998ae1765487bf7567fa9331e432ead",
+    "build_kind": "retail"
+  },
+  "origin_reference": false,
+  "species": {
+    "id": 404,
+    "name": "kyogre"
+  },
+  "source": "src/kyogre_species_sprite_tables.asm",
+  "source_sha256": "6e3797d37583afb7f1417141a8f80bb355a7cbe97ad0beba336aaf2c9c26f96d",
+  "discovery": {
+    "front_to_back_table_delta": 5280,
+    "back_to_palette_table_delta": 3520,
+    "front": {
+      "entry_offset": 2055940,
+      "table_offset": 2052708,
+      "source_offset": 14898996,
+      "size": 2048,
+      "tag": 404
+    },
+    "back": {
+      "entry_offset": 2061220,
+      "table_offset": 2057988,
+      "source_offset": 14900172,
+      "size": 2048,
+      "tag": 404
+    },
+    "palette": {
+      "entry_offset": 2064740,
+      "table_offset": 2061508,
+      "source_offset": 14900132,
+      "tag": 404
+    }
+  },
+  "outputs": [
+    {
+      "path": "graphics/pokemon/kyogre-front-axp-d-rev1-retail.png",
+      "sha256": "6d0b17a5743a73c732d3a37eda3d518e9a2da64aab34b7b3ae05288f9e8ab499",
+      "extraction": {
+        "source_offset": 14898996,
+        "compressed_length": 1133,
+        "compressed_sha256": "1f87b5cca19267ee46ea72a2311b1194d46b786253c9cd00473c827bd637596e",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "a927c6b4f4c92130009887595bc80b28b4586a63958748e14ddff84d2344ca22",
+        "declared_render_length": 2048,
+        "raw_rom_bytes_included": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/kyogre-back-axp-d-rev1-retail.png",
+      "sha256": "e737246afb8408580c3c2d13be53864da61d2c87d079d429d5978135e35a13c4",
+      "extraction": {
+        "source_offset": 14900172,
+        "compressed_length": 629,
+        "compressed_sha256": "e7d7787925985e9d57e5ec500943624431656d2adaa241531d62950ef1549095",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "5471efa655229bebe9ca14ef5b565cb65721627cc7a460661b1fee641ba851d5",
+        "declared_render_length": 2048,
+        "raw_rom_bytes_included": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/kyogre-axp-d-rev1-retail.pal",
+      "sha256": "4c97355083b9c4cf1b6528b404c5250049de9d126cffb8670a5adfaf18bdcba3",
+      "extraction": {
+        "source_offset": 14900132,
+        "compressed_length": 40,
+        "compressed_sha256": "58962d7ce6f8b4c735f9c27a54bbc5248178e6a1d1a102e650e7877558d9502e",
+        "decompressed_length": 32,
+        "decompressed_sha256": "96b158ac7418a2287218cdfedbc5f78789da8bd022a3c85dc631254d4ddd3f0e",
+        "declared_render_length": 32,
+        "raw_rom_bytes_included": false
+      }
+    }
+  ],
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "paths": [
+      "src/data/pokemon_graphics/front_pic_table.h",
+      "src/data/pokemon_graphics/back_pic_table.h",
+      "src/data/pokemon_graphics/palette_table.h"
+    ]
+  },
+  "raw_rom_bytes_included": false
+}

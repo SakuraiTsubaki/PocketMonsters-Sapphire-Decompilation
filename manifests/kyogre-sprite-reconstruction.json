@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "Sapphire",
+  "species": {
+    "id": 404,
+    "name": "kyogre"
+  },
+  "origin_reference": "axp-j-rev0-retail",
+  "release_count": 12,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/rse_species_sprite_catalog.py",
+    "tool_sha256": "e4d6b7511861cb851eb6599271325336c2a7b6baf22dc208d1dcf3eee4ef233a"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "756bce70a62f6fc7c42934bf2163fd94d1fec4c648f0e3024ddef622ea101571"
+    },
+    {
+      "path": "src/kyogre_species_sprite_tables.asm",
+      "sha256": "6e3797d37583afb7f1417141a8f80bb355a7cbe97ad0beba336aaf2c9c26f96d"
+    },
+    {
+      "path": "analysis/kyogre-sprite-set-summary.json",
+      "sha256": "eec2d393b761a2c702defe68399c7a4f0b180af9a1646ccc98cd551900dd51db"
+    },
+    {
+      "path": "analysis/axp-j-rev0-retail-kyogre-sprite-set.json",
+      "sha256": "66f80c88f889e445bd8d4d87db19e333c250acd95a12a3c7817867aed1573a90"
+    },
+    {
+      "path": "analysis/axp-e-rev0-retail-kyogre-sprite-set.json",
+      "sha256": "b499d267954239b43fc01bb8009711a1ed731f8382b39a5988fb7d360700cad3"
+    },
+    {
+      "path": "analysis/axp-e-rev1-retail-kyogre-sprite-set.json",
+      "sha256": "f3995d287b12f6a7eca900086c756a1f335f7a5f428b75c0cda569144f99acbc"
+    },
+    {
+      "path": "analysis/axp-e-rev2-retail-kyogre-sprite-set.json",
+      "sha256": "207a4f187e7d519a951f154653fc721be8958cfccbf8c4fd4e218cf890537e49"
+    },
+    {
+      "path": "analysis/axp-d-rev0-retail-kyogre-sprite-set.json",
+      "sha256": "0bf39d4b241f1db30b2650b778f26eaf52af9429bc97fcd2b7d8b6e79d92ce11"
+    },
+    {
+      "path": "analysis/axp-d-rev1-retail-kyogre-sprite-set.json",
+      "sha256": "aff51eb3f13c8ace3c618ed808b6250c62ba4eb4b8614d2551eef94c68df6519"
+    },
+    {
+      "path": "analysis/axp-f-rev0-retail-kyogre-sprite-set.json",
+      "sha256": "4bccc315c74f168fa637fc8e7c5f29ed532abb98f46a175b53ecab3a1cf9d4d0"
+    },
+    {
+      "path": "analysis/axp-f-rev1-retail-kyogre-sprite-set.json",
+      "sha256": "33e5b7b22c3ad4bebe30373f479f823c973a023d1b14629f23074b3b565ffc74"
+    },
+    {
+      "path": "analysis/axp-i-rev0-retail-kyogre-sprite-set.json",
+      "sha256": "332ce907c97fc460de9bb79831a2d6ce4c2417d7fe00fff2f22035764b400226"
+    },
+    {
+      "path": "analysis/axp-i-rev1-retail-kyogre-sprite-set.json",
+      "sha256": "496dcce77f0d023dd16f6e6c34453284a68a49e94c64461f5e366fd6a046fcb1"
+    },
+    {
+      "path": "analysis/axp-s-rev0-retail-kyogre-sprite-set.json",
+      "sha256": "44a388abd8a1b965043608aa2eec0df9ad9b363b7a7cb9c410de1bcc451d406d"
+    },
+    {
+      "path": "analysis/axp-s-rev1-retail-kyogre-sprite-set.json",
+      "sha256": "377e0d7e98249d3c0766d5c235beca2ac87cc7c671a943f0a60f16c075d6f9f4"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-front-axp-j-rev0-retail.png",
+      "sha256": "6d0b17a5743a73c732d3a37eda3d518e9a2da64aab34b7b3ae05288f9e8ab499"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-back-axp-j-rev0-retail.png",
+      "sha256": "e737246afb8408580c3c2d13be53864da61d2c87d079d429d5978135e35a13c4"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-axp-j-rev0-retail.pal",
+      "sha256": "4c97355083b9c4cf1b6528b404c5250049de9d126cffb8670a5adfaf18bdcba3"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-front-axp-e-rev0-retail.png",
+      "sha256": "6d0b17a5743a73c732d3a37eda3d518e9a2da64aab34b7b3ae05288f9e8ab499"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-back-axp-e-rev0-retail.png",
+      "sha256": "e737246afb8408580c3c2d13be53864da61d2c87d079d429d5978135e35a13c4"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-axp-e-rev0-retail.pal",
+      "sha256": "4c97355083b9c4cf1b6528b404c5250049de9d126cffb8670a5adfaf18bdcba3"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-front-axp-e-rev1-retail.png",
+      "sha256": "6d0b17a5743a73c732d3a37eda3d518e9a2da64aab34b7b3ae05288f9e8ab499"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-back-axp-e-rev1-retail.png",
+      "sha256": "e737246afb8408580c3c2d13be53864da61d2c87d079d429d5978135e35a13c4"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-axp-e-rev1-retail.pal",
+      "sha256": "4c97355083b9c4cf1b6528b404c5250049de9d126cffb8670a5adfaf18bdcba3"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-front-axp-e-rev2-retail.png",
+      "sha256": "6d0b17a5743a73c732d3a37eda3d518e9a2da64aab34b7b3ae05288f9e8ab499"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-back-axp-e-rev2-retail.png",
+      "sha256": "e737246afb8408580c3c2d13be53864da61d2c87d079d429d5978135e35a13c4"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-axp-e-rev2-retail.pal",
+      "sha256": "4c97355083b9c4cf1b6528b404c5250049de9d126cffb8670a5adfaf18bdcba3"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-front-axp-d-rev0-retail.png",
+      "sha256": "6d0b17a5743a73c732d3a37eda3d518e9a2da64aab34b7b3ae05288f9e8ab499"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-back-axp-d-rev0-retail.png",
+      "sha256": "e737246afb8408580c3c2d13be53864da61d2c87d079d429d5978135e35a13c4"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-axp-d-rev0-retail.pal",
+      "sha256": "4c97355083b9c4cf1b6528b404c5250049de9d126cffb8670a5adfaf18bdcba3"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-front-axp-d-rev1-retail.png",
+      "sha256": "6d0b17a5743a73c732d3a37eda3d518e9a2da64aab34b7b3ae05288f9e8ab499"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-back-axp-d-rev1-retail.png",
+      "sha256": "e737246afb8408580c3c2d13be53864da61d2c87d079d429d5978135e35a13c4"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-axp-d-rev1-retail.pal",
+      "sha256": "4c97355083b9c4cf1b6528b404c5250049de9d126cffb8670a5adfaf18bdcba3"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-front-axp-f-rev0-retail.png",
+      "sha256": "6d0b17a5743a73c732d3a37eda3d518e9a2da64aab34b7b3ae05288f9e8ab499"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-back-axp-f-rev0-retail.png",
+      "sha256": "e737246afb8408580c3c2d13be53864da61d2c87d079d429d5978135e35a13c4"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-axp-f-rev0-retail.pal",
+      "sha256": "4c97355083b9c4cf1b6528b404c5250049de9d126cffb8670a5adfaf18bdcba3"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-front-axp-f-rev1-retail.png",
+      "sha256": "6d0b17a5743a73c732d3a37eda3d518e9a2da64aab34b7b3ae05288f9e8ab499"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-back-axp-f-rev1-retail.png",
+      "sha256": "e737246afb8408580c3c2d13be53864da61d2c87d079d429d5978135e35a13c4"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-axp-f-rev1-retail.pal",
+      "sha256": "4c97355083b9c4cf1b6528b404c5250049de9d126cffb8670a5adfaf18bdcba3"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-front-axp-i-rev0-retail.png",
+      "sha256": "6d0b17a5743a73c732d3a37eda3d518e9a2da64aab34b7b3ae05288f9e8ab499"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-back-axp-i-rev0-retail.png",
+      "sha256": "e737246afb8408580c3c2d13be53864da61d2c87d079d429d5978135e35a13c4"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-axp-i-rev0-retail.pal",
+      "sha256": "4c97355083b9c4cf1b6528b404c5250049de9d126cffb8670a5adfaf18bdcba3"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-front-axp-i-rev1-retail.png",
+      "sha256": "6d0b17a5743a73c732d3a37eda3d518e9a2da64aab34b7b3ae05288f9e8ab499"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-back-axp-i-rev1-retail.png",
+      "sha256": "e737246afb8408580c3c2d13be53864da61d2c87d079d429d5978135e35a13c4"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-axp-i-rev1-retail.pal",
+      "sha256": "4c97355083b9c4cf1b6528b404c5250049de9d126cffb8670a5adfaf18bdcba3"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-front-axp-s-rev0-retail.png",
+      "sha256": "6d0b17a5743a73c732d3a37eda3d518e9a2da64aab34b7b3ae05288f9e8ab499"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-back-axp-s-rev0-retail.png",
+      "sha256": "e737246afb8408580c3c2d13be53864da61d2c87d079d429d5978135e35a13c4"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-axp-s-rev0-retail.pal",
+      "sha256": "4c97355083b9c4cf1b6528b404c5250049de9d126cffb8670a5adfaf18bdcba3"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-front-axp-s-rev1-retail.png",
+      "sha256": "6d0b17a5743a73c732d3a37eda3d518e9a2da64aab34b7b3ae05288f9e8ab499"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-back-axp-s-rev1-retail.png",
+      "sha256": "e737246afb8408580c3c2d13be53864da61d2c87d079d429d5978135e35a13c4"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-axp-s-rev1-retail.pal",
+      "sha256": "4c97355083b9c4cf1b6528b404c5250049de9d126cffb8670a5adfaf18bdcba3"
+    },
+    {
+      "path": "research/kyogre-sprite-set.md",
+      "sha256": "fba5a420f2332988e83c11ca7e2ec81ee43b48852263fe5387fc4f8c73ebb4a6"
+    },
+    {
+      "path": "tests/test_kyogre_sprite_reconstruction.py",
+      "sha256": "e324d6c091d88e6dae33b813c25d177ff5b61c06273d21b67d5bda111d73a628"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
