@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "Sapphire",
+  "library": "libagbsyscall",
+  "functions": [
+    "BgAffineSet",
+    "CpuFastSet",
+    "ObjAffineSet"
+  ],
+  "family_profile": "rs",
+  "origin_reference": "axp-j-rev0-retail",
+  "release_count": 12,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/affine_copy_bios_stub_catalog.py",
+    "tool_sha256": "8ffc37ffdc5fbbf7b11c55cb8bcd88075c8d0eaa34c3fdeb0565300a20201e79"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "756bce70a62f6fc7c42934bf2163fd94d1fec4c648f0e3024ddef622ea101571"
+    },
+    {
+      "path": "src/affine_copy_bios_stubs.s",
+      "sha256": "b82b0e3ba6932e426f4dba67964a8a012030802ba6f46b10697aaf7c7dfb48f7"
+    },
+    {
+      "path": "analysis/affine-copy-bios-stub-summary.json",
+      "sha256": "e8780e18127b4efe66d1d5983737143ab9f09ef2cac0563a40f17142d1b0f05a"
+    },
+    {
+      "path": "analysis/axp-j-rev0-retail-affine-copy-bios-stub-map.json",
+      "sha256": "04697ce389bb0f5e5deb04af337869d6fb0b74354c061a75dfeb92cb8d0c655f"
+    },
+    {
+      "path": "analysis/axp-e-rev0-retail-affine-copy-bios-stub-map.json",
+      "sha256": "91e12c7dcbe0b40e2acf524b6589729cc77d80036160d7edab2703a59f89970b"
+    },
+    {
+      "path": "analysis/axp-e-rev1-retail-affine-copy-bios-stub-map.json",
+      "sha256": "4133cb8e8d31bc245571085289864d8e8cb7245aae0e26d5cb5305bd8a618bb1"
+    },
+    {
+      "path": "analysis/axp-e-rev2-retail-affine-copy-bios-stub-map.json",
+      "sha256": "451f3973cbde8ed428e0f2904a09fc07d2a09bc5144da3cd9155ad94aae4c4f3"
+    },
+    {
+      "path": "analysis/axp-d-rev0-retail-affine-copy-bios-stub-map.json",
+      "sha256": "635e1d706c379b2b15f9d2ae2564f0c5fe1115e6989279e7bee7fd5735e8b3c2"
+    },
+    {
+      "path": "analysis/axp-d-rev1-retail-affine-copy-bios-stub-map.json",
+      "sha256": "d946f9f15c131fb46033ab005653a85e85e17f262dfe29a1c1c9684999831ff7"
+    },
+    {
+      "path": "analysis/axp-f-rev0-retail-affine-copy-bios-stub-map.json",
+      "sha256": "d3cd4deed984f2312f120951002f9baa1f946e88b543b8f0d0e6d7e763f93a18"
+    },
+    {
+      "path": "analysis/axp-f-rev1-retail-affine-copy-bios-stub-map.json",
+      "sha256": "dc37b512cc11f27a5c4083c0d799309e38f01eaa892b7e2547979bdefb660c66"
+    },
+    {
+      "path": "analysis/axp-i-rev0-retail-affine-copy-bios-stub-map.json",
+      "sha256": "6ae56c459a26e1fc9a2f6e4645d7b191de9c44aa900a177707240ca3f37e487f"
+    },
+    {
+      "path": "analysis/axp-i-rev1-retail-affine-copy-bios-stub-map.json",
+      "sha256": "53082f7864b351986cad82684048e2a0fa96068656c8a15d9efe44bf155c682b"
+    },
+    {
+      "path": "analysis/axp-s-rev0-retail-affine-copy-bios-stub-map.json",
+      "sha256": "5d548134f04beeeb36c853481115b0925f70a7100846a7ebfe0740ddced5833f"
+    },
+    {
+      "path": "analysis/axp-s-rev1-retail-affine-copy-bios-stub-map.json",
+      "sha256": "0591ca915dffadb5cb82aa4e90e4a940dd7e577a0396647356473727162dc55e"
+    },
+    {
+      "path": "research/affine-copy-bios-stub-reconstruction.md",
+      "sha256": "d427ea454551847fb4a086f098e21a91fdb932d736ec4db0c46506dd66593147"
+    },
+    {
+      "path": "tests/test_affine_copy_bios_stub_reconstruction.py",
+      "sha256": "55db578b5b2c4809d8c7a1263cf9d026bf009e1d0445f90a0f324b4775f36ae9"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
