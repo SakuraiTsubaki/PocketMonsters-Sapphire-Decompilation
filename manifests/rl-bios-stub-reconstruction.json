@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "Sapphire",
+  "library": "libagbsyscall",
+  "functions": [
+    "RLUnCompVram",
+    "RLUnCompWram"
+  ],
+  "family_profile": "rs",
+  "origin_reference": "axp-j-rev0-retail",
+  "release_count": 12,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/rl_bios_stub_catalog.py",
+    "tool_sha256": "b1cc3264ebb1ac42defe5eade875a1c5a40febf2fe541b461d5785f36eed53dd"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "756bce70a62f6fc7c42934bf2163fd94d1fec4c648f0e3024ddef622ea101571"
+    },
+    {
+      "path": "src/rl_bios_stubs.s",
+      "sha256": "bf373181708d6a9eea10b8e04fe68026b65b57e9fd8d9a7cec78ec27922862af"
+    },
+    {
+      "path": "analysis/rl-bios-stub-summary.json",
+      "sha256": "b9fc6e6e838a5791dbbf8578f1e719f27c0d4dd34ac332bc42f1d47ac13b9564"
+    },
+    {
+      "path": "analysis/axp-j-rev0-retail-rl-bios-stub-map.json",
+      "sha256": "28a0b14ffc01df4aaaf1837948867ccf33a59465a2617821b819b552de5df40e"
+    },
+    {
+      "path": "analysis/axp-e-rev0-retail-rl-bios-stub-map.json",
+      "sha256": "a5354361eff13a1bee158e645fef10f1fc180e982ec08a7fbdf96e1870ec7be2"
+    },
+    {
+      "path": "analysis/axp-e-rev1-retail-rl-bios-stub-map.json",
+      "sha256": "c45364f9199bc69185453d49cc64f485a3d8a003cdd0a0a83cfa60b3717fa3e4"
+    },
+    {
+      "path": "analysis/axp-e-rev2-retail-rl-bios-stub-map.json",
+      "sha256": "0f3a0689064a298ba354ac6cd0cc1f890e301b4931925b11dc5e75df0ae5fb98"
+    },
+    {
+      "path": "analysis/axp-d-rev0-retail-rl-bios-stub-map.json",
+      "sha256": "2e8994f9d37a9c641a375536373f0fea6241dffa3de62b1bd5e129f613aad1be"
+    },
+    {
+      "path": "analysis/axp-d-rev1-retail-rl-bios-stub-map.json",
+      "sha256": "7800588e68b78d6124c18c7ec36421ab76937147782316400f4cc77341af646e"
+    },
+    {
+      "path": "analysis/axp-f-rev0-retail-rl-bios-stub-map.json",
+      "sha256": "766fda670cdba9461696e581c5d4ce6edb5d7eeca83e0869714d409079ca2fe0"
+    },
+    {
+      "path": "analysis/axp-f-rev1-retail-rl-bios-stub-map.json",
+      "sha256": "dade8a95c468ceab1711cb402cf002fd96bb0a165994966f3be98cacbb4de207"
+    },
+    {
+      "path": "analysis/axp-i-rev0-retail-rl-bios-stub-map.json",
+      "sha256": "4836bac09bf6f63dd4fb8d1be1dc3beb8ee1ae10b1ea19567c12c095e33edae1"
+    },
+    {
+      "path": "analysis/axp-i-rev1-retail-rl-bios-stub-map.json",
+      "sha256": "ac4a15b04bffc1f31b88c6b2e64235bd3669429f55eb63d9f22a93d13f2864f1"
+    },
+    {
+      "path": "analysis/axp-s-rev0-retail-rl-bios-stub-map.json",
+      "sha256": "dfcbf22b9670dcbaca98a6a98328755b58152138cc01fc1e7a991b76a1c3933f"
+    },
+    {
+      "path": "analysis/axp-s-rev1-retail-rl-bios-stub-map.json",
+      "sha256": "ef55a98270c1b905b0a0330aada2f098a0555fcca89777c33e991b460ce27e17"
+    },
+    {
+      "path": "research/rl-bios-stub-reconstruction.md",
+      "sha256": "faecf1cd2efa1889088ba267a6f2c060bc3544c4e7340fb6ef0fe1217c5b0c6e"
+    },
+    {
+      "path": "tests/test_rl_bios_stub_catalog.py",
+      "sha256": "084102064901ac4630fdab2b12c5dc1532dc17893da42b4199bd2a9213166c2a"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
