@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "Sapphire",
+  "library": "libagbsyscall",
+  "functions": [
+    "ArcTan2",
+    "CpuSet"
+  ],
+  "family_profile": "rs",
+  "origin_reference": "axp-j-rev0-retail",
+  "release_count": 12,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/arctan2_cpuset_stub_catalog.py",
+    "tool_sha256": "71b90c98866abb22f4c452dffaa5389d9baf1c4e43949e8994d1b927715553b2"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "756bce70a62f6fc7c42934bf2163fd94d1fec4c648f0e3024ddef622ea101571"
+    },
+    {
+      "path": "src/arctan2_cpuset_bios_stubs.s",
+      "sha256": "b3689ce4b50099a5be86bec1d6421258bc6bdc20053b7dff5c8a08be8c858814"
+    },
+    {
+      "path": "analysis/arctan2-cpuset-stub-summary.json",
+      "sha256": "0ab18ecbfc188d3249e691ff486c21c0a08ae6d81eb695db4db8eeb4d7526ad2"
+    },
+    {
+      "path": "analysis/axp-j-rev0-retail-arctan2-cpuset-stub-map.json",
+      "sha256": "af6b2ca66abac3725873e5728b539b3bddf54f5655b87d960614a75357876b53"
+    },
+    {
+      "path": "analysis/axp-e-rev0-retail-arctan2-cpuset-stub-map.json",
+      "sha256": "17189458653969cd12a2ccc4391a89d07e730b6ec2f674777734d015f8a91d28"
+    },
+    {
+      "path": "analysis/axp-e-rev1-retail-arctan2-cpuset-stub-map.json",
+      "sha256": "42ccc604007e04f449382c20d37a2379bd3c7b8013d6c71dfc8c7bdbd522cdec"
+    },
+    {
+      "path": "analysis/axp-e-rev2-retail-arctan2-cpuset-stub-map.json",
+      "sha256": "61efd2e5aa3de6ee79522f8b3dba0566654a1e918fed33b65dd20b083f4e87a0"
+    },
+    {
+      "path": "analysis/axp-d-rev0-retail-arctan2-cpuset-stub-map.json",
+      "sha256": "9d7e274451abe0ad65702f1396cf97d3cfcf4d638794465f78f378121255dbde"
+    },
+    {
+      "path": "analysis/axp-d-rev1-retail-arctan2-cpuset-stub-map.json",
+      "sha256": "f424e4a27a8fab5120d757a2167ed86c291ed9e10f36a3188ff347a2384ded56"
+    },
+    {
+      "path": "analysis/axp-f-rev0-retail-arctan2-cpuset-stub-map.json",
+      "sha256": "42d9a8278aa4b30914f36b828d38f59a2d265166d1aa630324eab3b288024633"
+    },
+    {
+      "path": "analysis/axp-f-rev1-retail-arctan2-cpuset-stub-map.json",
+      "sha256": "6ca0f8c3d9dce5bcddabdfc90746fd317fa5e628d174bdd30426805ff318bf6b"
+    },
+    {
+      "path": "analysis/axp-i-rev0-retail-arctan2-cpuset-stub-map.json",
+      "sha256": "5b4d380b91a375499c312f6e881c94ff96e5c0568041eade0ee256cbc5d3637d"
+    },
+    {
+      "path": "analysis/axp-i-rev1-retail-arctan2-cpuset-stub-map.json",
+      "sha256": "c00cc80e2ba655053ab4c23587d23fed90616599385a2adde4176856b6db0f89"
+    },
+    {
+      "path": "analysis/axp-s-rev0-retail-arctan2-cpuset-stub-map.json",
+      "sha256": "27dc6c496761976bcc93132c8a633c5160a63ace059ad3faa107fde3a631ebbf"
+    },
+    {
+      "path": "analysis/axp-s-rev1-retail-arctan2-cpuset-stub-map.json",
+      "sha256": "24f9af7c7d70ded3bdda62d6a227b656c50499aec71e7e59fef74ac8d0c8438e"
+    },
+    {
+      "path": "research/arctan2-cpuset-stub-reconstruction.md",
+      "sha256": "c91b055256913b8170996e4e48361e4ff971645f7f1dfc160fc9407b78f55f92"
+    },
+    {
+      "path": "tests/test_arctan2_cpuset_stub_reconstruction.py",
+      "sha256": "84c93470383d640fdf1405162550e86c4efab7575c889ca2011e088e7326a868"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
