@@ -1,0 +1,3227 @@
+{
+  "schema_version": 1,
+  "game": "Sapphire",
+  "root": "graphics",
+  "asset_count": 109,
+  "png_count": 73,
+  "metadata_count": 0,
+  "palette_count": 36,
+  "official_language_priority": [
+    "Japanese",
+    "Korean",
+    "English",
+    "German",
+    "French",
+    "Italian",
+    "Spanish"
+  ],
+  "assets": [
+    {
+      "path": "graphics/header/nintendo-logo.png",
+      "sha256": "f07daf6e489d64b7e2bbf80c7f23104dece36e88e706ee8a779790f6e8377a8b",
+      "size": 774,
+      "format": "PNG",
+      "category": "header",
+      "language": "Unspecified",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/header-logo-reconstruction.json",
+          "sha256": "1d741c03c27351ffae75b0a032e2d96b2afe453de2721d082ab0c7d1a4e7a99b"
+        },
+        {
+          "path": "analysis/axp-d-rev0-retail-header-logo.json",
+          "sha256": "dc1d887b6fb9357966e1d7bdcffded6714e30ff887e4708f17e3b5197e2564f9"
+        },
+        {
+          "path": "analysis/axp-d-rev1-retail-header-logo.json",
+          "sha256": "31a70ac01f2e0bce886d75f3ba37accaf9eddf3a08011307d5a8d03cce3ef8b0"
+        },
+        {
+          "path": "analysis/axp-e-rev0-retail-header-logo.json",
+          "sha256": "76621131154c555e1106ded896118d566634fb27c513e7e86ff86bb22f01594d"
+        },
+        {
+          "path": "analysis/axp-e-rev1-retail-header-logo.json",
+          "sha256": "57121744dbddff1d4897a430acb32c7416d76e97b90d34ade1584e67d9ef2a07"
+        },
+        {
+          "path": "analysis/axp-e-rev2-retail-header-logo.json",
+          "sha256": "641acc219f0e99aaf17146fdff9b338615461cb22b6c8679c2d697c8d140a95c"
+        },
+        {
+          "path": "analysis/axp-f-rev0-retail-header-logo.json",
+          "sha256": "eb35aa55606c4da2b8128d39e635e9182cad926bff6518145dc8c933a297ab5b"
+        },
+        {
+          "path": "analysis/axp-f-rev1-retail-header-logo.json",
+          "sha256": "2cd6da64d0dd7511b088667ca63e39daa0213ad523f682b6774f0adfa8972dde"
+        },
+        {
+          "path": "analysis/axp-i-rev0-retail-header-logo.json",
+          "sha256": "408f6129764fb43262f0207bdd559286827973ab9d2bd09189b033ca0b107e8b"
+        },
+        {
+          "path": "analysis/axp-i-rev1-retail-header-logo.json",
+          "sha256": "ea082411b47cc85a7a427354036e5b6f07f30ac4e55e63aee46a83560034fc11"
+        },
+        {
+          "path": "analysis/axp-j-rev0-retail-header-logo.json",
+          "sha256": "523b297ebc84aef5514a1deb308a614b303f4dd133f42628f68bbdcae6384405"
+        },
+        {
+          "path": "analysis/axp-s-rev0-retail-header-logo.json",
+          "sha256": "fb264158c9eea2b28c90bb3718e61d71cdf24b6033a0d6eac2043c15e10bfa41"
+        },
+        {
+          "path": "analysis/axp-s-rev1-retail-header-logo.json",
+          "sha256": "fdca53e8f61e45bed5cfc8037fcd268f17caaf721fd982ce578d9378a9af46e6"
+        },
+        {
+          "path": "analysis/header-logo-summary.json",
+          "sha256": "711b6d432ca0e3b4e4b593a8500d6867934d4a964103581205099e14fbfe4bc9"
+        }
+      ],
+      "png": {
+        "width": 416,
+        "height": 64,
+        "bit_depth": 8,
+        "color_type": "truecolor-alpha",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-axp-j-rev0-retail.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc",
+      "size": 189,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "Japanese",
+      "origin_reference": true,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-reconstruction.json",
+          "sha256": "dbeb84eed26a81045b41e9bc4365887c5f6cac85bb58dc97544389dea9430d1b"
+        },
+        {
+          "path": "analysis/axp-j-rev0-retail-bulbasaur-sprite-set.json",
+          "sha256": "302b95ea5b943948ddabe0eff3d999de4f056c8e7f23a0719781915941f62b52"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "6b65d555ca165c527865532d9e41e4ed582d5e7b25ec3820ea8cf86dad70db52"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-axp-j-rev0-retail.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6",
+      "size": 881,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Japanese",
+      "origin_reference": true,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-reconstruction.json",
+          "sha256": "dbeb84eed26a81045b41e9bc4365887c5f6cac85bb58dc97544389dea9430d1b"
+        },
+        {
+          "path": "analysis/axp-j-rev0-retail-bulbasaur-sprite-set.json",
+          "sha256": "302b95ea5b943948ddabe0eff3d999de4f056c8e7f23a0719781915941f62b52"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "6b65d555ca165c527865532d9e41e4ed582d5e7b25ec3820ea8cf86dad70db52"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-axp-j-rev0-retail.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18",
+      "size": 880,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Japanese",
+      "origin_reference": true,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-reconstruction.json",
+          "sha256": "dbeb84eed26a81045b41e9bc4365887c5f6cac85bb58dc97544389dea9430d1b"
+        },
+        {
+          "path": "analysis/axp-j-rev0-retail-bulbasaur-sprite-set.json",
+          "sha256": "302b95ea5b943948ddabe0eff3d999de4f056c8e7f23a0719781915941f62b52"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "6b65d555ca165c527865532d9e41e4ed582d5e7b25ec3820ea8cf86dad70db52"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/kyogre-axp-j-rev0-retail.pal",
+      "sha256": "4c97355083b9c4cf1b6528b404c5250049de9d126cffb8670a5adfaf18bdcba3",
+      "size": 186,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "Japanese",
+      "origin_reference": true,
+      "provenance": [
+        {
+          "path": "manifests/kyogre-sprite-reconstruction.json",
+          "sha256": "b0058472b093e08acf5ae7fecbf6f5d58a7a290566c203af4e8aaf21cad90e3b"
+        },
+        {
+          "path": "analysis/axp-j-rev0-retail-kyogre-sprite-set.json",
+          "sha256": "66f80c88f889e445bd8d4d87db19e333c250acd95a12a3c7817867aed1573a90"
+        },
+        {
+          "path": "analysis/kyogre-sprite-set-summary.json",
+          "sha256": "eec2d393b761a2c702defe68399c7a4f0b180af9a1646ccc98cd551900dd51db"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/kyogre-back-axp-j-rev0-retail.png",
+      "sha256": "e737246afb8408580c3c2d13be53864da61d2c87d079d429d5978135e35a13c4",
+      "size": 764,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Japanese",
+      "origin_reference": true,
+      "provenance": [
+        {
+          "path": "manifests/kyogre-sprite-reconstruction.json",
+          "sha256": "b0058472b093e08acf5ae7fecbf6f5d58a7a290566c203af4e8aaf21cad90e3b"
+        },
+        {
+          "path": "analysis/axp-j-rev0-retail-kyogre-sprite-set.json",
+          "sha256": "66f80c88f889e445bd8d4d87db19e333c250acd95a12a3c7817867aed1573a90"
+        },
+        {
+          "path": "analysis/kyogre-sprite-set-summary.json",
+          "sha256": "eec2d393b761a2c702defe68399c7a4f0b180af9a1646ccc98cd551900dd51db"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/kyogre-front-axp-j-rev0-retail.png",
+      "sha256": "6d0b17a5743a73c732d3a37eda3d518e9a2da64aab34b7b3ae05288f9e8ab499",
+      "size": 1497,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Japanese",
+      "origin_reference": true,
+      "provenance": [
+        {
+          "path": "manifests/kyogre-sprite-reconstruction.json",
+          "sha256": "b0058472b093e08acf5ae7fecbf6f5d58a7a290566c203af4e8aaf21cad90e3b"
+        },
+        {
+          "path": "analysis/axp-j-rev0-retail-kyogre-sprite-set.json",
+          "sha256": "66f80c88f889e445bd8d4d87db19e333c250acd95a12a3c7817867aed1573a90"
+        },
+        {
+          "path": "analysis/kyogre-sprite-set-summary.json",
+          "sha256": "eec2d393b761a2c702defe68399c7a4f0b180af9a1646ccc98cd551900dd51db"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/pikachu-axp-j-rev0-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847",
+      "size": 179,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "Japanese",
+      "origin_reference": true,
+      "provenance": [
+        {
+          "path": "manifests/pikachu-sprite-reconstruction.json",
+          "sha256": "650ebc3f78fc51cfd73e99d1a411d3719a5778cf988a3a7bc3cdfb9110a4eb1e"
+        },
+        {
+          "path": "analysis/axp-j-rev0-retail-pikachu-sprite-set.json",
+          "sha256": "1062da542e166ff441e5f429b33a70dfcc07fa78738bf18feb1af579d605d9fd"
+        },
+        {
+          "path": "analysis/pikachu-sprite-set-summary.json",
+          "sha256": "eef5168b347594491241e830124578a88e9615bbf08eec6760ef217e0aad392c"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-axp-j-rev0-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9",
+      "size": 912,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Japanese",
+      "origin_reference": true,
+      "provenance": [
+        {
+          "path": "manifests/pikachu-sprite-reconstruction.json",
+          "sha256": "650ebc3f78fc51cfd73e99d1a411d3719a5778cf988a3a7bc3cdfb9110a4eb1e"
+        },
+        {
+          "path": "analysis/axp-j-rev0-retail-pikachu-sprite-set.json",
+          "sha256": "1062da542e166ff441e5f429b33a70dfcc07fa78738bf18feb1af579d605d9fd"
+        },
+        {
+          "path": "analysis/pikachu-sprite-set-summary.json",
+          "sha256": "eef5168b347594491241e830124578a88e9615bbf08eec6760ef217e0aad392c"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-axp-j-rev0-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0",
+      "size": 970,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Japanese",
+      "origin_reference": true,
+      "provenance": [
+        {
+          "path": "manifests/pikachu-sprite-reconstruction.json",
+          "sha256": "650ebc3f78fc51cfd73e99d1a411d3719a5778cf988a3a7bc3cdfb9110a4eb1e"
+        },
+        {
+          "path": "analysis/axp-j-rev0-retail-pikachu-sprite-set.json",
+          "sha256": "1062da542e166ff441e5f429b33a70dfcc07fa78738bf18feb1af579d605d9fd"
+        },
+        {
+          "path": "analysis/pikachu-sprite-set-summary.json",
+          "sha256": "eef5168b347594491241e830124578a88e9615bbf08eec6760ef217e0aad392c"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-axp-e-rev0-retail.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc",
+      "size": 189,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-reconstruction.json",
+          "sha256": "dbeb84eed26a81045b41e9bc4365887c5f6cac85bb58dc97544389dea9430d1b"
+        },
+        {
+          "path": "analysis/axp-e-rev0-retail-bulbasaur-sprite-set.json",
+          "sha256": "0eab281ba7f805565dc61986909946ee28e39b4b1f863109efded5c9fe80dab7"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "6b65d555ca165c527865532d9e41e4ed582d5e7b25ec3820ea8cf86dad70db52"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-axp-e-rev1-retail.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc",
+      "size": 189,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-reconstruction.json",
+          "sha256": "dbeb84eed26a81045b41e9bc4365887c5f6cac85bb58dc97544389dea9430d1b"
+        },
+        {
+          "path": "analysis/axp-e-rev1-retail-bulbasaur-sprite-set.json",
+          "sha256": "98dc481049f773e5bb5e0f3b0b1fb277970b3af4a2f751ef1efec5b01535491f"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "6b65d555ca165c527865532d9e41e4ed582d5e7b25ec3820ea8cf86dad70db52"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-axp-e-rev2-retail.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc",
+      "size": 189,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-reconstruction.json",
+          "sha256": "dbeb84eed26a81045b41e9bc4365887c5f6cac85bb58dc97544389dea9430d1b"
+        },
+        {
+          "path": "analysis/axp-e-rev2-retail-bulbasaur-sprite-set.json",
+          "sha256": "b0679383ad575d48bbb87ead7e31d6bf0208318e2dfa4ea6dcde2dc1dba8eb72"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "6b65d555ca165c527865532d9e41e4ed582d5e7b25ec3820ea8cf86dad70db52"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-axp-e-rev0-retail.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6",
+      "size": 881,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-reconstruction.json",
+          "sha256": "dbeb84eed26a81045b41e9bc4365887c5f6cac85bb58dc97544389dea9430d1b"
+        },
+        {
+          "path": "analysis/axp-e-rev0-retail-bulbasaur-sprite-set.json",
+          "sha256": "0eab281ba7f805565dc61986909946ee28e39b4b1f863109efded5c9fe80dab7"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "6b65d555ca165c527865532d9e41e4ed582d5e7b25ec3820ea8cf86dad70db52"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-axp-e-rev1-retail.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6",
+      "size": 881,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-reconstruction.json",
+          "sha256": "dbeb84eed26a81045b41e9bc4365887c5f6cac85bb58dc97544389dea9430d1b"
+        },
+        {
+          "path": "analysis/axp-e-rev1-retail-bulbasaur-sprite-set.json",
+          "sha256": "98dc481049f773e5bb5e0f3b0b1fb277970b3af4a2f751ef1efec5b01535491f"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "6b65d555ca165c527865532d9e41e4ed582d5e7b25ec3820ea8cf86dad70db52"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-axp-e-rev2-retail.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6",
+      "size": 881,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-reconstruction.json",
+          "sha256": "dbeb84eed26a81045b41e9bc4365887c5f6cac85bb58dc97544389dea9430d1b"
+        },
+        {
+          "path": "analysis/axp-e-rev2-retail-bulbasaur-sprite-set.json",
+          "sha256": "b0679383ad575d48bbb87ead7e31d6bf0208318e2dfa4ea6dcde2dc1dba8eb72"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "6b65d555ca165c527865532d9e41e4ed582d5e7b25ec3820ea8cf86dad70db52"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-axp-e-rev0-retail.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18",
+      "size": 880,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-reconstruction.json",
+          "sha256": "dbeb84eed26a81045b41e9bc4365887c5f6cac85bb58dc97544389dea9430d1b"
+        },
+        {
+          "path": "analysis/axp-e-rev0-retail-bulbasaur-sprite-set.json",
+          "sha256": "0eab281ba7f805565dc61986909946ee28e39b4b1f863109efded5c9fe80dab7"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "6b65d555ca165c527865532d9e41e4ed582d5e7b25ec3820ea8cf86dad70db52"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-axp-e-rev1-retail.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18",
+      "size": 880,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-reconstruction.json",
+          "sha256": "dbeb84eed26a81045b41e9bc4365887c5f6cac85bb58dc97544389dea9430d1b"
+        },
+        {
+          "path": "analysis/axp-e-rev1-retail-bulbasaur-sprite-set.json",
+          "sha256": "98dc481049f773e5bb5e0f3b0b1fb277970b3af4a2f751ef1efec5b01535491f"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "6b65d555ca165c527865532d9e41e4ed582d5e7b25ec3820ea8cf86dad70db52"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-axp-e-rev2-retail.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18",
+      "size": 880,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-reconstruction.json",
+          "sha256": "dbeb84eed26a81045b41e9bc4365887c5f6cac85bb58dc97544389dea9430d1b"
+        },
+        {
+          "path": "analysis/axp-e-rev2-retail-bulbasaur-sprite-set.json",
+          "sha256": "b0679383ad575d48bbb87ead7e31d6bf0208318e2dfa4ea6dcde2dc1dba8eb72"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "6b65d555ca165c527865532d9e41e4ed582d5e7b25ec3820ea8cf86dad70db52"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/kyogre-axp-e-rev0-retail.pal",
+      "sha256": "4c97355083b9c4cf1b6528b404c5250049de9d126cffb8670a5adfaf18bdcba3",
+      "size": 186,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/kyogre-sprite-reconstruction.json",
+          "sha256": "b0058472b093e08acf5ae7fecbf6f5d58a7a290566c203af4e8aaf21cad90e3b"
+        },
+        {
+          "path": "analysis/axp-e-rev0-retail-kyogre-sprite-set.json",
+          "sha256": "b499d267954239b43fc01bb8009711a1ed731f8382b39a5988fb7d360700cad3"
+        },
+        {
+          "path": "analysis/kyogre-sprite-set-summary.json",
+          "sha256": "eec2d393b761a2c702defe68399c7a4f0b180af9a1646ccc98cd551900dd51db"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/kyogre-axp-e-rev1-retail.pal",
+      "sha256": "4c97355083b9c4cf1b6528b404c5250049de9d126cffb8670a5adfaf18bdcba3",
+      "size": 186,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/kyogre-sprite-reconstruction.json",
+          "sha256": "b0058472b093e08acf5ae7fecbf6f5d58a7a290566c203af4e8aaf21cad90e3b"
+        },
+        {
+          "path": "analysis/axp-e-rev1-retail-kyogre-sprite-set.json",
+          "sha256": "f3995d287b12f6a7eca900086c756a1f335f7a5f428b75c0cda569144f99acbc"
+        },
+        {
+          "path": "analysis/kyogre-sprite-set-summary.json",
+          "sha256": "eec2d393b761a2c702defe68399c7a4f0b180af9a1646ccc98cd551900dd51db"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/kyogre-axp-e-rev2-retail.pal",
+      "sha256": "4c97355083b9c4cf1b6528b404c5250049de9d126cffb8670a5adfaf18bdcba3",
+      "size": 186,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/kyogre-sprite-reconstruction.json",
+          "sha256": "b0058472b093e08acf5ae7fecbf6f5d58a7a290566c203af4e8aaf21cad90e3b"
+        },
+        {
+          "path": "analysis/axp-e-rev2-retail-kyogre-sprite-set.json",
+          "sha256": "207a4f187e7d519a951f154653fc721be8958cfccbf8c4fd4e218cf890537e49"
+        },
+        {
+          "path": "analysis/kyogre-sprite-set-summary.json",
+          "sha256": "eec2d393b761a2c702defe68399c7a4f0b180af9a1646ccc98cd551900dd51db"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/kyogre-back-axp-e-rev0-retail.png",
+      "sha256": "e737246afb8408580c3c2d13be53864da61d2c87d079d429d5978135e35a13c4",
+      "size": 764,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/kyogre-sprite-reconstruction.json",
+          "sha256": "b0058472b093e08acf5ae7fecbf6f5d58a7a290566c203af4e8aaf21cad90e3b"
+        },
+        {
+          "path": "analysis/axp-e-rev0-retail-kyogre-sprite-set.json",
+          "sha256": "b499d267954239b43fc01bb8009711a1ed731f8382b39a5988fb7d360700cad3"
+        },
+        {
+          "path": "analysis/kyogre-sprite-set-summary.json",
+          "sha256": "eec2d393b761a2c702defe68399c7a4f0b180af9a1646ccc98cd551900dd51db"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/kyogre-back-axp-e-rev1-retail.png",
+      "sha256": "e737246afb8408580c3c2d13be53864da61d2c87d079d429d5978135e35a13c4",
+      "size": 764,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/kyogre-sprite-reconstruction.json",
+          "sha256": "b0058472b093e08acf5ae7fecbf6f5d58a7a290566c203af4e8aaf21cad90e3b"
+        },
+        {
+          "path": "analysis/axp-e-rev1-retail-kyogre-sprite-set.json",
+          "sha256": "f3995d287b12f6a7eca900086c756a1f335f7a5f428b75c0cda569144f99acbc"
+        },
+        {
+          "path": "analysis/kyogre-sprite-set-summary.json",
+          "sha256": "eec2d393b761a2c702defe68399c7a4f0b180af9a1646ccc98cd551900dd51db"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/kyogre-back-axp-e-rev2-retail.png",
+      "sha256": "e737246afb8408580c3c2d13be53864da61d2c87d079d429d5978135e35a13c4",
+      "size": 764,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/kyogre-sprite-reconstruction.json",
+          "sha256": "b0058472b093e08acf5ae7fecbf6f5d58a7a290566c203af4e8aaf21cad90e3b"
+        },
+        {
+          "path": "analysis/axp-e-rev2-retail-kyogre-sprite-set.json",
+          "sha256": "207a4f187e7d519a951f154653fc721be8958cfccbf8c4fd4e218cf890537e49"
+        },
+        {
+          "path": "analysis/kyogre-sprite-set-summary.json",
+          "sha256": "eec2d393b761a2c702defe68399c7a4f0b180af9a1646ccc98cd551900dd51db"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/kyogre-front-axp-e-rev0-retail.png",
+      "sha256": "6d0b17a5743a73c732d3a37eda3d518e9a2da64aab34b7b3ae05288f9e8ab499",
+      "size": 1497,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/kyogre-sprite-reconstruction.json",
+          "sha256": "b0058472b093e08acf5ae7fecbf6f5d58a7a290566c203af4e8aaf21cad90e3b"
+        },
+        {
+          "path": "analysis/axp-e-rev0-retail-kyogre-sprite-set.json",
+          "sha256": "b499d267954239b43fc01bb8009711a1ed731f8382b39a5988fb7d360700cad3"
+        },
+        {
+          "path": "analysis/kyogre-sprite-set-summary.json",
+          "sha256": "eec2d393b761a2c702defe68399c7a4f0b180af9a1646ccc98cd551900dd51db"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/kyogre-front-axp-e-rev1-retail.png",
+      "sha256": "6d0b17a5743a73c732d3a37eda3d518e9a2da64aab34b7b3ae05288f9e8ab499",
+      "size": 1497,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/kyogre-sprite-reconstruction.json",
+          "sha256": "b0058472b093e08acf5ae7fecbf6f5d58a7a290566c203af4e8aaf21cad90e3b"
+        },
+        {
+          "path": "analysis/axp-e-rev1-retail-kyogre-sprite-set.json",
+          "sha256": "f3995d287b12f6a7eca900086c756a1f335f7a5f428b75c0cda569144f99acbc"
+        },
+        {
+          "path": "analysis/kyogre-sprite-set-summary.json",
+          "sha256": "eec2d393b761a2c702defe68399c7a4f0b180af9a1646ccc98cd551900dd51db"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/kyogre-front-axp-e-rev2-retail.png",
+      "sha256": "6d0b17a5743a73c732d3a37eda3d518e9a2da64aab34b7b3ae05288f9e8ab499",
+      "size": 1497,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/kyogre-sprite-reconstruction.json",
+          "sha256": "b0058472b093e08acf5ae7fecbf6f5d58a7a290566c203af4e8aaf21cad90e3b"
+        },
+        {
+          "path": "analysis/axp-e-rev2-retail-kyogre-sprite-set.json",
+          "sha256": "207a4f187e7d519a951f154653fc721be8958cfccbf8c4fd4e218cf890537e49"
+        },
+        {
+          "path": "analysis/kyogre-sprite-set-summary.json",
+          "sha256": "eec2d393b761a2c702defe68399c7a4f0b180af9a1646ccc98cd551900dd51db"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/pikachu-axp-e-rev0-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847",
+      "size": 179,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/pikachu-sprite-reconstruction.json",
+          "sha256": "650ebc3f78fc51cfd73e99d1a411d3719a5778cf988a3a7bc3cdfb9110a4eb1e"
+        },
+        {
+          "path": "analysis/axp-e-rev0-retail-pikachu-sprite-set.json",
+          "sha256": "bf9de197436ab75842e8f9a79a3d73670dc22ac10dcec875d2bd328982c1065d"
+        },
+        {
+          "path": "analysis/pikachu-sprite-set-summary.json",
+          "sha256": "eef5168b347594491241e830124578a88e9615bbf08eec6760ef217e0aad392c"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/pikachu-axp-e-rev1-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847",
+      "size": 179,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/pikachu-sprite-reconstruction.json",
+          "sha256": "650ebc3f78fc51cfd73e99d1a411d3719a5778cf988a3a7bc3cdfb9110a4eb1e"
+        },
+        {
+          "path": "analysis/axp-e-rev1-retail-pikachu-sprite-set.json",
+          "sha256": "2c6fe70bf53914882d94116bc305b5efc79037a07bb7016a425d7ccad38e4415"
+        },
+        {
+          "path": "analysis/pikachu-sprite-set-summary.json",
+          "sha256": "eef5168b347594491241e830124578a88e9615bbf08eec6760ef217e0aad392c"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/pikachu-axp-e-rev2-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847",
+      "size": 179,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/pikachu-sprite-reconstruction.json",
+          "sha256": "650ebc3f78fc51cfd73e99d1a411d3719a5778cf988a3a7bc3cdfb9110a4eb1e"
+        },
+        {
+          "path": "analysis/axp-e-rev2-retail-pikachu-sprite-set.json",
+          "sha256": "45cece5d1d7638aaf5fe7b1d9a5d933b071848188d754d08b72918117e671ee9"
+        },
+        {
+          "path": "analysis/pikachu-sprite-set-summary.json",
+          "sha256": "eef5168b347594491241e830124578a88e9615bbf08eec6760ef217e0aad392c"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-axp-e-rev0-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9",
+      "size": 912,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/pikachu-sprite-reconstruction.json",
+          "sha256": "650ebc3f78fc51cfd73e99d1a411d3719a5778cf988a3a7bc3cdfb9110a4eb1e"
+        },
+        {
+          "path": "analysis/axp-e-rev0-retail-pikachu-sprite-set.json",
+          "sha256": "bf9de197436ab75842e8f9a79a3d73670dc22ac10dcec875d2bd328982c1065d"
+        },
+        {
+          "path": "analysis/pikachu-sprite-set-summary.json",
+          "sha256": "eef5168b347594491241e830124578a88e9615bbf08eec6760ef217e0aad392c"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-axp-e-rev1-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9",
+      "size": 912,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/pikachu-sprite-reconstruction.json",
+          "sha256": "650ebc3f78fc51cfd73e99d1a411d3719a5778cf988a3a7bc3cdfb9110a4eb1e"
+        },
+        {
+          "path": "analysis/axp-e-rev1-retail-pikachu-sprite-set.json",
+          "sha256": "2c6fe70bf53914882d94116bc305b5efc79037a07bb7016a425d7ccad38e4415"
+        },
+        {
+          "path": "analysis/pikachu-sprite-set-summary.json",
+          "sha256": "eef5168b347594491241e830124578a88e9615bbf08eec6760ef217e0aad392c"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-axp-e-rev2-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9",
+      "size": 912,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/pikachu-sprite-reconstruction.json",
+          "sha256": "650ebc3f78fc51cfd73e99d1a411d3719a5778cf988a3a7bc3cdfb9110a4eb1e"
+        },
+        {
+          "path": "analysis/axp-e-rev2-retail-pikachu-sprite-set.json",
+          "sha256": "45cece5d1d7638aaf5fe7b1d9a5d933b071848188d754d08b72918117e671ee9"
+        },
+        {
+          "path": "analysis/pikachu-sprite-set-summary.json",
+          "sha256": "eef5168b347594491241e830124578a88e9615bbf08eec6760ef217e0aad392c"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-axp-e-rev0-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0",
+      "size": 970,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/pikachu-sprite-reconstruction.json",
+          "sha256": "650ebc3f78fc51cfd73e99d1a411d3719a5778cf988a3a7bc3cdfb9110a4eb1e"
+        },
+        {
+          "path": "analysis/axp-e-rev0-retail-pikachu-sprite-set.json",
+          "sha256": "bf9de197436ab75842e8f9a79a3d73670dc22ac10dcec875d2bd328982c1065d"
+        },
+        {
+          "path": "analysis/pikachu-sprite-set-summary.json",
+          "sha256": "eef5168b347594491241e830124578a88e9615bbf08eec6760ef217e0aad392c"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-axp-e-rev1-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0",
+      "size": 970,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/pikachu-sprite-reconstruction.json",
+          "sha256": "650ebc3f78fc51cfd73e99d1a411d3719a5778cf988a3a7bc3cdfb9110a4eb1e"
+        },
+        {
+          "path": "analysis/axp-e-rev1-retail-pikachu-sprite-set.json",
+          "sha256": "2c6fe70bf53914882d94116bc305b5efc79037a07bb7016a425d7ccad38e4415"
+        },
+        {
+          "path": "analysis/pikachu-sprite-set-summary.json",
+          "sha256": "eef5168b347594491241e830124578a88e9615bbf08eec6760ef217e0aad392c"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-axp-e-rev2-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0",
+      "size": 970,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/pikachu-sprite-reconstruction.json",
+          "sha256": "650ebc3f78fc51cfd73e99d1a411d3719a5778cf988a3a7bc3cdfb9110a4eb1e"
+        },
+        {
+          "path": "analysis/axp-e-rev2-retail-pikachu-sprite-set.json",
+          "sha256": "45cece5d1d7638aaf5fe7b1d9a5d933b071848188d754d08b72918117e671ee9"
+        },
+        {
+          "path": "analysis/pikachu-sprite-set-summary.json",
+          "sha256": "eef5168b347594491241e830124578a88e9615bbf08eec6760ef217e0aad392c"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-axp-d-rev0-retail.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc",
+      "size": 189,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "German",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-reconstruction.json",
+          "sha256": "dbeb84eed26a81045b41e9bc4365887c5f6cac85bb58dc97544389dea9430d1b"
+        },
+        {
+          "path": "analysis/axp-d-rev0-retail-bulbasaur-sprite-set.json",
+          "sha256": "918b54aa34c7b873c1ea81f365dac9f2482c37603b5ba5ba2321bf4141b1123b"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "6b65d555ca165c527865532d9e41e4ed582d5e7b25ec3820ea8cf86dad70db52"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-axp-d-rev1-retail.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc",
+      "size": 189,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "German",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-reconstruction.json",
+          "sha256": "dbeb84eed26a81045b41e9bc4365887c5f6cac85bb58dc97544389dea9430d1b"
+        },
+        {
+          "path": "analysis/axp-d-rev1-retail-bulbasaur-sprite-set.json",
+          "sha256": "69a859174ad7faaec3ca1fb831fb478973bf11835b4af29493142a1bcbdca843"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "6b65d555ca165c527865532d9e41e4ed582d5e7b25ec3820ea8cf86dad70db52"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-axp-d-rev0-retail.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6",
+      "size": 881,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "German",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-reconstruction.json",
+          "sha256": "dbeb84eed26a81045b41e9bc4365887c5f6cac85bb58dc97544389dea9430d1b"
+        },
+        {
+          "path": "analysis/axp-d-rev0-retail-bulbasaur-sprite-set.json",
+          "sha256": "918b54aa34c7b873c1ea81f365dac9f2482c37603b5ba5ba2321bf4141b1123b"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "6b65d555ca165c527865532d9e41e4ed582d5e7b25ec3820ea8cf86dad70db52"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-axp-d-rev1-retail.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6",
+      "size": 881,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "German",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-reconstruction.json",
+          "sha256": "dbeb84eed26a81045b41e9bc4365887c5f6cac85bb58dc97544389dea9430d1b"
+        },
+        {
+          "path": "analysis/axp-d-rev1-retail-bulbasaur-sprite-set.json",
+          "sha256": "69a859174ad7faaec3ca1fb831fb478973bf11835b4af29493142a1bcbdca843"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "6b65d555ca165c527865532d9e41e4ed582d5e7b25ec3820ea8cf86dad70db52"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-axp-d-rev0-retail.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18",
+      "size": 880,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "German",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-reconstruction.json",
+          "sha256": "dbeb84eed26a81045b41e9bc4365887c5f6cac85bb58dc97544389dea9430d1b"
+        },
+        {
+          "path": "analysis/axp-d-rev0-retail-bulbasaur-sprite-set.json",
+          "sha256": "918b54aa34c7b873c1ea81f365dac9f2482c37603b5ba5ba2321bf4141b1123b"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "6b65d555ca165c527865532d9e41e4ed582d5e7b25ec3820ea8cf86dad70db52"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-axp-d-rev1-retail.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18",
+      "size": 880,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "German",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-reconstruction.json",
+          "sha256": "dbeb84eed26a81045b41e9bc4365887c5f6cac85bb58dc97544389dea9430d1b"
+        },
+        {
+          "path": "analysis/axp-d-rev1-retail-bulbasaur-sprite-set.json",
+          "sha256": "69a859174ad7faaec3ca1fb831fb478973bf11835b4af29493142a1bcbdca843"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "6b65d555ca165c527865532d9e41e4ed582d5e7b25ec3820ea8cf86dad70db52"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/kyogre-axp-d-rev0-retail.pal",
+      "sha256": "4c97355083b9c4cf1b6528b404c5250049de9d126cffb8670a5adfaf18bdcba3",
+      "size": 186,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "German",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/kyogre-sprite-reconstruction.json",
+          "sha256": "b0058472b093e08acf5ae7fecbf6f5d58a7a290566c203af4e8aaf21cad90e3b"
+        },
+        {
+          "path": "analysis/axp-d-rev0-retail-kyogre-sprite-set.json",
+          "sha256": "0bf39d4b241f1db30b2650b778f26eaf52af9429bc97fcd2b7d8b6e79d92ce11"
+        },
+        {
+          "path": "analysis/kyogre-sprite-set-summary.json",
+          "sha256": "eec2d393b761a2c702defe68399c7a4f0b180af9a1646ccc98cd551900dd51db"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/kyogre-axp-d-rev1-retail.pal",
+      "sha256": "4c97355083b9c4cf1b6528b404c5250049de9d126cffb8670a5adfaf18bdcba3",
+      "size": 186,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "German",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/kyogre-sprite-reconstruction.json",
+          "sha256": "b0058472b093e08acf5ae7fecbf6f5d58a7a290566c203af4e8aaf21cad90e3b"
+        },
+        {
+          "path": "analysis/axp-d-rev1-retail-kyogre-sprite-set.json",
+          "sha256": "aff51eb3f13c8ace3c618ed808b6250c62ba4eb4b8614d2551eef94c68df6519"
+        },
+        {
+          "path": "analysis/kyogre-sprite-set-summary.json",
+          "sha256": "eec2d393b761a2c702defe68399c7a4f0b180af9a1646ccc98cd551900dd51db"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/kyogre-back-axp-d-rev0-retail.png",
+      "sha256": "e737246afb8408580c3c2d13be53864da61d2c87d079d429d5978135e35a13c4",
+      "size": 764,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "German",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/kyogre-sprite-reconstruction.json",
+          "sha256": "b0058472b093e08acf5ae7fecbf6f5d58a7a290566c203af4e8aaf21cad90e3b"
+        },
+        {
+          "path": "analysis/axp-d-rev0-retail-kyogre-sprite-set.json",
+          "sha256": "0bf39d4b241f1db30b2650b778f26eaf52af9429bc97fcd2b7d8b6e79d92ce11"
+        },
+        {
+          "path": "analysis/kyogre-sprite-set-summary.json",
+          "sha256": "eec2d393b761a2c702defe68399c7a4f0b180af9a1646ccc98cd551900dd51db"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/kyogre-back-axp-d-rev1-retail.png",
+      "sha256": "e737246afb8408580c3c2d13be53864da61d2c87d079d429d5978135e35a13c4",
+      "size": 764,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "German",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/kyogre-sprite-reconstruction.json",
+          "sha256": "b0058472b093e08acf5ae7fecbf6f5d58a7a290566c203af4e8aaf21cad90e3b"
+        },
+        {
+          "path": "analysis/axp-d-rev1-retail-kyogre-sprite-set.json",
+          "sha256": "aff51eb3f13c8ace3c618ed808b6250c62ba4eb4b8614d2551eef94c68df6519"
+        },
+        {
+          "path": "analysis/kyogre-sprite-set-summary.json",
+          "sha256": "eec2d393b761a2c702defe68399c7a4f0b180af9a1646ccc98cd551900dd51db"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/kyogre-front-axp-d-rev0-retail.png",
+      "sha256": "6d0b17a5743a73c732d3a37eda3d518e9a2da64aab34b7b3ae05288f9e8ab499",
+      "size": 1497,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "German",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/kyogre-sprite-reconstruction.json",
+          "sha256": "b0058472b093e08acf5ae7fecbf6f5d58a7a290566c203af4e8aaf21cad90e3b"
+        },
+        {
+          "path": "analysis/axp-d-rev0-retail-kyogre-sprite-set.json",
+          "sha256": "0bf39d4b241f1db30b2650b778f26eaf52af9429bc97fcd2b7d8b6e79d92ce11"
+        },
+        {
+          "path": "analysis/kyogre-sprite-set-summary.json",
+          "sha256": "eec2d393b761a2c702defe68399c7a4f0b180af9a1646ccc98cd551900dd51db"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/kyogre-front-axp-d-rev1-retail.png",
+      "sha256": "6d0b17a5743a73c732d3a37eda3d518e9a2da64aab34b7b3ae05288f9e8ab499",
+      "size": 1497,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "German",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/kyogre-sprite-reconstruction.json",
+          "sha256": "b0058472b093e08acf5ae7fecbf6f5d58a7a290566c203af4e8aaf21cad90e3b"
+        },
+        {
+          "path": "analysis/axp-d-rev1-retail-kyogre-sprite-set.json",
+          "sha256": "aff51eb3f13c8ace3c618ed808b6250c62ba4eb4b8614d2551eef94c68df6519"
+        },
+        {
+          "path": "analysis/kyogre-sprite-set-summary.json",
+          "sha256": "eec2d393b761a2c702defe68399c7a4f0b180af9a1646ccc98cd551900dd51db"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/pikachu-axp-d-rev0-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847",
+      "size": 179,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "German",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/pikachu-sprite-reconstruction.json",
+          "sha256": "650ebc3f78fc51cfd73e99d1a411d3719a5778cf988a3a7bc3cdfb9110a4eb1e"
+        },
+        {
+          "path": "analysis/axp-d-rev0-retail-pikachu-sprite-set.json",
+          "sha256": "1ae3138305e9017ed2a0fb47d56810a986d223a004bb67616e23bfb0cb821f47"
+        },
+        {
+          "path": "analysis/pikachu-sprite-set-summary.json",
+          "sha256": "eef5168b347594491241e830124578a88e9615bbf08eec6760ef217e0aad392c"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/pikachu-axp-d-rev1-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847",
+      "size": 179,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "German",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/pikachu-sprite-reconstruction.json",
+          "sha256": "650ebc3f78fc51cfd73e99d1a411d3719a5778cf988a3a7bc3cdfb9110a4eb1e"
+        },
+        {
+          "path": "analysis/axp-d-rev1-retail-pikachu-sprite-set.json",
+          "sha256": "25a2158955c6c2c8266e8053b6b4b43943e662cdb406a50c2328f60710a5da33"
+        },
+        {
+          "path": "analysis/pikachu-sprite-set-summary.json",
+          "sha256": "eef5168b347594491241e830124578a88e9615bbf08eec6760ef217e0aad392c"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-axp-d-rev0-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9",
+      "size": 912,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "German",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/pikachu-sprite-reconstruction.json",
+          "sha256": "650ebc3f78fc51cfd73e99d1a411d3719a5778cf988a3a7bc3cdfb9110a4eb1e"
+        },
+        {
+          "path": "analysis/axp-d-rev0-retail-pikachu-sprite-set.json",
+          "sha256": "1ae3138305e9017ed2a0fb47d56810a986d223a004bb67616e23bfb0cb821f47"
+        },
+        {
+          "path": "analysis/pikachu-sprite-set-summary.json",
+          "sha256": "eef5168b347594491241e830124578a88e9615bbf08eec6760ef217e0aad392c"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-axp-d-rev1-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9",
+      "size": 912,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "German",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/pikachu-sprite-reconstruction.json",
+          "sha256": "650ebc3f78fc51cfd73e99d1a411d3719a5778cf988a3a7bc3cdfb9110a4eb1e"
+        },
+        {
+          "path": "analysis/axp-d-rev1-retail-pikachu-sprite-set.json",
+          "sha256": "25a2158955c6c2c8266e8053b6b4b43943e662cdb406a50c2328f60710a5da33"
+        },
+        {
+          "path": "analysis/pikachu-sprite-set-summary.json",
+          "sha256": "eef5168b347594491241e830124578a88e9615bbf08eec6760ef217e0aad392c"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-axp-d-rev0-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0",
+      "size": 970,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "German",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/pikachu-sprite-reconstruction.json",
+          "sha256": "650ebc3f78fc51cfd73e99d1a411d3719a5778cf988a3a7bc3cdfb9110a4eb1e"
+        },
+        {
+          "path": "analysis/axp-d-rev0-retail-pikachu-sprite-set.json",
+          "sha256": "1ae3138305e9017ed2a0fb47d56810a986d223a004bb67616e23bfb0cb821f47"
+        },
+        {
+          "path": "analysis/pikachu-sprite-set-summary.json",
+          "sha256": "eef5168b347594491241e830124578a88e9615bbf08eec6760ef217e0aad392c"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-axp-d-rev1-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0",
+      "size": 970,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "German",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/pikachu-sprite-reconstruction.json",
+          "sha256": "650ebc3f78fc51cfd73e99d1a411d3719a5778cf988a3a7bc3cdfb9110a4eb1e"
+        },
+        {
+          "path": "analysis/axp-d-rev1-retail-pikachu-sprite-set.json",
+          "sha256": "25a2158955c6c2c8266e8053b6b4b43943e662cdb406a50c2328f60710a5da33"
+        },
+        {
+          "path": "analysis/pikachu-sprite-set-summary.json",
+          "sha256": "eef5168b347594491241e830124578a88e9615bbf08eec6760ef217e0aad392c"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-axp-f-rev0-retail.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc",
+      "size": 189,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "French",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-reconstruction.json",
+          "sha256": "dbeb84eed26a81045b41e9bc4365887c5f6cac85bb58dc97544389dea9430d1b"
+        },
+        {
+          "path": "analysis/axp-f-rev0-retail-bulbasaur-sprite-set.json",
+          "sha256": "4fcb8c608007310a2b51e8e63e914b32c2b5ad148591b50a161f269c8a193d17"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "6b65d555ca165c527865532d9e41e4ed582d5e7b25ec3820ea8cf86dad70db52"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-axp-f-rev1-retail.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc",
+      "size": 189,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "French",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-reconstruction.json",
+          "sha256": "dbeb84eed26a81045b41e9bc4365887c5f6cac85bb58dc97544389dea9430d1b"
+        },
+        {
+          "path": "analysis/axp-f-rev1-retail-bulbasaur-sprite-set.json",
+          "sha256": "ab7c6afd3baaa7ef1ee9d7e1099541cb593f292eff2e7df2ba63f063d25a6404"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "6b65d555ca165c527865532d9e41e4ed582d5e7b25ec3820ea8cf86dad70db52"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-axp-f-rev0-retail.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6",
+      "size": 881,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "French",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-reconstruction.json",
+          "sha256": "dbeb84eed26a81045b41e9bc4365887c5f6cac85bb58dc97544389dea9430d1b"
+        },
+        {
+          "path": "analysis/axp-f-rev0-retail-bulbasaur-sprite-set.json",
+          "sha256": "4fcb8c608007310a2b51e8e63e914b32c2b5ad148591b50a161f269c8a193d17"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "6b65d555ca165c527865532d9e41e4ed582d5e7b25ec3820ea8cf86dad70db52"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-axp-f-rev1-retail.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6",
+      "size": 881,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "French",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-reconstruction.json",
+          "sha256": "dbeb84eed26a81045b41e9bc4365887c5f6cac85bb58dc97544389dea9430d1b"
+        },
+        {
+          "path": "analysis/axp-f-rev1-retail-bulbasaur-sprite-set.json",
+          "sha256": "ab7c6afd3baaa7ef1ee9d7e1099541cb593f292eff2e7df2ba63f063d25a6404"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "6b65d555ca165c527865532d9e41e4ed582d5e7b25ec3820ea8cf86dad70db52"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-axp-f-rev0-retail.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18",
+      "size": 880,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "French",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-reconstruction.json",
+          "sha256": "dbeb84eed26a81045b41e9bc4365887c5f6cac85bb58dc97544389dea9430d1b"
+        },
+        {
+          "path": "analysis/axp-f-rev0-retail-bulbasaur-sprite-set.json",
+          "sha256": "4fcb8c608007310a2b51e8e63e914b32c2b5ad148591b50a161f269c8a193d17"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "6b65d555ca165c527865532d9e41e4ed582d5e7b25ec3820ea8cf86dad70db52"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-axp-f-rev1-retail.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18",
+      "size": 880,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "French",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-reconstruction.json",
+          "sha256": "dbeb84eed26a81045b41e9bc4365887c5f6cac85bb58dc97544389dea9430d1b"
+        },
+        {
+          "path": "analysis/axp-f-rev1-retail-bulbasaur-sprite-set.json",
+          "sha256": "ab7c6afd3baaa7ef1ee9d7e1099541cb593f292eff2e7df2ba63f063d25a6404"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "6b65d555ca165c527865532d9e41e4ed582d5e7b25ec3820ea8cf86dad70db52"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/kyogre-axp-f-rev0-retail.pal",
+      "sha256": "4c97355083b9c4cf1b6528b404c5250049de9d126cffb8670a5adfaf18bdcba3",
+      "size": 186,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "French",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/kyogre-sprite-reconstruction.json",
+          "sha256": "b0058472b093e08acf5ae7fecbf6f5d58a7a290566c203af4e8aaf21cad90e3b"
+        },
+        {
+          "path": "analysis/axp-f-rev0-retail-kyogre-sprite-set.json",
+          "sha256": "4bccc315c74f168fa637fc8e7c5f29ed532abb98f46a175b53ecab3a1cf9d4d0"
+        },
+        {
+          "path": "analysis/kyogre-sprite-set-summary.json",
+          "sha256": "eec2d393b761a2c702defe68399c7a4f0b180af9a1646ccc98cd551900dd51db"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/kyogre-axp-f-rev1-retail.pal",
+      "sha256": "4c97355083b9c4cf1b6528b404c5250049de9d126cffb8670a5adfaf18bdcba3",
+      "size": 186,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "French",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/kyogre-sprite-reconstruction.json",
+          "sha256": "b0058472b093e08acf5ae7fecbf6f5d58a7a290566c203af4e8aaf21cad90e3b"
+        },
+        {
+          "path": "analysis/axp-f-rev1-retail-kyogre-sprite-set.json",
+          "sha256": "33e5b7b22c3ad4bebe30373f479f823c973a023d1b14629f23074b3b565ffc74"
+        },
+        {
+          "path": "analysis/kyogre-sprite-set-summary.json",
+          "sha256": "eec2d393b761a2c702defe68399c7a4f0b180af9a1646ccc98cd551900dd51db"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/kyogre-back-axp-f-rev0-retail.png",
+      "sha256": "e737246afb8408580c3c2d13be53864da61d2c87d079d429d5978135e35a13c4",
+      "size": 764,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "French",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/kyogre-sprite-reconstruction.json",
+          "sha256": "b0058472b093e08acf5ae7fecbf6f5d58a7a290566c203af4e8aaf21cad90e3b"
+        },
+        {
+          "path": "analysis/axp-f-rev0-retail-kyogre-sprite-set.json",
+          "sha256": "4bccc315c74f168fa637fc8e7c5f29ed532abb98f46a175b53ecab3a1cf9d4d0"
+        },
+        {
+          "path": "analysis/kyogre-sprite-set-summary.json",
+          "sha256": "eec2d393b761a2c702defe68399c7a4f0b180af9a1646ccc98cd551900dd51db"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/kyogre-back-axp-f-rev1-retail.png",
+      "sha256": "e737246afb8408580c3c2d13be53864da61d2c87d079d429d5978135e35a13c4",
+      "size": 764,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "French",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/kyogre-sprite-reconstruction.json",
+          "sha256": "b0058472b093e08acf5ae7fecbf6f5d58a7a290566c203af4e8aaf21cad90e3b"
+        },
+        {
+          "path": "analysis/axp-f-rev1-retail-kyogre-sprite-set.json",
+          "sha256": "33e5b7b22c3ad4bebe30373f479f823c973a023d1b14629f23074b3b565ffc74"
+        },
+        {
+          "path": "analysis/kyogre-sprite-set-summary.json",
+          "sha256": "eec2d393b761a2c702defe68399c7a4f0b180af9a1646ccc98cd551900dd51db"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/kyogre-front-axp-f-rev0-retail.png",
+      "sha256": "6d0b17a5743a73c732d3a37eda3d518e9a2da64aab34b7b3ae05288f9e8ab499",
+      "size": 1497,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "French",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/kyogre-sprite-reconstruction.json",
+          "sha256": "b0058472b093e08acf5ae7fecbf6f5d58a7a290566c203af4e8aaf21cad90e3b"
+        },
+        {
+          "path": "analysis/axp-f-rev0-retail-kyogre-sprite-set.json",
+          "sha256": "4bccc315c74f168fa637fc8e7c5f29ed532abb98f46a175b53ecab3a1cf9d4d0"
+        },
+        {
+          "path": "analysis/kyogre-sprite-set-summary.json",
+          "sha256": "eec2d393b761a2c702defe68399c7a4f0b180af9a1646ccc98cd551900dd51db"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/kyogre-front-axp-f-rev1-retail.png",
+      "sha256": "6d0b17a5743a73c732d3a37eda3d518e9a2da64aab34b7b3ae05288f9e8ab499",
+      "size": 1497,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "French",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/kyogre-sprite-reconstruction.json",
+          "sha256": "b0058472b093e08acf5ae7fecbf6f5d58a7a290566c203af4e8aaf21cad90e3b"
+        },
+        {
+          "path": "analysis/axp-f-rev1-retail-kyogre-sprite-set.json",
+          "sha256": "33e5b7b22c3ad4bebe30373f479f823c973a023d1b14629f23074b3b565ffc74"
+        },
+        {
+          "path": "analysis/kyogre-sprite-set-summary.json",
+          "sha256": "eec2d393b761a2c702defe68399c7a4f0b180af9a1646ccc98cd551900dd51db"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/pikachu-axp-f-rev0-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847",
+      "size": 179,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "French",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/pikachu-sprite-reconstruction.json",
+          "sha256": "650ebc3f78fc51cfd73e99d1a411d3719a5778cf988a3a7bc3cdfb9110a4eb1e"
+        },
+        {
+          "path": "analysis/axp-f-rev0-retail-pikachu-sprite-set.json",
+          "sha256": "2282a114d0eeeaceb95ab1fd7dcfed84a8edbf08338ce868ce5f76897f100cfe"
+        },
+        {
+          "path": "analysis/pikachu-sprite-set-summary.json",
+          "sha256": "eef5168b347594491241e830124578a88e9615bbf08eec6760ef217e0aad392c"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/pikachu-axp-f-rev1-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847",
+      "size": 179,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "French",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/pikachu-sprite-reconstruction.json",
+          "sha256": "650ebc3f78fc51cfd73e99d1a411d3719a5778cf988a3a7bc3cdfb9110a4eb1e"
+        },
+        {
+          "path": "analysis/axp-f-rev1-retail-pikachu-sprite-set.json",
+          "sha256": "69ae0b9de103446def72afbc7816e58b25407fcdb48bbd7e8ee3ce77eda5ae4b"
+        },
+        {
+          "path": "analysis/pikachu-sprite-set-summary.json",
+          "sha256": "eef5168b347594491241e830124578a88e9615bbf08eec6760ef217e0aad392c"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-axp-f-rev0-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9",
+      "size": 912,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "French",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/pikachu-sprite-reconstruction.json",
+          "sha256": "650ebc3f78fc51cfd73e99d1a411d3719a5778cf988a3a7bc3cdfb9110a4eb1e"
+        },
+        {
+          "path": "analysis/axp-f-rev0-retail-pikachu-sprite-set.json",
+          "sha256": "2282a114d0eeeaceb95ab1fd7dcfed84a8edbf08338ce868ce5f76897f100cfe"
+        },
+        {
+          "path": "analysis/pikachu-sprite-set-summary.json",
+          "sha256": "eef5168b347594491241e830124578a88e9615bbf08eec6760ef217e0aad392c"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-axp-f-rev1-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9",
+      "size": 912,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "French",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/pikachu-sprite-reconstruction.json",
+          "sha256": "650ebc3f78fc51cfd73e99d1a411d3719a5778cf988a3a7bc3cdfb9110a4eb1e"
+        },
+        {
+          "path": "analysis/axp-f-rev1-retail-pikachu-sprite-set.json",
+          "sha256": "69ae0b9de103446def72afbc7816e58b25407fcdb48bbd7e8ee3ce77eda5ae4b"
+        },
+        {
+          "path": "analysis/pikachu-sprite-set-summary.json",
+          "sha256": "eef5168b347594491241e830124578a88e9615bbf08eec6760ef217e0aad392c"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-axp-f-rev0-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0",
+      "size": 970,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "French",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/pikachu-sprite-reconstruction.json",
+          "sha256": "650ebc3f78fc51cfd73e99d1a411d3719a5778cf988a3a7bc3cdfb9110a4eb1e"
+        },
+        {
+          "path": "analysis/axp-f-rev0-retail-pikachu-sprite-set.json",
+          "sha256": "2282a114d0eeeaceb95ab1fd7dcfed84a8edbf08338ce868ce5f76897f100cfe"
+        },
+        {
+          "path": "analysis/pikachu-sprite-set-summary.json",
+          "sha256": "eef5168b347594491241e830124578a88e9615bbf08eec6760ef217e0aad392c"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-axp-f-rev1-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0",
+      "size": 970,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "French",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/pikachu-sprite-reconstruction.json",
+          "sha256": "650ebc3f78fc51cfd73e99d1a411d3719a5778cf988a3a7bc3cdfb9110a4eb1e"
+        },
+        {
+          "path": "analysis/axp-f-rev1-retail-pikachu-sprite-set.json",
+          "sha256": "69ae0b9de103446def72afbc7816e58b25407fcdb48bbd7e8ee3ce77eda5ae4b"
+        },
+        {
+          "path": "analysis/pikachu-sprite-set-summary.json",
+          "sha256": "eef5168b347594491241e830124578a88e9615bbf08eec6760ef217e0aad392c"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-axp-i-rev0-retail.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc",
+      "size": 189,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "Italian",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-reconstruction.json",
+          "sha256": "dbeb84eed26a81045b41e9bc4365887c5f6cac85bb58dc97544389dea9430d1b"
+        },
+        {
+          "path": "analysis/axp-i-rev0-retail-bulbasaur-sprite-set.json",
+          "sha256": "49873831d344c1f87e3eb2d548985d1388b14e4845a2e68a120034688728b3b0"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "6b65d555ca165c527865532d9e41e4ed582d5e7b25ec3820ea8cf86dad70db52"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-axp-i-rev1-retail.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc",
+      "size": 189,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "Italian",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-reconstruction.json",
+          "sha256": "dbeb84eed26a81045b41e9bc4365887c5f6cac85bb58dc97544389dea9430d1b"
+        },
+        {
+          "path": "analysis/axp-i-rev1-retail-bulbasaur-sprite-set.json",
+          "sha256": "7a04c6f9bf9d3cb49171dbd1be06fd6124194a49c9e19420205acf64193321a8"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "6b65d555ca165c527865532d9e41e4ed582d5e7b25ec3820ea8cf86dad70db52"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-axp-i-rev0-retail.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6",
+      "size": 881,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Italian",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-reconstruction.json",
+          "sha256": "dbeb84eed26a81045b41e9bc4365887c5f6cac85bb58dc97544389dea9430d1b"
+        },
+        {
+          "path": "analysis/axp-i-rev0-retail-bulbasaur-sprite-set.json",
+          "sha256": "49873831d344c1f87e3eb2d548985d1388b14e4845a2e68a120034688728b3b0"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "6b65d555ca165c527865532d9e41e4ed582d5e7b25ec3820ea8cf86dad70db52"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-axp-i-rev1-retail.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6",
+      "size": 881,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Italian",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-reconstruction.json",
+          "sha256": "dbeb84eed26a81045b41e9bc4365887c5f6cac85bb58dc97544389dea9430d1b"
+        },
+        {
+          "path": "analysis/axp-i-rev1-retail-bulbasaur-sprite-set.json",
+          "sha256": "7a04c6f9bf9d3cb49171dbd1be06fd6124194a49c9e19420205acf64193321a8"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "6b65d555ca165c527865532d9e41e4ed582d5e7b25ec3820ea8cf86dad70db52"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-axp-i-rev0-retail.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18",
+      "size": 880,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Italian",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-reconstruction.json",
+          "sha256": "dbeb84eed26a81045b41e9bc4365887c5f6cac85bb58dc97544389dea9430d1b"
+        },
+        {
+          "path": "analysis/axp-i-rev0-retail-bulbasaur-sprite-set.json",
+          "sha256": "49873831d344c1f87e3eb2d548985d1388b14e4845a2e68a120034688728b3b0"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "6b65d555ca165c527865532d9e41e4ed582d5e7b25ec3820ea8cf86dad70db52"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-axp-i-rev1-retail.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18",
+      "size": 880,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Italian",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-reconstruction.json",
+          "sha256": "dbeb84eed26a81045b41e9bc4365887c5f6cac85bb58dc97544389dea9430d1b"
+        },
+        {
+          "path": "analysis/axp-i-rev1-retail-bulbasaur-sprite-set.json",
+          "sha256": "7a04c6f9bf9d3cb49171dbd1be06fd6124194a49c9e19420205acf64193321a8"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "6b65d555ca165c527865532d9e41e4ed582d5e7b25ec3820ea8cf86dad70db52"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/kyogre-axp-i-rev0-retail.pal",
+      "sha256": "4c97355083b9c4cf1b6528b404c5250049de9d126cffb8670a5adfaf18bdcba3",
+      "size": 186,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "Italian",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/kyogre-sprite-reconstruction.json",
+          "sha256": "b0058472b093e08acf5ae7fecbf6f5d58a7a290566c203af4e8aaf21cad90e3b"
+        },
+        {
+          "path": "analysis/axp-i-rev0-retail-kyogre-sprite-set.json",
+          "sha256": "332ce907c97fc460de9bb79831a2d6ce4c2417d7fe00fff2f22035764b400226"
+        },
+        {
+          "path": "analysis/kyogre-sprite-set-summary.json",
+          "sha256": "eec2d393b761a2c702defe68399c7a4f0b180af9a1646ccc98cd551900dd51db"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/kyogre-axp-i-rev1-retail.pal",
+      "sha256": "4c97355083b9c4cf1b6528b404c5250049de9d126cffb8670a5adfaf18bdcba3",
+      "size": 186,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "Italian",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/kyogre-sprite-reconstruction.json",
+          "sha256": "b0058472b093e08acf5ae7fecbf6f5d58a7a290566c203af4e8aaf21cad90e3b"
+        },
+        {
+          "path": "analysis/axp-i-rev1-retail-kyogre-sprite-set.json",
+          "sha256": "496dcce77f0d023dd16f6e6c34453284a68a49e94c64461f5e366fd6a046fcb1"
+        },
+        {
+          "path": "analysis/kyogre-sprite-set-summary.json",
+          "sha256": "eec2d393b761a2c702defe68399c7a4f0b180af9a1646ccc98cd551900dd51db"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/kyogre-back-axp-i-rev0-retail.png",
+      "sha256": "e737246afb8408580c3c2d13be53864da61d2c87d079d429d5978135e35a13c4",
+      "size": 764,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Italian",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/kyogre-sprite-reconstruction.json",
+          "sha256": "b0058472b093e08acf5ae7fecbf6f5d58a7a290566c203af4e8aaf21cad90e3b"
+        },
+        {
+          "path": "analysis/axp-i-rev0-retail-kyogre-sprite-set.json",
+          "sha256": "332ce907c97fc460de9bb79831a2d6ce4c2417d7fe00fff2f22035764b400226"
+        },
+        {
+          "path": "analysis/kyogre-sprite-set-summary.json",
+          "sha256": "eec2d393b761a2c702defe68399c7a4f0b180af9a1646ccc98cd551900dd51db"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/kyogre-back-axp-i-rev1-retail.png",
+      "sha256": "e737246afb8408580c3c2d13be53864da61d2c87d079d429d5978135e35a13c4",
+      "size": 764,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Italian",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/kyogre-sprite-reconstruction.json",
+          "sha256": "b0058472b093e08acf5ae7fecbf6f5d58a7a290566c203af4e8aaf21cad90e3b"
+        },
+        {
+          "path": "analysis/axp-i-rev1-retail-kyogre-sprite-set.json",
+          "sha256": "496dcce77f0d023dd16f6e6c34453284a68a49e94c64461f5e366fd6a046fcb1"
+        },
+        {
+          "path": "analysis/kyogre-sprite-set-summary.json",
+          "sha256": "eec2d393b761a2c702defe68399c7a4f0b180af9a1646ccc98cd551900dd51db"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/kyogre-front-axp-i-rev0-retail.png",
+      "sha256": "6d0b17a5743a73c732d3a37eda3d518e9a2da64aab34b7b3ae05288f9e8ab499",
+      "size": 1497,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Italian",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/kyogre-sprite-reconstruction.json",
+          "sha256": "b0058472b093e08acf5ae7fecbf6f5d58a7a290566c203af4e8aaf21cad90e3b"
+        },
+        {
+          "path": "analysis/axp-i-rev0-retail-kyogre-sprite-set.json",
+          "sha256": "332ce907c97fc460de9bb79831a2d6ce4c2417d7fe00fff2f22035764b400226"
+        },
+        {
+          "path": "analysis/kyogre-sprite-set-summary.json",
+          "sha256": "eec2d393b761a2c702defe68399c7a4f0b180af9a1646ccc98cd551900dd51db"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/kyogre-front-axp-i-rev1-retail.png",
+      "sha256": "6d0b17a5743a73c732d3a37eda3d518e9a2da64aab34b7b3ae05288f9e8ab499",
+      "size": 1497,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Italian",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/kyogre-sprite-reconstruction.json",
+          "sha256": "b0058472b093e08acf5ae7fecbf6f5d58a7a290566c203af4e8aaf21cad90e3b"
+        },
+        {
+          "path": "analysis/axp-i-rev1-retail-kyogre-sprite-set.json",
+          "sha256": "496dcce77f0d023dd16f6e6c34453284a68a49e94c64461f5e366fd6a046fcb1"
+        },
+        {
+          "path": "analysis/kyogre-sprite-set-summary.json",
+          "sha256": "eec2d393b761a2c702defe68399c7a4f0b180af9a1646ccc98cd551900dd51db"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/pikachu-axp-i-rev0-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847",
+      "size": 179,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "Italian",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/pikachu-sprite-reconstruction.json",
+          "sha256": "650ebc3f78fc51cfd73e99d1a411d3719a5778cf988a3a7bc3cdfb9110a4eb1e"
+        },
+        {
+          "path": "analysis/axp-i-rev0-retail-pikachu-sprite-set.json",
+          "sha256": "eaf1d3baed53023ecc0fbbb2b8fc1c1d551db958d5caefcb635f69ae7e150f70"
+        },
+        {
+          "path": "analysis/pikachu-sprite-set-summary.json",
+          "sha256": "eef5168b347594491241e830124578a88e9615bbf08eec6760ef217e0aad392c"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/pikachu-axp-i-rev1-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847",
+      "size": 179,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "Italian",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/pikachu-sprite-reconstruction.json",
+          "sha256": "650ebc3f78fc51cfd73e99d1a411d3719a5778cf988a3a7bc3cdfb9110a4eb1e"
+        },
+        {
+          "path": "analysis/axp-i-rev1-retail-pikachu-sprite-set.json",
+          "sha256": "973807feee244f4c24742495e23970e8fc35a5768c57a1e51c536b83ed57c497"
+        },
+        {
+          "path": "analysis/pikachu-sprite-set-summary.json",
+          "sha256": "eef5168b347594491241e830124578a88e9615bbf08eec6760ef217e0aad392c"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-axp-i-rev0-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9",
+      "size": 912,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Italian",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/pikachu-sprite-reconstruction.json",
+          "sha256": "650ebc3f78fc51cfd73e99d1a411d3719a5778cf988a3a7bc3cdfb9110a4eb1e"
+        },
+        {
+          "path": "analysis/axp-i-rev0-retail-pikachu-sprite-set.json",
+          "sha256": "eaf1d3baed53023ecc0fbbb2b8fc1c1d551db958d5caefcb635f69ae7e150f70"
+        },
+        {
+          "path": "analysis/pikachu-sprite-set-summary.json",
+          "sha256": "eef5168b347594491241e830124578a88e9615bbf08eec6760ef217e0aad392c"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-axp-i-rev1-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9",
+      "size": 912,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Italian",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/pikachu-sprite-reconstruction.json",
+          "sha256": "650ebc3f78fc51cfd73e99d1a411d3719a5778cf988a3a7bc3cdfb9110a4eb1e"
+        },
+        {
+          "path": "analysis/axp-i-rev1-retail-pikachu-sprite-set.json",
+          "sha256": "973807feee244f4c24742495e23970e8fc35a5768c57a1e51c536b83ed57c497"
+        },
+        {
+          "path": "analysis/pikachu-sprite-set-summary.json",
+          "sha256": "eef5168b347594491241e830124578a88e9615bbf08eec6760ef217e0aad392c"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-axp-i-rev0-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0",
+      "size": 970,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Italian",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/pikachu-sprite-reconstruction.json",
+          "sha256": "650ebc3f78fc51cfd73e99d1a411d3719a5778cf988a3a7bc3cdfb9110a4eb1e"
+        },
+        {
+          "path": "analysis/axp-i-rev0-retail-pikachu-sprite-set.json",
+          "sha256": "eaf1d3baed53023ecc0fbbb2b8fc1c1d551db958d5caefcb635f69ae7e150f70"
+        },
+        {
+          "path": "analysis/pikachu-sprite-set-summary.json",
+          "sha256": "eef5168b347594491241e830124578a88e9615bbf08eec6760ef217e0aad392c"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-axp-i-rev1-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0",
+      "size": 970,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Italian",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/pikachu-sprite-reconstruction.json",
+          "sha256": "650ebc3f78fc51cfd73e99d1a411d3719a5778cf988a3a7bc3cdfb9110a4eb1e"
+        },
+        {
+          "path": "analysis/axp-i-rev1-retail-pikachu-sprite-set.json",
+          "sha256": "973807feee244f4c24742495e23970e8fc35a5768c57a1e51c536b83ed57c497"
+        },
+        {
+          "path": "analysis/pikachu-sprite-set-summary.json",
+          "sha256": "eef5168b347594491241e830124578a88e9615bbf08eec6760ef217e0aad392c"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-axp-s-rev0-retail.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc",
+      "size": 189,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-reconstruction.json",
+          "sha256": "dbeb84eed26a81045b41e9bc4365887c5f6cac85bb58dc97544389dea9430d1b"
+        },
+        {
+          "path": "analysis/axp-s-rev0-retail-bulbasaur-sprite-set.json",
+          "sha256": "61037d4e4e910359484276a6503c7e67dc61c9a7d865f462ab13438df26cb8e3"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "6b65d555ca165c527865532d9e41e4ed582d5e7b25ec3820ea8cf86dad70db52"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-axp-s-rev1-retail.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc",
+      "size": 189,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-reconstruction.json",
+          "sha256": "dbeb84eed26a81045b41e9bc4365887c5f6cac85bb58dc97544389dea9430d1b"
+        },
+        {
+          "path": "analysis/axp-s-rev1-retail-bulbasaur-sprite-set.json",
+          "sha256": "983f5c887f510452ff655359e01dbd8b03b6a6cc88bbf0fb87a1406c197419b2"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "6b65d555ca165c527865532d9e41e4ed582d5e7b25ec3820ea8cf86dad70db52"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-axp-s-rev0-retail.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6",
+      "size": 881,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-reconstruction.json",
+          "sha256": "dbeb84eed26a81045b41e9bc4365887c5f6cac85bb58dc97544389dea9430d1b"
+        },
+        {
+          "path": "analysis/axp-s-rev0-retail-bulbasaur-sprite-set.json",
+          "sha256": "61037d4e4e910359484276a6503c7e67dc61c9a7d865f462ab13438df26cb8e3"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "6b65d555ca165c527865532d9e41e4ed582d5e7b25ec3820ea8cf86dad70db52"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-axp-s-rev1-retail.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6",
+      "size": 881,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-reconstruction.json",
+          "sha256": "dbeb84eed26a81045b41e9bc4365887c5f6cac85bb58dc97544389dea9430d1b"
+        },
+        {
+          "path": "analysis/axp-s-rev1-retail-bulbasaur-sprite-set.json",
+          "sha256": "983f5c887f510452ff655359e01dbd8b03b6a6cc88bbf0fb87a1406c197419b2"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "6b65d555ca165c527865532d9e41e4ed582d5e7b25ec3820ea8cf86dad70db52"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-axp-s-rev0-retail.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18",
+      "size": 880,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-reconstruction.json",
+          "sha256": "dbeb84eed26a81045b41e9bc4365887c5f6cac85bb58dc97544389dea9430d1b"
+        },
+        {
+          "path": "analysis/axp-s-rev0-retail-bulbasaur-sprite-set.json",
+          "sha256": "61037d4e4e910359484276a6503c7e67dc61c9a7d865f462ab13438df26cb8e3"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "6b65d555ca165c527865532d9e41e4ed582d5e7b25ec3820ea8cf86dad70db52"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-axp-s-rev1-retail.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18",
+      "size": 880,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/bulbasaur-sprite-reconstruction.json",
+          "sha256": "dbeb84eed26a81045b41e9bc4365887c5f6cac85bb58dc97544389dea9430d1b"
+        },
+        {
+          "path": "analysis/axp-s-rev1-retail-bulbasaur-sprite-set.json",
+          "sha256": "983f5c887f510452ff655359e01dbd8b03b6a6cc88bbf0fb87a1406c197419b2"
+        },
+        {
+          "path": "analysis/bulbasaur-sprite-set-summary.json",
+          "sha256": "6b65d555ca165c527865532d9e41e4ed582d5e7b25ec3820ea8cf86dad70db52"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/kyogre-axp-s-rev0-retail.pal",
+      "sha256": "4c97355083b9c4cf1b6528b404c5250049de9d126cffb8670a5adfaf18bdcba3",
+      "size": 186,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/kyogre-sprite-reconstruction.json",
+          "sha256": "b0058472b093e08acf5ae7fecbf6f5d58a7a290566c203af4e8aaf21cad90e3b"
+        },
+        {
+          "path": "analysis/axp-s-rev0-retail-kyogre-sprite-set.json",
+          "sha256": "44a388abd8a1b965043608aa2eec0df9ad9b363b7a7cb9c410de1bcc451d406d"
+        },
+        {
+          "path": "analysis/kyogre-sprite-set-summary.json",
+          "sha256": "eec2d393b761a2c702defe68399c7a4f0b180af9a1646ccc98cd551900dd51db"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/kyogre-axp-s-rev1-retail.pal",
+      "sha256": "4c97355083b9c4cf1b6528b404c5250049de9d126cffb8670a5adfaf18bdcba3",
+      "size": 186,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/kyogre-sprite-reconstruction.json",
+          "sha256": "b0058472b093e08acf5ae7fecbf6f5d58a7a290566c203af4e8aaf21cad90e3b"
+        },
+        {
+          "path": "analysis/axp-s-rev1-retail-kyogre-sprite-set.json",
+          "sha256": "377e0d7e98249d3c0766d5c235beca2ac87cc7c671a943f0a60f16c075d6f9f4"
+        },
+        {
+          "path": "analysis/kyogre-sprite-set-summary.json",
+          "sha256": "eec2d393b761a2c702defe68399c7a4f0b180af9a1646ccc98cd551900dd51db"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/kyogre-back-axp-s-rev0-retail.png",
+      "sha256": "e737246afb8408580c3c2d13be53864da61d2c87d079d429d5978135e35a13c4",
+      "size": 764,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/kyogre-sprite-reconstruction.json",
+          "sha256": "b0058472b093e08acf5ae7fecbf6f5d58a7a290566c203af4e8aaf21cad90e3b"
+        },
+        {
+          "path": "analysis/axp-s-rev0-retail-kyogre-sprite-set.json",
+          "sha256": "44a388abd8a1b965043608aa2eec0df9ad9b363b7a7cb9c410de1bcc451d406d"
+        },
+        {
+          "path": "analysis/kyogre-sprite-set-summary.json",
+          "sha256": "eec2d393b761a2c702defe68399c7a4f0b180af9a1646ccc98cd551900dd51db"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/kyogre-back-axp-s-rev1-retail.png",
+      "sha256": "e737246afb8408580c3c2d13be53864da61d2c87d079d429d5978135e35a13c4",
+      "size": 764,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/kyogre-sprite-reconstruction.json",
+          "sha256": "b0058472b093e08acf5ae7fecbf6f5d58a7a290566c203af4e8aaf21cad90e3b"
+        },
+        {
+          "path": "analysis/axp-s-rev1-retail-kyogre-sprite-set.json",
+          "sha256": "377e0d7e98249d3c0766d5c235beca2ac87cc7c671a943f0a60f16c075d6f9f4"
+        },
+        {
+          "path": "analysis/kyogre-sprite-set-summary.json",
+          "sha256": "eec2d393b761a2c702defe68399c7a4f0b180af9a1646ccc98cd551900dd51db"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/kyogre-front-axp-s-rev0-retail.png",
+      "sha256": "6d0b17a5743a73c732d3a37eda3d518e9a2da64aab34b7b3ae05288f9e8ab499",
+      "size": 1497,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/kyogre-sprite-reconstruction.json",
+          "sha256": "b0058472b093e08acf5ae7fecbf6f5d58a7a290566c203af4e8aaf21cad90e3b"
+        },
+        {
+          "path": "analysis/axp-s-rev0-retail-kyogre-sprite-set.json",
+          "sha256": "44a388abd8a1b965043608aa2eec0df9ad9b363b7a7cb9c410de1bcc451d406d"
+        },
+        {
+          "path": "analysis/kyogre-sprite-set-summary.json",
+          "sha256": "eec2d393b761a2c702defe68399c7a4f0b180af9a1646ccc98cd551900dd51db"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/kyogre-front-axp-s-rev1-retail.png",
+      "sha256": "6d0b17a5743a73c732d3a37eda3d518e9a2da64aab34b7b3ae05288f9e8ab499",
+      "size": 1497,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/kyogre-sprite-reconstruction.json",
+          "sha256": "b0058472b093e08acf5ae7fecbf6f5d58a7a290566c203af4e8aaf21cad90e3b"
+        },
+        {
+          "path": "analysis/axp-s-rev1-retail-kyogre-sprite-set.json",
+          "sha256": "377e0d7e98249d3c0766d5c235beca2ac87cc7c671a943f0a60f16c075d6f9f4"
+        },
+        {
+          "path": "analysis/kyogre-sprite-set-summary.json",
+          "sha256": "eec2d393b761a2c702defe68399c7a4f0b180af9a1646ccc98cd551900dd51db"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/pikachu-axp-s-rev0-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847",
+      "size": 179,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/pikachu-sprite-reconstruction.json",
+          "sha256": "650ebc3f78fc51cfd73e99d1a411d3719a5778cf988a3a7bc3cdfb9110a4eb1e"
+        },
+        {
+          "path": "analysis/axp-s-rev0-retail-pikachu-sprite-set.json",
+          "sha256": "5ad66aff02c553d973dc4ffb6635d68ef0a0d82a2fe904e88ac71f9eab31f22f"
+        },
+        {
+          "path": "analysis/pikachu-sprite-set-summary.json",
+          "sha256": "eef5168b347594491241e830124578a88e9615bbf08eec6760ef217e0aad392c"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/pikachu-axp-s-rev1-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847",
+      "size": 179,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/pikachu-sprite-reconstruction.json",
+          "sha256": "650ebc3f78fc51cfd73e99d1a411d3719a5778cf988a3a7bc3cdfb9110a4eb1e"
+        },
+        {
+          "path": "analysis/axp-s-rev1-retail-pikachu-sprite-set.json",
+          "sha256": "e6502f02e30a805cd4e9330cb934f7cb7c2edcb448f4790e5921065967e059e9"
+        },
+        {
+          "path": "analysis/pikachu-sprite-set-summary.json",
+          "sha256": "eef5168b347594491241e830124578a88e9615bbf08eec6760ef217e0aad392c"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-axp-s-rev0-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9",
+      "size": 912,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/pikachu-sprite-reconstruction.json",
+          "sha256": "650ebc3f78fc51cfd73e99d1a411d3719a5778cf988a3a7bc3cdfb9110a4eb1e"
+        },
+        {
+          "path": "analysis/axp-s-rev0-retail-pikachu-sprite-set.json",
+          "sha256": "5ad66aff02c553d973dc4ffb6635d68ef0a0d82a2fe904e88ac71f9eab31f22f"
+        },
+        {
+          "path": "analysis/pikachu-sprite-set-summary.json",
+          "sha256": "eef5168b347594491241e830124578a88e9615bbf08eec6760ef217e0aad392c"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-axp-s-rev1-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9",
+      "size": 912,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/pikachu-sprite-reconstruction.json",
+          "sha256": "650ebc3f78fc51cfd73e99d1a411d3719a5778cf988a3a7bc3cdfb9110a4eb1e"
+        },
+        {
+          "path": "analysis/axp-s-rev1-retail-pikachu-sprite-set.json",
+          "sha256": "e6502f02e30a805cd4e9330cb934f7cb7c2edcb448f4790e5921065967e059e9"
+        },
+        {
+          "path": "analysis/pikachu-sprite-set-summary.json",
+          "sha256": "eef5168b347594491241e830124578a88e9615bbf08eec6760ef217e0aad392c"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-axp-s-rev0-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0",
+      "size": 970,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/pikachu-sprite-reconstruction.json",
+          "sha256": "650ebc3f78fc51cfd73e99d1a411d3719a5778cf988a3a7bc3cdfb9110a4eb1e"
+        },
+        {
+          "path": "analysis/axp-s-rev0-retail-pikachu-sprite-set.json",
+          "sha256": "5ad66aff02c553d973dc4ffb6635d68ef0a0d82a2fe904e88ac71f9eab31f22f"
+        },
+        {
+          "path": "analysis/pikachu-sprite-set-summary.json",
+          "sha256": "eef5168b347594491241e830124578a88e9615bbf08eec6760ef217e0aad392c"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-axp-s-rev1-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0",
+      "size": 970,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/pikachu-sprite-reconstruction.json",
+          "sha256": "650ebc3f78fc51cfd73e99d1a411d3719a5778cf988a3a7bc3cdfb9110a4eb1e"
+        },
+        {
+          "path": "analysis/axp-s-rev1-retail-pikachu-sprite-set.json",
+          "sha256": "e6502f02e30a805cd4e9330cb934f7cb7c2edcb448f4790e5921065967e059e9"
+        },
+        {
+          "path": "analysis/pikachu-sprite-set-summary.json",
+          "sha256": "eef5168b347594491241e830124578a88e9615bbf08eec6760ef217e0aad392c"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

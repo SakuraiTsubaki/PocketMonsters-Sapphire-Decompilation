@@ -1,0 +1,467 @@
+{
+  "schema_version": 1,
+  "game": "Sapphire",
+  "asset_count": 109,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/catalog_public_graphics.py",
+    "tool_sha256": "df6121aca7dae3854a5998adc8c4aabeb820793868cfd21cab812bb82f09aa92"
+  },
+  "inputs": [
+    {
+      "path": "graphics/header/nintendo-logo.png",
+      "sha256": "f07daf6e489d64b7e2bbf80c7f23104dece36e88e706ee8a779790f6e8377a8b"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-axp-j-rev0-retail.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-axp-j-rev0-retail.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-axp-j-rev0-retail.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-axp-j-rev0-retail.pal",
+      "sha256": "4c97355083b9c4cf1b6528b404c5250049de9d126cffb8670a5adfaf18bdcba3"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-back-axp-j-rev0-retail.png",
+      "sha256": "e737246afb8408580c3c2d13be53864da61d2c87d079d429d5978135e35a13c4"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-front-axp-j-rev0-retail.png",
+      "sha256": "6d0b17a5743a73c732d3a37eda3d518e9a2da64aab34b7b3ae05288f9e8ab499"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-axp-j-rev0-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-axp-j-rev0-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-axp-j-rev0-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-axp-e-rev0-retail.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-axp-e-rev1-retail.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-axp-e-rev2-retail.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-axp-e-rev0-retail.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-axp-e-rev1-retail.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-axp-e-rev2-retail.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-axp-e-rev0-retail.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-axp-e-rev1-retail.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-axp-e-rev2-retail.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-axp-e-rev0-retail.pal",
+      "sha256": "4c97355083b9c4cf1b6528b404c5250049de9d126cffb8670a5adfaf18bdcba3"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-axp-e-rev1-retail.pal",
+      "sha256": "4c97355083b9c4cf1b6528b404c5250049de9d126cffb8670a5adfaf18bdcba3"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-axp-e-rev2-retail.pal",
+      "sha256": "4c97355083b9c4cf1b6528b404c5250049de9d126cffb8670a5adfaf18bdcba3"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-back-axp-e-rev0-retail.png",
+      "sha256": "e737246afb8408580c3c2d13be53864da61d2c87d079d429d5978135e35a13c4"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-back-axp-e-rev1-retail.png",
+      "sha256": "e737246afb8408580c3c2d13be53864da61d2c87d079d429d5978135e35a13c4"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-back-axp-e-rev2-retail.png",
+      "sha256": "e737246afb8408580c3c2d13be53864da61d2c87d079d429d5978135e35a13c4"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-front-axp-e-rev0-retail.png",
+      "sha256": "6d0b17a5743a73c732d3a37eda3d518e9a2da64aab34b7b3ae05288f9e8ab499"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-front-axp-e-rev1-retail.png",
+      "sha256": "6d0b17a5743a73c732d3a37eda3d518e9a2da64aab34b7b3ae05288f9e8ab499"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-front-axp-e-rev2-retail.png",
+      "sha256": "6d0b17a5743a73c732d3a37eda3d518e9a2da64aab34b7b3ae05288f9e8ab499"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-axp-e-rev0-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-axp-e-rev1-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-axp-e-rev2-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-axp-e-rev0-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-axp-e-rev1-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-axp-e-rev2-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-axp-e-rev0-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-axp-e-rev1-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-axp-e-rev2-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-axp-d-rev0-retail.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-axp-d-rev1-retail.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-axp-d-rev0-retail.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-axp-d-rev1-retail.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-axp-d-rev0-retail.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-axp-d-rev1-retail.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-axp-d-rev0-retail.pal",
+      "sha256": "4c97355083b9c4cf1b6528b404c5250049de9d126cffb8670a5adfaf18bdcba3"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-axp-d-rev1-retail.pal",
+      "sha256": "4c97355083b9c4cf1b6528b404c5250049de9d126cffb8670a5adfaf18bdcba3"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-back-axp-d-rev0-retail.png",
+      "sha256": "e737246afb8408580c3c2d13be53864da61d2c87d079d429d5978135e35a13c4"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-back-axp-d-rev1-retail.png",
+      "sha256": "e737246afb8408580c3c2d13be53864da61d2c87d079d429d5978135e35a13c4"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-front-axp-d-rev0-retail.png",
+      "sha256": "6d0b17a5743a73c732d3a37eda3d518e9a2da64aab34b7b3ae05288f9e8ab499"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-front-axp-d-rev1-retail.png",
+      "sha256": "6d0b17a5743a73c732d3a37eda3d518e9a2da64aab34b7b3ae05288f9e8ab499"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-axp-d-rev0-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-axp-d-rev1-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-axp-d-rev0-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-axp-d-rev1-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-axp-d-rev0-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-axp-d-rev1-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-axp-f-rev0-retail.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-axp-f-rev1-retail.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-axp-f-rev0-retail.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-axp-f-rev1-retail.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-axp-f-rev0-retail.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-axp-f-rev1-retail.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-axp-f-rev0-retail.pal",
+      "sha256": "4c97355083b9c4cf1b6528b404c5250049de9d126cffb8670a5adfaf18bdcba3"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-axp-f-rev1-retail.pal",
+      "sha256": "4c97355083b9c4cf1b6528b404c5250049de9d126cffb8670a5adfaf18bdcba3"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-back-axp-f-rev0-retail.png",
+      "sha256": "e737246afb8408580c3c2d13be53864da61d2c87d079d429d5978135e35a13c4"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-back-axp-f-rev1-retail.png",
+      "sha256": "e737246afb8408580c3c2d13be53864da61d2c87d079d429d5978135e35a13c4"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-front-axp-f-rev0-retail.png",
+      "sha256": "6d0b17a5743a73c732d3a37eda3d518e9a2da64aab34b7b3ae05288f9e8ab499"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-front-axp-f-rev1-retail.png",
+      "sha256": "6d0b17a5743a73c732d3a37eda3d518e9a2da64aab34b7b3ae05288f9e8ab499"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-axp-f-rev0-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-axp-f-rev1-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-axp-f-rev0-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-axp-f-rev1-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-axp-f-rev0-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-axp-f-rev1-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-axp-i-rev0-retail.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-axp-i-rev1-retail.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-axp-i-rev0-retail.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-axp-i-rev1-retail.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-axp-i-rev0-retail.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-axp-i-rev1-retail.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-axp-i-rev0-retail.pal",
+      "sha256": "4c97355083b9c4cf1b6528b404c5250049de9d126cffb8670a5adfaf18bdcba3"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-axp-i-rev1-retail.pal",
+      "sha256": "4c97355083b9c4cf1b6528b404c5250049de9d126cffb8670a5adfaf18bdcba3"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-back-axp-i-rev0-retail.png",
+      "sha256": "e737246afb8408580c3c2d13be53864da61d2c87d079d429d5978135e35a13c4"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-back-axp-i-rev1-retail.png",
+      "sha256": "e737246afb8408580c3c2d13be53864da61d2c87d079d429d5978135e35a13c4"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-front-axp-i-rev0-retail.png",
+      "sha256": "6d0b17a5743a73c732d3a37eda3d518e9a2da64aab34b7b3ae05288f9e8ab499"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-front-axp-i-rev1-retail.png",
+      "sha256": "6d0b17a5743a73c732d3a37eda3d518e9a2da64aab34b7b3ae05288f9e8ab499"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-axp-i-rev0-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-axp-i-rev1-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-axp-i-rev0-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-axp-i-rev1-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-axp-i-rev0-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-axp-i-rev1-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-axp-s-rev0-retail.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-axp-s-rev1-retail.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-axp-s-rev0-retail.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-axp-s-rev1-retail.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-axp-s-rev0-retail.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-axp-s-rev1-retail.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-axp-s-rev0-retail.pal",
+      "sha256": "4c97355083b9c4cf1b6528b404c5250049de9d126cffb8670a5adfaf18bdcba3"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-axp-s-rev1-retail.pal",
+      "sha256": "4c97355083b9c4cf1b6528b404c5250049de9d126cffb8670a5adfaf18bdcba3"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-back-axp-s-rev0-retail.png",
+      "sha256": "e737246afb8408580c3c2d13be53864da61d2c87d079d429d5978135e35a13c4"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-back-axp-s-rev1-retail.png",
+      "sha256": "e737246afb8408580c3c2d13be53864da61d2c87d079d429d5978135e35a13c4"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-front-axp-s-rev0-retail.png",
+      "sha256": "6d0b17a5743a73c732d3a37eda3d518e9a2da64aab34b7b3ae05288f9e8ab499"
+    },
+    {
+      "path": "graphics/pokemon/kyogre-front-axp-s-rev1-retail.png",
+      "sha256": "6d0b17a5743a73c732d3a37eda3d518e9a2da64aab34b7b3ae05288f9e8ab499"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-axp-s-rev0-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-axp-s-rev1-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-axp-s-rev0-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-axp-s-rev1-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-axp-s-rev0-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-axp-s-rev1-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "analysis/public-graphics-catalog.json",
+      "sha256": "00f01f1baefd2faef6233de080c83ffc77865a03b67473a1c92ba7023925084a"
+    },
+    {
+      "path": "ASSETS.md",
+      "sha256": "9b46b29b2bb5f17925451b18d82063ed138443d7083122577efe3f301e803cb7"
+    },
+    {
+      "path": "research/public-graphics-catalog.md",
+      "sha256": "366deb19c9c7d3396db87ab0bb490e8ab6805a74fcafd05bd3a167fa7c8fbbb6"
+    },
+    {
+      "path": "tests/test_public_graphics_catalog.py",
+      "sha256": "a87003a2fd5a68d0a7fd8b0d6fb3b225aee3a5d3cd23a990c1878696998478cb"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
