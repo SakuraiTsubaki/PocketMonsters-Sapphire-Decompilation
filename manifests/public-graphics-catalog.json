@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "game": "Sapphire",
-  "asset_count": 181,
+  "asset_count": 253,
   "generator": {
     "repository": "SakuraiTsubaki/Decompilation",
     "tool": "tools/catalog_public_graphics.py",
@@ -35,6 +35,18 @@
     {
       "path": "graphics/pokemon/charmander-front-axp-j-rev0-retail.png",
       "sha256": "c2521fd7f5d549448bfeae7092b9e637d6df98e4da2802d6e9b6fc6a28e585a5"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-axp-j-rev0-retail.pal",
+      "sha256": "b33f61ed2e335591ee16bde58b6aebd9e0f8392bce8e8e578e3150d750da0187"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-back-axp-j-rev0-retail.png",
+      "sha256": "57f839867dfb4f047f029014ca8491e0fe77f80d0d0dcb89de565e7e8547822b"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-front-axp-j-rev0-retail.png",
+      "sha256": "317ca13389c4a268e2508de3cde057f27932317ed71e77dcfd29bd7897aa7dc4"
     },
     {
       "path": "graphics/pokemon/kyogre-axp-j-rev0-retail.pal",
@@ -71,6 +83,18 @@
     {
       "path": "graphics/pokemon/squirtle-front-axp-j-rev0-retail.png",
       "sha256": "867c957520288232625495a150b0a1e842de10fccf5fe9a187c1c2a583c57497"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-axp-j-rev0-retail.pal",
+      "sha256": "11606f5afc78f891d820da8d24a1d51df53edb7f282fc8a55fd868bf6a551bab"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-back-axp-j-rev0-retail.png",
+      "sha256": "8467656ef54308b2cbcb71455bd4806dacda27ae065c3ee682cb80217b144138"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-front-axp-j-rev0-retail.png",
+      "sha256": "9c6f9fdb302031aa70472bfe393c9d0874bd0980818c485389e82e7aea967edd"
     },
     {
       "path": "graphics/pokemon/bulbasaur-axp-e-rev0-retail.pal",
@@ -143,6 +167,42 @@
     {
       "path": "graphics/pokemon/charmander-front-axp-e-rev2-retail.png",
       "sha256": "c2521fd7f5d549448bfeae7092b9e637d6df98e4da2802d6e9b6fc6a28e585a5"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-axp-e-rev0-retail.pal",
+      "sha256": "b33f61ed2e335591ee16bde58b6aebd9e0f8392bce8e8e578e3150d750da0187"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-axp-e-rev1-retail.pal",
+      "sha256": "b33f61ed2e335591ee16bde58b6aebd9e0f8392bce8e8e578e3150d750da0187"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-axp-e-rev2-retail.pal",
+      "sha256": "b33f61ed2e335591ee16bde58b6aebd9e0f8392bce8e8e578e3150d750da0187"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-back-axp-e-rev0-retail.png",
+      "sha256": "57f839867dfb4f047f029014ca8491e0fe77f80d0d0dcb89de565e7e8547822b"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-back-axp-e-rev1-retail.png",
+      "sha256": "57f839867dfb4f047f029014ca8491e0fe77f80d0d0dcb89de565e7e8547822b"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-back-axp-e-rev2-retail.png",
+      "sha256": "57f839867dfb4f047f029014ca8491e0fe77f80d0d0dcb89de565e7e8547822b"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-front-axp-e-rev0-retail.png",
+      "sha256": "317ca13389c4a268e2508de3cde057f27932317ed71e77dcfd29bd7897aa7dc4"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-front-axp-e-rev1-retail.png",
+      "sha256": "317ca13389c4a268e2508de3cde057f27932317ed71e77dcfd29bd7897aa7dc4"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-front-axp-e-rev2-retail.png",
+      "sha256": "317ca13389c4a268e2508de3cde057f27932317ed71e77dcfd29bd7897aa7dc4"
     },
     {
       "path": "graphics/pokemon/kyogre-axp-e-rev0-retail.pal",
@@ -253,6 +313,42 @@
       "sha256": "867c957520288232625495a150b0a1e842de10fccf5fe9a187c1c2a583c57497"
     },
     {
+      "path": "graphics/pokemon/venusaur-axp-e-rev0-retail.pal",
+      "sha256": "11606f5afc78f891d820da8d24a1d51df53edb7f282fc8a55fd868bf6a551bab"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-axp-e-rev1-retail.pal",
+      "sha256": "11606f5afc78f891d820da8d24a1d51df53edb7f282fc8a55fd868bf6a551bab"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-axp-e-rev2-retail.pal",
+      "sha256": "11606f5afc78f891d820da8d24a1d51df53edb7f282fc8a55fd868bf6a551bab"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-back-axp-e-rev0-retail.png",
+      "sha256": "8467656ef54308b2cbcb71455bd4806dacda27ae065c3ee682cb80217b144138"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-back-axp-e-rev1-retail.png",
+      "sha256": "8467656ef54308b2cbcb71455bd4806dacda27ae065c3ee682cb80217b144138"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-back-axp-e-rev2-retail.png",
+      "sha256": "8467656ef54308b2cbcb71455bd4806dacda27ae065c3ee682cb80217b144138"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-front-axp-e-rev0-retail.png",
+      "sha256": "9c6f9fdb302031aa70472bfe393c9d0874bd0980818c485389e82e7aea967edd"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-front-axp-e-rev1-retail.png",
+      "sha256": "9c6f9fdb302031aa70472bfe393c9d0874bd0980818c485389e82e7aea967edd"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-front-axp-e-rev2-retail.png",
+      "sha256": "9c6f9fdb302031aa70472bfe393c9d0874bd0980818c485389e82e7aea967edd"
+    },
+    {
       "path": "graphics/pokemon/bulbasaur-axp-d-rev0-retail.pal",
       "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
     },
@@ -299,6 +395,30 @@
     {
       "path": "graphics/pokemon/charmander-front-axp-d-rev1-retail.png",
       "sha256": "c2521fd7f5d549448bfeae7092b9e637d6df98e4da2802d6e9b6fc6a28e585a5"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-axp-d-rev0-retail.pal",
+      "sha256": "b33f61ed2e335591ee16bde58b6aebd9e0f8392bce8e8e578e3150d750da0187"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-axp-d-rev1-retail.pal",
+      "sha256": "b33f61ed2e335591ee16bde58b6aebd9e0f8392bce8e8e578e3150d750da0187"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-back-axp-d-rev0-retail.png",
+      "sha256": "57f839867dfb4f047f029014ca8491e0fe77f80d0d0dcb89de565e7e8547822b"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-back-axp-d-rev1-retail.png",
+      "sha256": "57f839867dfb4f047f029014ca8491e0fe77f80d0d0dcb89de565e7e8547822b"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-front-axp-d-rev0-retail.png",
+      "sha256": "317ca13389c4a268e2508de3cde057f27932317ed71e77dcfd29bd7897aa7dc4"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-front-axp-d-rev1-retail.png",
+      "sha256": "317ca13389c4a268e2508de3cde057f27932317ed71e77dcfd29bd7897aa7dc4"
     },
     {
       "path": "graphics/pokemon/kyogre-axp-d-rev0-retail.pal",
@@ -373,6 +493,30 @@
       "sha256": "867c957520288232625495a150b0a1e842de10fccf5fe9a187c1c2a583c57497"
     },
     {
+      "path": "graphics/pokemon/venusaur-axp-d-rev0-retail.pal",
+      "sha256": "11606f5afc78f891d820da8d24a1d51df53edb7f282fc8a55fd868bf6a551bab"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-axp-d-rev1-retail.pal",
+      "sha256": "11606f5afc78f891d820da8d24a1d51df53edb7f282fc8a55fd868bf6a551bab"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-back-axp-d-rev0-retail.png",
+      "sha256": "8467656ef54308b2cbcb71455bd4806dacda27ae065c3ee682cb80217b144138"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-back-axp-d-rev1-retail.png",
+      "sha256": "8467656ef54308b2cbcb71455bd4806dacda27ae065c3ee682cb80217b144138"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-front-axp-d-rev0-retail.png",
+      "sha256": "9c6f9fdb302031aa70472bfe393c9d0874bd0980818c485389e82e7aea967edd"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-front-axp-d-rev1-retail.png",
+      "sha256": "9c6f9fdb302031aa70472bfe393c9d0874bd0980818c485389e82e7aea967edd"
+    },
+    {
       "path": "graphics/pokemon/bulbasaur-axp-f-rev0-retail.pal",
       "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
     },
@@ -419,6 +563,30 @@
     {
       "path": "graphics/pokemon/charmander-front-axp-f-rev1-retail.png",
       "sha256": "c2521fd7f5d549448bfeae7092b9e637d6df98e4da2802d6e9b6fc6a28e585a5"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-axp-f-rev0-retail.pal",
+      "sha256": "b33f61ed2e335591ee16bde58b6aebd9e0f8392bce8e8e578e3150d750da0187"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-axp-f-rev1-retail.pal",
+      "sha256": "b33f61ed2e335591ee16bde58b6aebd9e0f8392bce8e8e578e3150d750da0187"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-back-axp-f-rev0-retail.png",
+      "sha256": "57f839867dfb4f047f029014ca8491e0fe77f80d0d0dcb89de565e7e8547822b"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-back-axp-f-rev1-retail.png",
+      "sha256": "57f839867dfb4f047f029014ca8491e0fe77f80d0d0dcb89de565e7e8547822b"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-front-axp-f-rev0-retail.png",
+      "sha256": "317ca13389c4a268e2508de3cde057f27932317ed71e77dcfd29bd7897aa7dc4"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-front-axp-f-rev1-retail.png",
+      "sha256": "317ca13389c4a268e2508de3cde057f27932317ed71e77dcfd29bd7897aa7dc4"
     },
     {
       "path": "graphics/pokemon/kyogre-axp-f-rev0-retail.pal",
@@ -493,6 +661,30 @@
       "sha256": "867c957520288232625495a150b0a1e842de10fccf5fe9a187c1c2a583c57497"
     },
     {
+      "path": "graphics/pokemon/venusaur-axp-f-rev0-retail.pal",
+      "sha256": "11606f5afc78f891d820da8d24a1d51df53edb7f282fc8a55fd868bf6a551bab"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-axp-f-rev1-retail.pal",
+      "sha256": "11606f5afc78f891d820da8d24a1d51df53edb7f282fc8a55fd868bf6a551bab"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-back-axp-f-rev0-retail.png",
+      "sha256": "8467656ef54308b2cbcb71455bd4806dacda27ae065c3ee682cb80217b144138"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-back-axp-f-rev1-retail.png",
+      "sha256": "8467656ef54308b2cbcb71455bd4806dacda27ae065c3ee682cb80217b144138"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-front-axp-f-rev0-retail.png",
+      "sha256": "9c6f9fdb302031aa70472bfe393c9d0874bd0980818c485389e82e7aea967edd"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-front-axp-f-rev1-retail.png",
+      "sha256": "9c6f9fdb302031aa70472bfe393c9d0874bd0980818c485389e82e7aea967edd"
+    },
+    {
       "path": "graphics/pokemon/bulbasaur-axp-i-rev0-retail.pal",
       "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
     },
@@ -539,6 +731,30 @@
     {
       "path": "graphics/pokemon/charmander-front-axp-i-rev1-retail.png",
       "sha256": "c2521fd7f5d549448bfeae7092b9e637d6df98e4da2802d6e9b6fc6a28e585a5"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-axp-i-rev0-retail.pal",
+      "sha256": "b33f61ed2e335591ee16bde58b6aebd9e0f8392bce8e8e578e3150d750da0187"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-axp-i-rev1-retail.pal",
+      "sha256": "b33f61ed2e335591ee16bde58b6aebd9e0f8392bce8e8e578e3150d750da0187"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-back-axp-i-rev0-retail.png",
+      "sha256": "57f839867dfb4f047f029014ca8491e0fe77f80d0d0dcb89de565e7e8547822b"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-back-axp-i-rev1-retail.png",
+      "sha256": "57f839867dfb4f047f029014ca8491e0fe77f80d0d0dcb89de565e7e8547822b"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-front-axp-i-rev0-retail.png",
+      "sha256": "317ca13389c4a268e2508de3cde057f27932317ed71e77dcfd29bd7897aa7dc4"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-front-axp-i-rev1-retail.png",
+      "sha256": "317ca13389c4a268e2508de3cde057f27932317ed71e77dcfd29bd7897aa7dc4"
     },
     {
       "path": "graphics/pokemon/kyogre-axp-i-rev0-retail.pal",
@@ -613,6 +829,30 @@
       "sha256": "867c957520288232625495a150b0a1e842de10fccf5fe9a187c1c2a583c57497"
     },
     {
+      "path": "graphics/pokemon/venusaur-axp-i-rev0-retail.pal",
+      "sha256": "11606f5afc78f891d820da8d24a1d51df53edb7f282fc8a55fd868bf6a551bab"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-axp-i-rev1-retail.pal",
+      "sha256": "11606f5afc78f891d820da8d24a1d51df53edb7f282fc8a55fd868bf6a551bab"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-back-axp-i-rev0-retail.png",
+      "sha256": "8467656ef54308b2cbcb71455bd4806dacda27ae065c3ee682cb80217b144138"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-back-axp-i-rev1-retail.png",
+      "sha256": "8467656ef54308b2cbcb71455bd4806dacda27ae065c3ee682cb80217b144138"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-front-axp-i-rev0-retail.png",
+      "sha256": "9c6f9fdb302031aa70472bfe393c9d0874bd0980818c485389e82e7aea967edd"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-front-axp-i-rev1-retail.png",
+      "sha256": "9c6f9fdb302031aa70472bfe393c9d0874bd0980818c485389e82e7aea967edd"
+    },
+    {
       "path": "graphics/pokemon/bulbasaur-axp-s-rev0-retail.pal",
       "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
     },
@@ -659,6 +899,30 @@
     {
       "path": "graphics/pokemon/charmander-front-axp-s-rev1-retail.png",
       "sha256": "c2521fd7f5d549448bfeae7092b9e637d6df98e4da2802d6e9b6fc6a28e585a5"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-axp-s-rev0-retail.pal",
+      "sha256": "b33f61ed2e335591ee16bde58b6aebd9e0f8392bce8e8e578e3150d750da0187"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-axp-s-rev1-retail.pal",
+      "sha256": "b33f61ed2e335591ee16bde58b6aebd9e0f8392bce8e8e578e3150d750da0187"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-back-axp-s-rev0-retail.png",
+      "sha256": "57f839867dfb4f047f029014ca8491e0fe77f80d0d0dcb89de565e7e8547822b"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-back-axp-s-rev1-retail.png",
+      "sha256": "57f839867dfb4f047f029014ca8491e0fe77f80d0d0dcb89de565e7e8547822b"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-front-axp-s-rev0-retail.png",
+      "sha256": "317ca13389c4a268e2508de3cde057f27932317ed71e77dcfd29bd7897aa7dc4"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-front-axp-s-rev1-retail.png",
+      "sha256": "317ca13389c4a268e2508de3cde057f27932317ed71e77dcfd29bd7897aa7dc4"
     },
     {
       "path": "graphics/pokemon/kyogre-axp-s-rev0-retail.pal",
@@ -731,20 +995,44 @@
     {
       "path": "graphics/pokemon/squirtle-front-axp-s-rev1-retail.png",
       "sha256": "867c957520288232625495a150b0a1e842de10fccf5fe9a187c1c2a583c57497"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-axp-s-rev0-retail.pal",
+      "sha256": "11606f5afc78f891d820da8d24a1d51df53edb7f282fc8a55fd868bf6a551bab"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-axp-s-rev1-retail.pal",
+      "sha256": "11606f5afc78f891d820da8d24a1d51df53edb7f282fc8a55fd868bf6a551bab"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-back-axp-s-rev0-retail.png",
+      "sha256": "8467656ef54308b2cbcb71455bd4806dacda27ae065c3ee682cb80217b144138"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-back-axp-s-rev1-retail.png",
+      "sha256": "8467656ef54308b2cbcb71455bd4806dacda27ae065c3ee682cb80217b144138"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-front-axp-s-rev0-retail.png",
+      "sha256": "9c6f9fdb302031aa70472bfe393c9d0874bd0980818c485389e82e7aea967edd"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-front-axp-s-rev1-retail.png",
+      "sha256": "9c6f9fdb302031aa70472bfe393c9d0874bd0980818c485389e82e7aea967edd"
     }
   ],
   "outputs": [
     {
       "path": "analysis/public-graphics-catalog.json",
-      "sha256": "99931e883e2b31a41859a36a671bf82950f5dd5cf702e355aa79a3327e416d7b"
+      "sha256": "5fedf44655ff32d755d3f1c1fc86eb758232f46fae854473d8728fba3bead715"
     },
     {
       "path": "ASSETS.md",
-      "sha256": "379d5c1679b913fd04c720523d092e52321bdaa4c08c2b879b4442d66e9eff36"
+      "sha256": "c630e21a04d16954b8e7e880f3ecc2932c70c01b2b0c7eb0ca8a23594fd71e8e"
     },
     {
       "path": "research/public-graphics-catalog.md",
-      "sha256": "8b80abdb3a87aaace846ed127078a8435d50a2f86b94a95613cb316d60bf5b5e"
+      "sha256": "a093810f02a9c777ff52062a18c6a877522b488603e6c83105059788b18a2f96"
     },
     {
       "path": "tests/test_public_graphics_catalog.py",

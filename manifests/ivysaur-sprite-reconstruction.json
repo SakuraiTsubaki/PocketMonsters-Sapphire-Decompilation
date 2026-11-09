@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "Sapphire",
+  "species": {
+    "id": 2,
+    "name": "ivysaur"
+  },
+  "origin_reference": "axp-j-rev0-retail",
+  "release_count": 12,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/rse_species_sprite_catalog.py",
+    "tool_sha256": "e4d6b7511861cb851eb6599271325336c2a7b6baf22dc208d1dcf3eee4ef233a"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "756bce70a62f6fc7c42934bf2163fd94d1fec4c648f0e3024ddef622ea101571"
+    },
+    {
+      "path": "src/ivysaur_species_sprite_tables.asm",
+      "sha256": "d4c5e02bc159176f9f4d9a6150a99bb1c4458bccc384a58b4a10e2d1a015e064"
+    },
+    {
+      "path": "analysis/ivysaur-sprite-set-summary.json",
+      "sha256": "c687caddf1e7542ea96f980b3fe4f2fe827cc874faa34050476d05ddd8d6b430"
+    },
+    {
+      "path": "analysis/axp-j-rev0-retail-ivysaur-sprite-set.json",
+      "sha256": "13b9428b1bb7b7c151b7c29540add34deff94bdb390b7012f1f260a79e993ae0"
+    },
+    {
+      "path": "analysis/axp-e-rev0-retail-ivysaur-sprite-set.json",
+      "sha256": "ae271c0daaea920efff00c0e357046d0e81e6de7b90b29b6bc0e76776aa6d53e"
+    },
+    {
+      "path": "analysis/axp-e-rev1-retail-ivysaur-sprite-set.json",
+      "sha256": "84b81634721cc0aede8abeb59113d4d543b850b984d68663c5b16ec30ef25b25"
+    },
+    {
+      "path": "analysis/axp-e-rev2-retail-ivysaur-sprite-set.json",
+      "sha256": "eb7b88dbdabfd96a7a451c3b2a27b1be6fffb7eb47e7592887b71f79381ccabd"
+    },
+    {
+      "path": "analysis/axp-d-rev0-retail-ivysaur-sprite-set.json",
+      "sha256": "07de79b0dc3fd4197e3343261b71fdf5a641284a1b6ce42588ebabe32c897ed0"
+    },
+    {
+      "path": "analysis/axp-d-rev1-retail-ivysaur-sprite-set.json",
+      "sha256": "3ae04af9184b11aaab2f2f02cbb7f1df4347df449779f56f0f4f6c865328861c"
+    },
+    {
+      "path": "analysis/axp-f-rev0-retail-ivysaur-sprite-set.json",
+      "sha256": "44d883523e7d6350139d785ecb44931621ac55a15592cbb50d2f3c4b5a3fa4aa"
+    },
+    {
+      "path": "analysis/axp-f-rev1-retail-ivysaur-sprite-set.json",
+      "sha256": "bc21881599c72634a9903454ad79f69938a140334a5f7202b7f9f003cb95baf0"
+    },
+    {
+      "path": "analysis/axp-i-rev0-retail-ivysaur-sprite-set.json",
+      "sha256": "ec69fedb3e06d31e7e0d81d159f7195f712d17e3f84f76cc2a105c5aaa627f81"
+    },
+    {
+      "path": "analysis/axp-i-rev1-retail-ivysaur-sprite-set.json",
+      "sha256": "dc586cb75c7e07f59d8a05bf9f0b762d7ed05ce79394426c72ab12e2a0bcc4cf"
+    },
+    {
+      "path": "analysis/axp-s-rev0-retail-ivysaur-sprite-set.json",
+      "sha256": "b789a7eea6eab5e026ad721bedc3eabb6fd3b7df608f79927016e8d0eed32b8f"
+    },
+    {
+      "path": "analysis/axp-s-rev1-retail-ivysaur-sprite-set.json",
+      "sha256": "7a7cb686675dc592b16c662551c80f49c58d7a850ace7c2c1c6e0e9c0ac2c1b8"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-front-axp-j-rev0-retail.png",
+      "sha256": "317ca13389c4a268e2508de3cde057f27932317ed71e77dcfd29bd7897aa7dc4"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-back-axp-j-rev0-retail.png",
+      "sha256": "57f839867dfb4f047f029014ca8491e0fe77f80d0d0dcb89de565e7e8547822b"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-axp-j-rev0-retail.pal",
+      "sha256": "b33f61ed2e335591ee16bde58b6aebd9e0f8392bce8e8e578e3150d750da0187"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-front-axp-e-rev0-retail.png",
+      "sha256": "317ca13389c4a268e2508de3cde057f27932317ed71e77dcfd29bd7897aa7dc4"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-back-axp-e-rev0-retail.png",
+      "sha256": "57f839867dfb4f047f029014ca8491e0fe77f80d0d0dcb89de565e7e8547822b"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-axp-e-rev0-retail.pal",
+      "sha256": "b33f61ed2e335591ee16bde58b6aebd9e0f8392bce8e8e578e3150d750da0187"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-front-axp-e-rev1-retail.png",
+      "sha256": "317ca13389c4a268e2508de3cde057f27932317ed71e77dcfd29bd7897aa7dc4"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-back-axp-e-rev1-retail.png",
+      "sha256": "57f839867dfb4f047f029014ca8491e0fe77f80d0d0dcb89de565e7e8547822b"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-axp-e-rev1-retail.pal",
+      "sha256": "b33f61ed2e335591ee16bde58b6aebd9e0f8392bce8e8e578e3150d750da0187"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-front-axp-e-rev2-retail.png",
+      "sha256": "317ca13389c4a268e2508de3cde057f27932317ed71e77dcfd29bd7897aa7dc4"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-back-axp-e-rev2-retail.png",
+      "sha256": "57f839867dfb4f047f029014ca8491e0fe77f80d0d0dcb89de565e7e8547822b"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-axp-e-rev2-retail.pal",
+      "sha256": "b33f61ed2e335591ee16bde58b6aebd9e0f8392bce8e8e578e3150d750da0187"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-front-axp-d-rev0-retail.png",
+      "sha256": "317ca13389c4a268e2508de3cde057f27932317ed71e77dcfd29bd7897aa7dc4"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-back-axp-d-rev0-retail.png",
+      "sha256": "57f839867dfb4f047f029014ca8491e0fe77f80d0d0dcb89de565e7e8547822b"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-axp-d-rev0-retail.pal",
+      "sha256": "b33f61ed2e335591ee16bde58b6aebd9e0f8392bce8e8e578e3150d750da0187"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-front-axp-d-rev1-retail.png",
+      "sha256": "317ca13389c4a268e2508de3cde057f27932317ed71e77dcfd29bd7897aa7dc4"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-back-axp-d-rev1-retail.png",
+      "sha256": "57f839867dfb4f047f029014ca8491e0fe77f80d0d0dcb89de565e7e8547822b"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-axp-d-rev1-retail.pal",
+      "sha256": "b33f61ed2e335591ee16bde58b6aebd9e0f8392bce8e8e578e3150d750da0187"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-front-axp-f-rev0-retail.png",
+      "sha256": "317ca13389c4a268e2508de3cde057f27932317ed71e77dcfd29bd7897aa7dc4"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-back-axp-f-rev0-retail.png",
+      "sha256": "57f839867dfb4f047f029014ca8491e0fe77f80d0d0dcb89de565e7e8547822b"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-axp-f-rev0-retail.pal",
+      "sha256": "b33f61ed2e335591ee16bde58b6aebd9e0f8392bce8e8e578e3150d750da0187"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-front-axp-f-rev1-retail.png",
+      "sha256": "317ca13389c4a268e2508de3cde057f27932317ed71e77dcfd29bd7897aa7dc4"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-back-axp-f-rev1-retail.png",
+      "sha256": "57f839867dfb4f047f029014ca8491e0fe77f80d0d0dcb89de565e7e8547822b"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-axp-f-rev1-retail.pal",
+      "sha256": "b33f61ed2e335591ee16bde58b6aebd9e0f8392bce8e8e578e3150d750da0187"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-front-axp-i-rev0-retail.png",
+      "sha256": "317ca13389c4a268e2508de3cde057f27932317ed71e77dcfd29bd7897aa7dc4"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-back-axp-i-rev0-retail.png",
+      "sha256": "57f839867dfb4f047f029014ca8491e0fe77f80d0d0dcb89de565e7e8547822b"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-axp-i-rev0-retail.pal",
+      "sha256": "b33f61ed2e335591ee16bde58b6aebd9e0f8392bce8e8e578e3150d750da0187"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-front-axp-i-rev1-retail.png",
+      "sha256": "317ca13389c4a268e2508de3cde057f27932317ed71e77dcfd29bd7897aa7dc4"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-back-axp-i-rev1-retail.png",
+      "sha256": "57f839867dfb4f047f029014ca8491e0fe77f80d0d0dcb89de565e7e8547822b"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-axp-i-rev1-retail.pal",
+      "sha256": "b33f61ed2e335591ee16bde58b6aebd9e0f8392bce8e8e578e3150d750da0187"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-front-axp-s-rev0-retail.png",
+      "sha256": "317ca13389c4a268e2508de3cde057f27932317ed71e77dcfd29bd7897aa7dc4"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-back-axp-s-rev0-retail.png",
+      "sha256": "57f839867dfb4f047f029014ca8491e0fe77f80d0d0dcb89de565e7e8547822b"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-axp-s-rev0-retail.pal",
+      "sha256": "b33f61ed2e335591ee16bde58b6aebd9e0f8392bce8e8e578e3150d750da0187"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-front-axp-s-rev1-retail.png",
+      "sha256": "317ca13389c4a268e2508de3cde057f27932317ed71e77dcfd29bd7897aa7dc4"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-back-axp-s-rev1-retail.png",
+      "sha256": "57f839867dfb4f047f029014ca8491e0fe77f80d0d0dcb89de565e7e8547822b"
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-axp-s-rev1-retail.pal",
+      "sha256": "b33f61ed2e335591ee16bde58b6aebd9e0f8392bce8e8e578e3150d750da0187"
+    },
+    {
+      "path": "research/ivysaur-sprite-set.md",
+      "sha256": "151af967ad2c213b64e2f88370c31f5726b3a2662831596bc5b028895b20dc3e"
+    },
+    {
+      "path": "tests/test_ivysaur_sprite_reconstruction.py",
+      "sha256": "920bd4e56c4eda5ebf00bb956ddd6248dc80a90af5f22265d28764376db0e878"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
