@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "Sapphire",
+  "species": {
+    "id": 12,
+    "name": "butterfree"
+  },
+  "origin_reference": "axp-j-rev0-retail",
+  "release_count": 12,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/rse_species_sprite_catalog.py",
+    "tool_sha256": "e4d6b7511861cb851eb6599271325336c2a7b6baf22dc208d1dcf3eee4ef233a"
+  },
+  "outputs": [
+    {
+      "path": "C:/Temp/pokemon-gen-work/repos/PocketMonsters-Sapphire-Decompilation/analysis/global-release-catalog.json",
+      "sha256": "756bce70a62f6fc7c42934bf2163fd94d1fec4c648f0e3024ddef622ea101571"
+    },
+    {
+      "path": "src/butterfree_species_sprite_tables.asm",
+      "sha256": "cdb79d723f70b528db32e5319fa875baeb3985d18f79fb0651032a3fd6190537"
+    },
+    {
+      "path": "analysis/butterfree-sprite-set-summary.json",
+      "sha256": "95cf003f3cb857462f88af0245a1e07ce75a157aa49bcc9562aa18eb9acbaf1c"
+    },
+    {
+      "path": "analysis/axp-j-rev0-retail-butterfree-sprite-set.json",
+      "sha256": "97daf0ed3ebbd4d4f8596112eafb5c6fafa44b10718e32c75d581f3a901b2860"
+    },
+    {
+      "path": "analysis/axp-e-rev0-retail-butterfree-sprite-set.json",
+      "sha256": "eb8ef587aa6de4702452d52cf98e7e1e1570782359e301bdd994a8ceab0e9e54"
+    },
+    {
+      "path": "analysis/axp-e-rev1-retail-butterfree-sprite-set.json",
+      "sha256": "7b4131d21d98fd979e12966aa5c20351c727312795ec3589e48381fa9fcfaefa"
+    },
+    {
+      "path": "analysis/axp-e-rev2-retail-butterfree-sprite-set.json",
+      "sha256": "c089a647097924e55032a3a2edf9cf07132744d722ebd1feef96aa8326d25206"
+    },
+    {
+      "path": "analysis/axp-d-rev0-retail-butterfree-sprite-set.json",
+      "sha256": "ffce41e6c7fa6a2485b04220ea1bab6d0c645ac84e4d88f5f3c863798c365fdb"
+    },
+    {
+      "path": "analysis/axp-d-rev1-retail-butterfree-sprite-set.json",
+      "sha256": "c5af7fe759736f4b9badea21159b634cac518787aceea20ba91ddf2dbb7cb516"
+    },
+    {
+      "path": "analysis/axp-f-rev0-retail-butterfree-sprite-set.json",
+      "sha256": "e68c46758e40e7fc8f4016a87ab37b8741cc33f613a59b03dae5fb4078ae7a9f"
+    },
+    {
+      "path": "analysis/axp-f-rev1-retail-butterfree-sprite-set.json",
+      "sha256": "be3083baa4ecc1df0382b08809f114981d083568693a2d7221c62f0bd50f06d5"
+    },
+    {
+      "path": "analysis/axp-i-rev0-retail-butterfree-sprite-set.json",
+      "sha256": "d88a2224e28e86886f0d137f65086025626bb3855a359f73e711f83c5ec2814e"
+    },
+    {
+      "path": "analysis/axp-i-rev1-retail-butterfree-sprite-set.json",
+      "sha256": "8d2ef53fc89fa57cf7797b86632838145984dba1abcc408a6a660f731c352015"
+    },
+    {
+      "path": "analysis/axp-s-rev0-retail-butterfree-sprite-set.json",
+      "sha256": "65a4a47ff5fbf43e3d8246258a291e59ffe089cd6de29637ff5943d9b27012a7"
+    },
+    {
+      "path": "analysis/axp-s-rev1-retail-butterfree-sprite-set.json",
+      "sha256": "bdb4148fd37fbe452951b7e598adf9670f21d19f0412b1524a1a4b86f90f164a"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-front-axp-j-rev0-retail.png",
+      "sha256": "b983f495975ce8902e5214569235d81964f467faf94437d39797ebd16955f26c"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-back-axp-j-rev0-retail.png",
+      "sha256": "1b00ee385be0beef9dd00ecc6a290510bb35cd1df9d9391623d2fb3cb079edd6"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-axp-j-rev0-retail.pal",
+      "sha256": "025d4f19380be8c049bd7ec5de570194462914d8fa678f8c5c5e14b6247be0ea"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-front-axp-e-rev0-retail.png",
+      "sha256": "b983f495975ce8902e5214569235d81964f467faf94437d39797ebd16955f26c"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-back-axp-e-rev0-retail.png",
+      "sha256": "1b00ee385be0beef9dd00ecc6a290510bb35cd1df9d9391623d2fb3cb079edd6"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-axp-e-rev0-retail.pal",
+      "sha256": "025d4f19380be8c049bd7ec5de570194462914d8fa678f8c5c5e14b6247be0ea"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-front-axp-e-rev1-retail.png",
+      "sha256": "b983f495975ce8902e5214569235d81964f467faf94437d39797ebd16955f26c"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-back-axp-e-rev1-retail.png",
+      "sha256": "1b00ee385be0beef9dd00ecc6a290510bb35cd1df9d9391623d2fb3cb079edd6"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-axp-e-rev1-retail.pal",
+      "sha256": "025d4f19380be8c049bd7ec5de570194462914d8fa678f8c5c5e14b6247be0ea"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-front-axp-e-rev2-retail.png",
+      "sha256": "b983f495975ce8902e5214569235d81964f467faf94437d39797ebd16955f26c"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-back-axp-e-rev2-retail.png",
+      "sha256": "1b00ee385be0beef9dd00ecc6a290510bb35cd1df9d9391623d2fb3cb079edd6"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-axp-e-rev2-retail.pal",
+      "sha256": "025d4f19380be8c049bd7ec5de570194462914d8fa678f8c5c5e14b6247be0ea"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-front-axp-d-rev0-retail.png",
+      "sha256": "b983f495975ce8902e5214569235d81964f467faf94437d39797ebd16955f26c"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-back-axp-d-rev0-retail.png",
+      "sha256": "1b00ee385be0beef9dd00ecc6a290510bb35cd1df9d9391623d2fb3cb079edd6"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-axp-d-rev0-retail.pal",
+      "sha256": "025d4f19380be8c049bd7ec5de570194462914d8fa678f8c5c5e14b6247be0ea"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-front-axp-d-rev1-retail.png",
+      "sha256": "b983f495975ce8902e5214569235d81964f467faf94437d39797ebd16955f26c"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-back-axp-d-rev1-retail.png",
+      "sha256": "1b00ee385be0beef9dd00ecc6a290510bb35cd1df9d9391623d2fb3cb079edd6"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-axp-d-rev1-retail.pal",
+      "sha256": "025d4f19380be8c049bd7ec5de570194462914d8fa678f8c5c5e14b6247be0ea"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-front-axp-f-rev0-retail.png",
+      "sha256": "b983f495975ce8902e5214569235d81964f467faf94437d39797ebd16955f26c"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-back-axp-f-rev0-retail.png",
+      "sha256": "1b00ee385be0beef9dd00ecc6a290510bb35cd1df9d9391623d2fb3cb079edd6"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-axp-f-rev0-retail.pal",
+      "sha256": "025d4f19380be8c049bd7ec5de570194462914d8fa678f8c5c5e14b6247be0ea"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-front-axp-f-rev1-retail.png",
+      "sha256": "b983f495975ce8902e5214569235d81964f467faf94437d39797ebd16955f26c"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-back-axp-f-rev1-retail.png",
+      "sha256": "1b00ee385be0beef9dd00ecc6a290510bb35cd1df9d9391623d2fb3cb079edd6"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-axp-f-rev1-retail.pal",
+      "sha256": "025d4f19380be8c049bd7ec5de570194462914d8fa678f8c5c5e14b6247be0ea"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-front-axp-i-rev0-retail.png",
+      "sha256": "b983f495975ce8902e5214569235d81964f467faf94437d39797ebd16955f26c"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-back-axp-i-rev0-retail.png",
+      "sha256": "1b00ee385be0beef9dd00ecc6a290510bb35cd1df9d9391623d2fb3cb079edd6"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-axp-i-rev0-retail.pal",
+      "sha256": "025d4f19380be8c049bd7ec5de570194462914d8fa678f8c5c5e14b6247be0ea"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-front-axp-i-rev1-retail.png",
+      "sha256": "b983f495975ce8902e5214569235d81964f467faf94437d39797ebd16955f26c"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-back-axp-i-rev1-retail.png",
+      "sha256": "1b00ee385be0beef9dd00ecc6a290510bb35cd1df9d9391623d2fb3cb079edd6"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-axp-i-rev1-retail.pal",
+      "sha256": "025d4f19380be8c049bd7ec5de570194462914d8fa678f8c5c5e14b6247be0ea"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-front-axp-s-rev0-retail.png",
+      "sha256": "b983f495975ce8902e5214569235d81964f467faf94437d39797ebd16955f26c"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-back-axp-s-rev0-retail.png",
+      "sha256": "1b00ee385be0beef9dd00ecc6a290510bb35cd1df9d9391623d2fb3cb079edd6"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-axp-s-rev0-retail.pal",
+      "sha256": "025d4f19380be8c049bd7ec5de570194462914d8fa678f8c5c5e14b6247be0ea"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-front-axp-s-rev1-retail.png",
+      "sha256": "b983f495975ce8902e5214569235d81964f467faf94437d39797ebd16955f26c"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-back-axp-s-rev1-retail.png",
+      "sha256": "1b00ee385be0beef9dd00ecc6a290510bb35cd1df9d9391623d2fb3cb079edd6"
+    },
+    {
+      "path": "graphics/pokemon/butterfree-axp-s-rev1-retail.pal",
+      "sha256": "025d4f19380be8c049bd7ec5de570194462914d8fa678f8c5c5e14b6247be0ea"
+    },
+    {
+      "path": "research/butterfree-sprite-set.md",
+      "sha256": "a7eca2725f0aaa68a39f7f078d917d5261d74b455b247cd9a42f386d2b11a8cf"
+    },
+    {
+      "path": "tests/test_butterfree_sprite_reconstruction.py",
+      "sha256": "5ab39241793a2904ee75827ea1e9aeb7124c1929a5c388f4a58298b967ea9508"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
